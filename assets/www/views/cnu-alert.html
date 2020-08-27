@@ -1,0 +1,50 @@
+<div data-role="view" data-title="Emergency" data-init="initAlerts">
+    <h1 data-bind="html: title">Emergency Information</h1>
+    <center>
+        <div id="alert-items"></div>
+        <div id="emergency-items">
+            <a data-role="button" href="views/emergency-procedures.html">Emergency Procedures</a>
+            <a data-role="button"
+               onclick="window.open('http://cnualert.info/', '_blank', 'location=yes');">CNU
+                Alert</a>
+            <a data-role="button" style="background-color: #e74c3c;"
+               onclick="window.open('tel:7575947777', '_system')"><strong>Call CNU
+                Police</strong></a>
+            <p>
+                <strong>On Campus Emergency:</strong>
+                <br>
+                757-594-7777
+                <br>
+                <br>
+                <strong>Off Campus Emergency:</strong>
+                <br>
+                911
+            </p>
+        </div>
+    </center>
+</div>
+<script src="scripts/cnu-alert.js"></script>
+<script id="alert-template" type="text/x-kendo-template">
+    <div class="alert-item">
+        <h3 class="title">#= convertTitle(title) #</h3>
+        <p>${description}</p>
+        <small><i>Updated: #= convertDate(date) #</i></small>
+    </div>
+</script>
+<style>
+    .alert-item {
+        background-color: #95a5a6;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .alert-item .title {
+        margin-top: 0;
+    }
+
+    #emergency-items a {
+        display: block;
+        margin: 10px;
+    }
+
+</style>

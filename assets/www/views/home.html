@@ -1,0 +1,346 @@
+<div id="home" data-role="view" data-title="Navigator" data-layout="main" data-init="init">
+    <div class="flexbox-parent">
+        <div id="banner">
+            <center>
+                <a id="banner-link">
+                    <div id="banner-content"></div>
+                </a>
+            </center>
+        </div>
+        <div class="offline-message" style="display: none; margin-top: 10em;">
+            <center>
+                <i class="fa fa-plug" aria-hidden="true" style="font-size: 12em"></i>
+                <p style="font-size: 2em">
+                    Offline
+                </p>
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                   onclick="load()" data-role="button">
+                    Retry
+                </a>
+            </center>
+        </div>
+        <div id="child" class="flexbox-item header fill-area flexbox-item-grow mdl">
+            <div id="cards" style="width: 100%"></div>
+        </div>
+    </div>
+</div>
+<script src="scripts/program.js"></script>
+<script src="scripts/it-status.js"></script>
+<script src="scripts/cnu-alert.js"></script>
+<script src="scripts/main.js"></script>
+<script src="scripts/news.js"></script>
+
+<style>
+    .mdl-card {
+        width: 96.2% !important;
+        margin: 0.5rem;
+    }
+
+</style>
+<script id="jumbotron-template" type="text/x-kendo-template">
+    <div class="news-card mdl-card mdl-shadow--2dp">
+        <div id="jumbotron-image" class="mdl-card__title"
+             style="background-image: url('${PhotoUrl}');height: 12rem;background-size: cover;background-repeat: no-repeat;background-position: center center;">
+        </div>
+        <div class="mdl-card__supporting-text">
+            <strong>${Source}</strong>: ${Title}
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+               onclick="window.open('${Link}', '_blank', 'location=yes');">
+                Read More
+            </a>
+        </div>
+    </div>
+</script>
+
+<script id="program-template" type="text/x-kendo-template">
+    <div class="mdl-card mdl-shadow--2dp" style="min-height: 0 !important;">
+        <div class="mdl-card__title" style="background: ${Color}">
+            <h2 class="mdl-card__title-text" style="color: \#fff;">${Name}</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+            ${Description}
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+               href="views/program.html?id=${Id}&title=${Name}" data-role="button">
+                ${Action}
+            </a>
+        </div>
+    </div>
+</script>
+
+<script id="app-template" type="text/x-kendo-template">
+    <div class="app-card mdl-card mdl-shadow--2dp" style="min-height: 0 !important;">
+        <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text" style="color: \#3f51b5;">What do you want to do?</h2>
+        </div>
+        <div class="mdl-card__actions mdl-card--border" style="min-height: 100px">
+            <div class="content">
+                <div id="app-scroller" data-role="scroller" data-visible-scroll-hints="true">
+                    <div id="app-listing">
+                        <div class="app">
+                            <div class="app-content">
+                                <a href="views/dining.html" data-role="button">
+                                    <div class="app-icon">
+                                        <img src="resources/icon/Navigator-icons-dining.png"
+                                             width="64" height="64"/>
+                                    </div>
+                                    <br/> Dining
+                                </a>
+                            </div>
+                        </div>
+                        <div class="app">
+                            <div class="app-content">
+                                <a href="views/ferguson.html" data-role="button">
+                                    <div class="app-icon">
+                                        <img src="resources/icon/Navigator-icons-ferguson.png"
+                                             width="64" height="64"/>
+                                    </div>
+                                    <br/> Ferguson Center
+                                </a>
+                            </div>
+                        </div>
+                        <div class="app">
+                            <div class="app-content">
+                                <a href="views/sports.html" data-role="button">
+                                    <div class="app-icon">
+                                        <img src="resources/icon/Navigator-icons-athletics.png"
+                                             width="64" height="64"/>
+                                    </div>
+                                    <br/> Athletics
+                                </a>
+                            </div>
+                        </div>
+                        <div class="app">
+                            <div class="app-content">
+                                <a href="views/freeman.html" data-role="button">
+                                    <div class="app-icon">
+                                        <img src="resources/icon/Navigator-icons-gym_weight.png"
+                                             width="64" height="64"/>
+                                    </div>
+                                    <br/> Freeman Center
+                                </a>
+                            </div>
+                        </div>
+                        <div class="app">
+                            <div class="app-content">
+                                <a href="views/campus-map.html" data-role="button">
+                                    <div class="app-icon">
+                                        <img src="resources/icon/Navigator-icons-map.png" width="64"
+                                             height="64"/>
+                                    </div>
+                                    <br/> Campus Map
+                                </a>
+                            </div>
+                        </div>
+                        <div class="app">
+                            <div class="app-content">
+                                <a href="views/news.html" data-role="button">
+                                    <div class="app-icon">
+                                        <img src="resources/icon/Navigator-icons-news.png"
+                                             width="64" height="64"/>
+                                    </div>
+                                    <br/> News
+                                </a>
+                            </div>
+                        </div>
+                        <div class="app">
+                            <div class="app-content">
+                                <a href="views/recycling-locations.html" data-role="button">
+                                    <div class="app-icon">
+                                        <img src="resources/icon/Navigator-icons-recycle.png"
+                                             width="64" height="64"/>
+                                    </div>
+                                    <br/> Recycling
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script>
+    var intro;
+
+    function init(e) {
+        var scroller = e.view.scroller;
+        scroller.visibleScrollHints = false;
+        load();
+        $('#emergency-button').css("display", "block");
+    }
+
+    function playTour() {
+        var dialog = $('dialog')[0];
+        dialogPolyfill.registerDialog(dialog);
+        dialog.showModal();
+
+        intro = slidr.create('slidr', {
+            breadcrumbs: false,
+            controls: 'none',
+            theme: '#222',
+        });
+        
+        if (typeof(intro) !== 'undefined' && intro != null) {
+          intro.start();
+          $("#demo-scroller").kendoMobileScroller({
+              native: true
+          });
+        } else {
+          // Some kind of issue here on Android. We'll just skip the intro.
+          dialog.close();
+          window.APP_INSTANCE.registerFirstRun();
+        }
+    }
+
+    function advanceIntro() {
+        intro.slide('right');
+    }
+
+    function endIntro() {
+        var dialog = $('dialog')[0];
+        dialog.close();
+        window.APP_INSTANCE.registerFirstRun();
+    }
+
+    function activateBanner(content, url) {
+        $('#banner-link').attr('href', url);
+        $('#banner-link').kendoMobileButton();
+        $('#banner-link').removeClass('km-button');
+        $('#banner-content').html(content);
+        $("#banner").animate({
+            height: "2em",
+            opacity: 1
+        }, 400, function() {});
+    }
+
+    function load() {
+        window.APP_INSTANCE.toggleLoading(true);
+        if (window.APP_INSTANCE.apiOnline()) {
+            console.log('Fetching alerts...');
+            fetchAlerts(function() {
+                console.log('Alerts: %i', this.view().length);
+                if (this.view().length > 0 && !this.view()[0].title.toLowerCase().includes("normal operations") && !this.view()[0].title.toLowerCase().includes("normal conditions")) {
+                    $("#alert-icon").css('color', '#e74c3c');
+                    $('#banner').css('background-color', '#E74C3C');
+                    $("#alert-content").html(this.view()[0].description);
+                    activateBanner(this.view()[0].description, "views/cnu-alert.html");
+                } else {
+                    console.log('Fetching IT statuses...');
+                    loadITStatus(function(statusDataSource) {
+                        if (statusDataSource) {
+                            statusDataSource.fetch(function() {
+                                console.log('IT Status: %i', this.view().length);
+                                if (this.view().length > 0) {
+                                    $('#banner').css('background-color', '#F5D76E');
+                                    activateBanner("IT Status Alert: " + this.view()[0].Title, "views/it-status.html");
+                                }
+                            });
+                        }
+                    });
+                }
+            });
+            async.waterfall([
+                function(callback) {
+                    window.APP_INSTANCE.toggleLoading(true);
+                    console.log('Loading articles...');
+                    loadArticles("?$filter=ShowOnMobile eq true&$top=1", function(articleDataSource) {
+                        window.APP_INSTANCE.toggleLoading(false);
+                        if (articleDataSource) {
+                            articleDataSource.fetch(function() {
+                                console.log('Articles: %i', this.view().length);
+                                // Add news jumbotron
+                                for (var i = 0; i < this.view().length; i++) {
+                                    if (this.view()[i].ShowOnMobile) {
+                                        $("#cards").append(kendo.render(kendo.template($("#jumbotron-template").html()), [this.view()[i]]));
+                                        break;
+                                    }
+                                }
+                                callback(null);
+                            });
+                        } else {
+                            callback(null);
+                        }
+                    });
+                },
+                function(callback) {
+                  $("#cards").append(kendo.render(kendo.template($("#app-template").html()), [{}]));
+                  $("#app-scroller").kendoMobileScroller({
+                      native: true
+                  });
+                  callback(null);
+                },
+                function(callback) {
+                    window.APP_INSTANCE.toggleLoading(true);
+                    // Fetch web programs
+                    console.log('Loading programs...');
+                    loadPrograms(function(programsDataSource) {
+                        window.APP_INSTANCE.toggleLoading(false);
+                        if (programsDataSource) {
+                            programsDataSource.fetch(function() {
+                                console.log('Programs: %i', this.view().length);
+                                var view = this.view();
+                                if (view.length > 0) {
+                                    for (var i = 0; i < view.length; i++) {
+                                        var program = view[i];
+                                        if (program.Active) {
+                                            if (program.StartTime != null && moment() < moment(program.StartTime)) {
+                                                continue;
+                                            }
+                                            if (program.EndTime != null && moment() > moment(program.EndTime)) {
+                                                continue;
+                                            }
+                                            $("#cards").append(kendo.render(kendo.template($("#program-template").html()), [program]));
+                                        }
+                                    }
+                                }
+                                callback(null);
+                            });
+                        } else {
+                            callback(null);
+                        }
+                    });
+                },
+                function(callback) {
+                    window.APP_INSTANCE.toggleLoading(true);
+                    // Add user widgets
+                    console.log('Loading widgets...');
+                    window.APP_INSTANCE.widgetDataSource.fetch(function() {
+                        console.log('Widgets: %i', this.view().length);
+                        var view = this.view();
+                        for (var i = 0; i < view.length; i++) {
+                            if (view[i].enabled) {
+                                templateLoader.loadExtTemplate("#cards", view[i].path);
+                            }
+                        }
+                        window.APP_INSTANCE.toggleLoading(false);
+                        callback(null);
+                    });
+                }
+            ], function(err, result) {
+                window.APP_INSTANCE.toggleLoading(false);
+                $('.offline-message').hide();
+                if (window.APP_INSTANCE.isFirstRun()) {
+                    playTour();
+                }
+            });
+        } else {
+            window.APP_INSTANCE.toggleLoading(false);
+            $('.offline-message').show();
+        }
+    }
+
+    function reloadHomeScreen() {
+        window.APP_INSTANCE.toggleLoading(true);
+        $("#cards").html('');
+        if (APP_INSTANCE.getTitle() === "Navigator") {
+            APP_INSTANCE.scroller().scrollTo(0, 0);
+        }
+        load();
+    }
+
+</script>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:hardwareAccelerated="true"
+    android:windowSoftInputMode="adjustPan"
+    package="com.telerik.Navigator11"
+    platformBuildVersionCode="23"
+    platformBuildVersionName="6.0-2166767"
+    android:versionCode="1">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name">
+        <activity
+            android:configChanges="keyboard|keyboardHidden|locale|orientation|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="standard"
+            android:name="com.telerik.Navigator11.TelerikCallbackActivity"
+            android:screenOrientation="sensor"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/title_activity_send_feedback"
+            android:name="com.telerik.widget.feedback.SendFeedbackActivity"
+            android:theme="@style/AppCompatTheme" />
+        <activity
+            android:label="@string/title_activity_view_feedback"
+            android:name="com.telerik.widget.feedback.ViewFeedbackActivity"
+            android:theme="@style/AppCompatTheme" />
+        <activity
+            android:label="@string/title_activity_view_feedback"
+            android:name="com.telerik.widget.feedback.ViewFeedbackItemActivity"
+            android:theme="@style/AppCompatTheme" />
+        <activity
+            android:label="@string/title_activity_edit_details"
+            android:name="com.telerik.widget.feedback.EditDetailsActivity"
+            android:theme="@style/AppCompatTheme" />
+
+        <receiver
+            android:exported="false"
+            android:name="de.appplant.cordova.plugin.localnotification.TriggerReceiver" />
+        <receiver
+            android:exported="false"
+            android:name="de.appplant.cordova.plugin.localnotification.ClearReceiver" />
+
+        <activity
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:name="de.appplant.cordova.plugin.localnotification.ClickActivity"
+            android:theme="@android:style/Theme.NoDisplay" />
+
+        <receiver
+            android:exported="false"
+            android:name="de.appplant.cordova.plugin.notification.TriggerReceiver" />
+        <receiver
+            android:exported="false"
+            android:name="de.appplant.cordova.plugin.notification.ClearReceiver" />
+        <receiver
+            android:exported="false"
+            android:name="de.appplant.cordova.plugin.localnotification.RestoreReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:name="de.appplant.cordova.plugin.notification.ClickActivity"
+            android:theme="@android:style/Theme.NoDisplay" />
+        <receiver
+            android:enabled="true"
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:enabled="true"
+            android:exported="false"
+            android:name="com.google.android.gms.analytics.AnalyticsService" />
+        <receiver
+            android:enabled="true"
+            android:exported="true"
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:enabled="true"
+            android:exported="false"
+            android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+        <activity
+            android:exported="false"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+</manifest>

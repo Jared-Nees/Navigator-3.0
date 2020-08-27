@@ -1,0 +1,149 @@
+<div data-role="view" data-title="Athletics" id="sports-index" data-use-native-scrolling="true"
+     data-init="initAthletics">
+    <ul data-role="listview" data-style="inset" id="sports-items">
+    </ul>
+</div>
+<div data-role="view" data-title="Games" id="sports-detail" data-use-native-scrolling="true"
+     data-show="onGamesShow">
+    <ul data-role="listview" id="games-items"></ul>
+</div>
+<script id="sports-template" type="text/x-kendo-tmpl">
+    <a onclick="showGames(this)" data-id="${Id}" data-name="${Name}">
+        <h4>${Name}</h4>
+    </a>
+
+</script>
+<script id="games-template" type="text/x-kendo-tmpl">
+    <div class="match match-${Outcome}">
+        <img class="opponent-logo" src="${OpponentPhotoUrl}" width="50" height="50">
+        <h4 class="match-title">${Title}</h4>
+        <p class="match-date">
+            <small>${Date}</small>
+        </p>
+        # if (Outcome == "Postponed" || Outcome == "Cancelled") { #
+        <p class="match-score">
+            ${Outcome}
+        </p>
+        # } else { # # if (Score.length > 0) { #
+        <p class="match-score">
+            Score: ${Score}
+        </p>
+        # } #
+        <p class="match-link">
+            <a onclick="window.open('${Link}', '_blank', 'location=yes');" href="javascript:void(0)"># if (Score.length > 0) { # Recap # } else { # Coverage # } #</a>
+        </p>
+        # } #
+    </div>
+
+</script>
+<script>
+    var sportId;
+    var sportName;
+
+    function showGames(element) {
+        sportId = $(element).data('id');
+        sportName = $(element).data('name');
+        $("#games-items").html('');
+        window.APP_INSTANCE.navigate('#sports-detail');
+    }
+
+    function onGamesShow() {
+        if (window.ga) {
+            window.ga.trackEvent('Athletics', 'View Games', sportName);
+        }
+        window.APP_INSTANCE.toggleLoading(true);
+        window.APP_INSTANCE.setTitle(sportName);
+        loadSportsGames(sportId, function(gamesDataSource) {
+            $("#games-items").kendoMobileListView({
+                dataSource: gamesDataSource,
+                template: $("#games-template").text(),
+                dataBound: function() {
+                    window.APP_INSTANCE.scroller().reset();
+                    var data = gamesDataSource.data();
+                    today = moment();
+                    var lastDate = moment(data[data.length - 1].Date, 'MM/DD/YYYY');
+                    // Do we have any upcoming games?
+                    if (lastDate.isAfter(today)) {
+                        // Find the newest upcoming game (or today's) and scroll to it
+                        for (var i = data.length - 1; i > 0; i--) {
+                            var item = data[i];
+                            var date = moment(item.Date, 'MM/DD/YYYY');
+                            if (date.isBefore(today) || date.isSame(today, 'day') && i < dataSource.data().length - 1) {
+                                var offset = date.isSame(today, 'day') ? 0 : 1;
+                                $('#games-items li:nth-child(' + (i + offset + 1) + ') div.match').addClass('match-Next');
+                                if (window.APP_INSTANCE.getSetting('show-latest-sport')) {
+                                    APP_INSTANCE.scroller().animatedScrollTo(0, -$('#games-items li:nth-child(' + (i + offset) + ')').position().top);
+                                }
+                                break;
+                            }
+                        }
+                    }
+                }
+            });
+            window.APP_INSTANCE.toggleLoading(false);
+        });
+    }
+
+</script>
+<style>
+    .match {
+        padding: 10px;
+        padding-top: 15px;
+    }
+
+    .opponent-logo {
+        margin-right: 1rem;
+    }
+
+    #sports-detail-items>li {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .match-Win {
+        background-color: rgba(0, 255, 0, 0.08);
+    }
+
+    .match-Loss {
+        background-color: rgba(255, 0, 0, 0.08);
+    }
+
+    .match-Next {
+        background-color: rgba(230, 126, 34, 0.08)
+    }
+
+    .match-Postponed {
+        background-color: rgba(127, 140, 141, 0.08)
+    }
+
+    .match-Cancelled {
+        background: repeating-linear-gradient( -45deg, rgba(149, 165, 166, 0.08), rgba(149, 165, 166, 0.08) 10px, rgba(149, 165, 166, 0.08) 10px, rgba(231, 76, 60, 0.1) 20px);
+    }
+
+    .match-title {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .match-date {
+        margin-top: 0.5rem;
+    }
+
+    .match-score {
+        margin-bottom: 0;
+    }
+
+    .match-link {
+        margin-top: 0.3rem;
+    }
+
+    .opponent-logo {
+        float: right;
+    }
+
+    #games-items li {
+        padding: 0 !important;
+    }
+
+</style>
+<script src="scripts/sports.js"></script>

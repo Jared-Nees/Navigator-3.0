@@ -1,0 +1,16 @@
+<div data-role="view" data-title="CNU TV" data-init="initCNUTV">
+    <ul id="video-list"></ul>
+</div>
+<script id="video-template" type="text/x-kendo-tmpl">
+    <h4>${title} <br><small>${date}</small></h4>
+    <iframe class="youtube-player" type="text/html" width="100%" src="http://www.youtube.com/embed/${video_id}" frameborder="0">
+    </iframe>
+
+</script>
+<script src="scripts/cnutv.js"></script>
+<script type="text/javascript">
+if (window.ga) {
+    window.ga.trackView('CNU TV');
+}
+
+</script>

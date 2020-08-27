@@ -1,0 +1,48 @@
+<div data-role="view" data-title="Card" id="card-schedule-items" data-use-native-scrolling="true"
+     data-show="cardScheduleItems" data-after-show="cardScheduleItemsDone">
+    <ul data-role="listview" data-style="inset" id="schedule-items"></ul>
+</div>
+<div data-role="view" data-title="Card" id="card-detail-items" data-use-native-scrolling="true"
+     data-show="cardDetailItems" data-after-show="cardDetailItemsDone">
+    <ul data-role="listview" data-style="inset" id="detail-items"></ul>
+</div>
+<div data-role="view" data-title="Card" id="card-value-items" data-use-native-scrolling="true"
+     data-show="cardValueItems">
+    <ul data-role="listview" data-style="inset" id="value-items"></ul>
+</div>
+<script id="card-schedule-index-template" type="text/x-kendo-tmpl">
+    <a onclick="showCardDetailItems('${title}')">
+        <h4>${title}</h4> # if (description) { #
+        <p>#= cleanText(description) #</p>
+        # } #
+    </a>
+
+</script>
+<script id="card-schedule-detail-template" type="text/x-kendo-tmpl">
+    <a onclick="showCardValueItems('${title}')">
+        <h4>${title}</h4>
+    </a>
+
+</script>
+<script id="card-schedule-value-template" type="text/x-kendo-tmpl">
+    <h4>
+      ${title}
+    </h4> # if (description) { #
+    <p>#= cleanText(description) #</p>
+    # } # # if (location) { #
+    <p>${location}</p>
+    # } # # if (startTime) { #
+    <p class="schedule-time">${startTime} # if (endTime) { # - ${startTime} # } # </p>
+    # } #
+
+</script>
+<script id="card-schedule-static-value-template" type="text/x-kendo-tmpl">
+    <p>#= cleanText(text) #</p>
+
+</script>
+<style>
+    .schedule-time {
+        color: gray;
+    }
+
+</style>

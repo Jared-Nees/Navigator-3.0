@@ -1,0 +1,101 @@
+<div id="dining-card" class="banner-card mdl-card mdl-shadow--2dp"
+     style="min-height: 0 !important; display: none;">
+    <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text">Today's Dining Menus</h2>
+    </div>
+    <div class="mdl-card__supporting-text">
+        <div id="dining-hall-menus"></div>
+    </div>
+    <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+           href="views/dining.html" data-role="button">
+            See all menus
+        </a>
+    </div>
+    <div class="mdl-card__menu">
+        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"
+                onclick="openWidgetMenu(this);" data-widget="dining">
+            <i class="widget-menu fa fa-ellipsis-v" style="color: #34495e;"></i>
+        </button>
+    </div>
+</div>
+<script id="dining-list-template" type="text/x-kendo-tmpl">
+    <a class="mdl mdl-button mdl-js-button mdl-button--raised" style="width: 100%" onclick="showDiningDescription(this);" data-name="${Title}" data-description="${Description}">#=Title#</a>
+
+</script>
+<script id="dining-meal-template" type="text/x-kendo-tmpl">
+    <h3 style="margin: 0">${Title}:</h4>
+    <h4 style="margin: 0">${StartTimeFormatted} - ${EndTimeFormatted}</h4>
+    <p style="margin: 0">${Description}</p>
+
+</script>
+<script>
+    $.getScript("scripts/dining.js", function() {
+        fetchDiningHallMenus(function(menus) {
+            var buttonData = [];
+            $.each(menus, function(index, value) {
+                var data = {}
+                var isOpen = false;
+                var currentMeal = null;
+                var currentMealEnd = null;
+                var nextMeal = null;
+                var nextMealTime = null;
+                if (!value || value.length == 0) {
+                    data.Description = '<div>Nothing on the menu for today.</div>';
+                } else {
+                    data.Description = '<div>' + kendo.render(kendo.template($("#dining-meal-template").html()), value) + '</div>';
+                }
+                // Check if we are currently within a meal time
+                for (var i=0;i<value.length;i++) {
+                  if (moment().isBetween(moment(value[i]['StartTime']), moment(value[i]['EndTime']))) {
+                    // During the semester events are still scheduled but only say "Closed"
+                    if (!value[i].Title.toLowerCase().includes("closed")) {
+                      isOpen = true;
+                      currentMeal = value[i].Title.split("(")[0]; // Remove any comments
+                      currentMealEnd = value[i].EndTimeFormatted;
+                    }
+                  }
+                }
+                // If we're closed, see if another meal is opening later
+                if (!isOpen) {
+                  for (var i=0;i<value.length;i++) {
+                    if (moment().isBefore(moment(value[i]['StartTime']))) {
+                      if (!value[i].Title.toLowerCase().includes("closed")) {
+                        nextMeal = value[i].Title.split("(")[0]; // Remove any comments
+                        nextMealTime = value[i].StartTimeFormatted;
+                        break;
+                      }
+                    }
+                  }
+                }
+                var fullStatus = (isOpen ? '<span class="success-text">Open</span> for ' + currentMeal + ' until ' + currentMealEnd : '<span class="danger-text">Closed</span>' + (nextMeal != null ? ' until ' + nextMealTime + ' for ' + nextMeal : ''));
+                data.Title = index + ": " + fullStatus;
+                buttonData.push(data);
+            });
+            if (buttonData.length == 0) {
+                buttonData.push({
+                    Title: 'No Menus',
+                    Description: 'Nothing on the menu for today.'
+                });
+            }
+            $("#dining-hall-menus").append(kendo.render(kendo.template($("#dining-list-template").html()), buttonData));
+            $(".k-window-action .k-link").css('padding', '0.5rem');
+            $("#dining-card").css('display', 'block');
+        });
+    });
+
+</script>
+<style>
+.success-text {
+  color: green;
+}
+.danger-text {
+  color: red;
+}
+.mdl-button {
+  overflow: visible !important;
+  height: inherit !important;
+  margin-bottom: 0.5em;
+}
+
+</style>

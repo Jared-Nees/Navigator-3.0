@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+#map-canvas {
+    margin: 5px;
+    padding: 5px;
+    height: 70%;
+}
+
+#map-controls {
+    margin: 0px 5px 5px 5px;
+    padding: 0px;
+    text-align: center;
+    height: 30px;
+}
+
+#map-controls button {
+    width: 50%;
+    float: left;
+    height: 30px;
+}
+
+.km-header {
+    background-color: #036;
+}

@@ -1,0 +1,73 @@
+#accordion {
+    margin: 5px;
+}
+
+#accordion p {
+    font-size: 100%;
+    margin: 0px;
+}
+
+#accordion h2 {
+    font-size: 100%;
+}
+
+img.us {
+    height: 64px;
+    float: left;
+}
+
+img.them {
+    height: 64px;
+    float: right;
+}
+
+p.sports {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#sports-div {
+    margin: 0px 5px 5px;
+    margin-top: 0px;
+    border-radius: 5px;
+    background: none;
+    padding: 0px;
+    text-align: center;
+}
+
+#sports-div a {
+    background: none;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    vertical-align: bottom;
+}
+
+img.sport-icon {
+    height: 48px;
+    float: left;
+}
+
+.sport-button {
+    width: 45%;
+    height: 80px;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+    background-color: white;
+}
+
+.sport-button img {
+    vertical-align: middle;
+}
+
+#sub-head {
+    background-color: #ddd;
+    padding: 5px;
+    margin: 0px;
+    border-radius: 5px;
+    height: 1em;
+}

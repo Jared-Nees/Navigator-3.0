@@ -1,0 +1,73 @@
+<div data-role="view" data-title="Printing" data-init="initPrinters">
+    <center>
+        <a data-role="button" href="views/campus-map.html" id="map-button">
+            View on Map
+        </a>
+    </center>
+    <ul id="printer-list"></ul>
+</div>
+<script id="printer-template" type="text/x-kendo-template">
+    <h3 class="building-header">${Name}</h3>
+    <ul class="printer-locations">
+        <li class="printer-floor">
+            # if (typeof Floor_1 !== "undefined") { #
+            First Floor:
+            <ul>
+                # var locationsLength = Floor_1.length; #
+                # for (var i=0; i
+                <locationsLength
+                ; i++) { #
+                # var location = Floor_1[i]; #
+                <li class="printer-location">
+                    <i class="fa fa-print"></i> ${location}
+                </li>
+                # } #
+            </ul>
+            # } #
+            # if (typeof Floor_2 !== "undefined") { #
+            Second Floor:
+            <ul>
+                # var locationsLength = Floor_2.length; #
+                # for (var i=0; i
+                <locationsLength
+                ; i++) { #
+                # var location = Floor_2[i]; #
+                <li class="printer-location">
+                    <i class="fa fa-print"></i> ${location}
+                </li>
+                # } #
+            </ul>
+            # } #
+            # if (typeof Floor_3 !== "undefined") { #
+            Third Floor:
+            <ul>
+                # var locationsLength = Floor_3.length; #
+                # for (var i=0; i
+                <locationsLength
+                ; i++) { #
+                # var location = Floor_3[i]; #
+                <li class="printer-location">
+                    <i class="fa fa-print"></i> ${location}
+                </li>
+                # } #
+            </ul>
+            # } #
+        </li>
+    </ul>
+</script>
+<script src="scripts/printer-locations.js"></script>
+<style>
+    #map-button {
+        margin: 1em;
+    }
+
+    #printer-locations li {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .printer-locations li {
+        list-style-type: none;
+    }
+
+</style>

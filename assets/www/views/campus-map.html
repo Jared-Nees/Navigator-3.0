@@ -1,0 +1,46 @@
+<div data-role="view" data-title="Campus Map" data-init="init" data-stretch="true">
+    <div id="container">
+        <div id="button-panel">
+            <div data-role="scroller" data-visible-scroll-hints="true">
+                <div id="buttons">
+                </div>
+            </div>
+        </div>
+        <div id="map-canvas"></div>
+    </div>
+</div>
+<script id="layer-button-template" type="text/x-kendo-tmpl">
+    <a class="layer-button" onclick="toggleLayer(this);" data-role="button" data-layer="${Id}">
+        <div style="display:flex; align-items:center">
+            <img src="data:image/png;base64,${IconContent}" height="20em" />
+            <span style="margin-left: 0.5em">${Name}</span>
+        </div>
+    </a>
+
+</script>
+<style>
+    #container>div {
+        border-radius: 5px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .button-enabled {
+        background: rgba(46, 204, 113, 0.7) !important;
+    }
+
+    #buttons {
+        width: 999%;
+        margin-bottom: 1em;
+    }
+
+    .layer-button {
+        float: left;
+        display: table;
+        overflow: hidden;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+
+</style>
+<script src="scripts/campus-map.js"></script>

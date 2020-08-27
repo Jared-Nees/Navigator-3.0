@@ -1,0 +1,65 @@
+@font-face
+{
+	font-family: "mobile-navigator";
+	src: url("mobile-navigator/mobile-navigator.eot");
+	src: url("mobile-navigator/mobile-navigator.eot?#iefix") format("embedded-opentype"),
+	url("mobile-navigator/mobile-navigator.ttf") format("truetype"),
+	url("mobile-navigator/mobile-navigator.svg#mobile-navigator") format("svg"),
+	url("mobile-navigator/mobile-navigator.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'TrajanPro-Regular';
+	src: url("TrajanPro-Regular/TrajanPro-Regular.eot");
+	src: url("TrajanPro-Regular/TrajanPro-Regular.eot?#iefix") format("embedded-opentype"),
+	url("TrajanPro-Regular/TrajanPro-Regular.ttf") format("truetype"),
+	url("TrajanPro-Regular/TrajanPro-Regular.svg#trajan_proregular") format("svg"),
+	url("TrajanPro-Regular/TrajanPro-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: "cnu";
+	src: url("cnu/cnu.eot");
+	src: url("cnu/cnu.eot?#iefix") format("embedded-opentype"),
+	url("cnu/cnu.ttf") format("truetype"),
+	url("cnu/cnu.svg#cnu") format("svg"),
+	url("cnu/cnu.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+#sails
+{
+	font-family: 'mobile-navigator';
+    display: inline;
+}
+      
+#navigator
+{
+	font-family: 'TrajanPro-Regular';
+    display: inline;
+}
+      
+#compass
+{
+	font-family: 'mobile-navigator';
+	font-size: 120%;
+	baseline-shift: sub;
+	padding-top: 3em !important;
+	vertical-align: -13%;
+	margin: 0px;
+    display: inline;
+}
+
+#wrapper
+{
+	font-size: 24px;
+    text-align:center;
+    width:100%;
+}

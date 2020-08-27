@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="kendo/styles/kendo.common.min.css"/>
+    <link rel="stylesheet" href="kendo/styles/kendo.flat.min.css"/>
+    <link rel="stylesheet" href="kendo/styles/kendo.mobile.all.min.css"/>
+    <link rel="stylesheet" href="resources/material.min.css">
+    <link rel="stylesheet" href="styles/fonts/material.css">
+    <link rel="stylesheet" href="styles/fonts/roboto.css" type="text/css">
+    <link href="styles/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="bower_components/dialog-polyfill/dialog-polyfill.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet"/>
+
+    <!-- Load Cordova -->
+    <script src="cordova.js"></script>
+    <!--<script src="https://bs-static.cdn.telerik.com/1.5.6/everlive.all.min.js"></script>-->
+    <!-- Use the Kendo UI-provided jQuery -->
+    <script src="kendo/js/jquery.min.js"></script>
+    <script src="kendo/js/kendo.mobile.min.js"></script>
+    <!-- Load bower libraries -->
+    <script src="bower_components/moment/moment.js"></script>
+    <script src="bower_components/moment-timezone/moment-timezone.js"></script>
+    <script src="bower_components/sprintf/dist/sprintf.min.js"></script>
+    <script src="bower_components/async/dist/async.min.js"></script>
+    <script src="bower_components/slidr/slidr.min.js"></script>
+    <script src="bower_components/dialog-polyfill/dialog-polyfill.js"></script>
+    <!-- Load app.js -->
+    <script src="scripts/app.js"></script>
+    <!-- Use custom material-design-lite (uses .mdl namespace to avoid kendo conflicts) -->
+    <script src="resources/material.min.js"></script>
+    <!-- Load google maps API -->
+    <script src="http://maps.google.com/maps/api/js?v=3.exp"></script>
+</head>
+
+<body>
+<dialog class="mdl mdl-dialog">
+    <h4 class="mdl-dialog__title">Welcome to the Navigator!</h4>
+    <div class="mdl-dialog__content">
+        <div id="slidr" style="dislay: block">
+            <div data-slidr="one" style="width: 100%">
+                <p>
+                    The app has a brand-new look, so check out what's new!
+                </p>
+                <div class="mdl-dialog__actions mdl-dialog__actions--full-width">
+                    <button type="button" class="mdl-button" onclick="advanceIntro()">Let's Go!
+                    </button>
+                </div>
+            </div>
+            <div data-slidr="two" style="width: 100%">
+                <p>
+                    Your homescreen gives you easy access to all the most popular features and
+                    information you'll need on a daily basis.
+                    Scroll through the items below to see what you can do!
+                </p>
+                <p class="mdl">
+                <div class="app-card mdl-card mdl-shadow--2dp" style="min-height: 0 !important;">
+                    <div class="mdl-card__actions mdl-card--border" style="min-height: 100px">
+                        <div class="content">
+                            <div id="demo-scroller" data-role="scroller"
+                                 data-visible-scroll-hints="true">
+                                <div style="width: 999%;">
+                                    <div class="app">
+                                        <div class="app-content">
+                                            <div class="app-icon">
+                                                <img src="resources/icon/Navigator-icons-dining.png"
+                                                     width="64" height="64"/>
+                                            </div>
+                                            <br/>
+                                            Dining
+                                        </div>
+                                    </div>
+                                    <div class="app">
+                                        <div class="app-content">
+                                            <div class="app-icon">
+                                                <img src="resources/icon/Navigator-icons-ferguson.png"
+                                                     width="64" height="64"/>
+                                            </div>
+                                            <br/>
+                                            Ferguson Center
+                                        </div>
+                                    </div>
+                                    <div class="app">
+                                        <div class="app-content">
+                                            <div class="app-icon">
+                                                <img src="resources/icon/Navigator-icons-athletics.png"
+                                                     width="64" height="64"/>
+                                            </div>
+                                            <br/>
+                                            Athletics
+                                        </div>
+                                    </div>
+                                    <div class="app">
+                                        <div class="app-content">
+                                            <div class="app-icon">
+                                                <img src="resources/icon/Navigator-icons-gym_weight.png"
+                                                     width="64" height="64"/>
+                                            </div>
+                                            <br/>
+                                            Freeman Center
+                                        </div>
+                                    </div>
+                                    <div class="app">
+                                        <div class="app-content">
+                                            <div class="app-icon">
+                                                <img src="resources/icon/Navigator-icons-map.png"
+                                                     width="64" height="64"/>
+                                            </div>
+                                            <br/>
+                                            Campus Map
+                                        </div>
+                                    </div>
+                                    <div class="app">
+                                        <div class="app-content">
+                                            <div class="app-icon">
+                                                <img src="resources/icon/Navigator-icons-news.png"
+                                                     width="64" height="64"/>
+                                            </div>
+                                            <br/>
+                                            News
+                                        </div>
+                                    </div>
+                                    <div class="app">
+                                        <div class="app-content">
+                                            <div class="app-icon">
+                                                <img src="resources/icon/Navigator-icons-recycle.png"
+                                                     width="64" height="64"/>
+                                            </div>
+                                            <br/>
+                                            Recycling
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </p>
+                <div class="mdl-dialog__actions mdl-dialog__actions--full-width">
+                    <button type="button" class="mdl-button" onclick="advanceIntro()">Next</button>
+                </div>
+            </div>
+            <div data-slidr="three" style="width: 100%">
+                <p>
+                    The rest of your homescreen is <strong>customizable</strong> so that you can see
+                    the content that's most important to you.
+                </p>
+                <div class="mdl banner-card mdl-card mdl-shadow--2dp"
+                     style="min-height: 0 !important;">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Dining Menus</h2>
+                    </div>
+                    <div class="mdl-card__menu">
+                        <i class="widget-menu fa fa-ellipsis-v"
+                           style="color: #34495e; border-radius: 50%; border: 2px solid #DC143C; padding: 0.4em;"></i>
+                    </div>
+                </div>
+                <p>
+                    You can reorganize and remove widgets from your homescreen according to your
+                    preferences by tapping the menu button shown above.
+                    From time to time, important campus information will also be shown on your
+                    homescreen so you are always in the loop.
+                </p>
+                <div class="mdl-dialog__actions mdl-dialog__actions--full-width">
+                    <button type="button" class="mdl-button" onclick="advanceIntro()">Next</button>
+                </div>
+            </div>
+            <div data-slidr="four" style="width: 100%">
+                <p>
+                    You can get to other features and information, including your settings, by
+                    tapping the <strong>menu button</strong> in the upper left corner.
+                    CNU Alert and emergency information can be found at any time by tapping the
+                    <strong>alert sign</strong> on the right.
+                </p>
+                <div class="km-widget km-navbar" style="height: 50px; margin-bottom: 16px;">
+                    <div class="km-leftitem">
+                        <i class="fa fa-bars" aria-hidden="true" style="margin: 0.5em;"></i>
+                    </div>
+                    <div class="km-rightitem">
+                        <i class="fa fa-exclamation-triangle" aria-hidden="true"
+                           style="margin: 0.5em;"></i>
+                    </div>
+                </div>
+                <div class="mdl-dialog__actions mdl-dialog__actions--full-width">
+                    <button id="intro-end" type="button" class="mdl-button" onclick="endIntro()">Got
+                        it!
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</dialog>
+<div data-role="layout" data-id="main">
+    <div data-role="header">
+        <div data-role="navbar">
+            <span data-role="view-title"</span>
+            <a id="appDrawer-button" data-role="button" href="#appDrawer" data-rel="drawer"
+               data-align="left" data-icon="drawer-button"></a>
+            <a id="emergency-button" data-role="button" href="views/cnu-alert.html"
+               data-align="right">
+                <i id="alert-icon" class="fa fa-warning"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- application views will be rendered here -->
+
+</div>
+
+
+<div data-role="layout" data-id="secondary">
+    <div data-role="header">
+        <div data-role="navbar">
+            <span data-role="view-title"></span>
+            <a id="back-button" class="nav-button" data-role="backbutton" data-align="left">Back</a>
+        </div>
+    </div>
+
+    <!-- application views will be rendered here -->
+
+</div>
+
+<!-- application drawer and contents -->
+<div data-role="drawer" id="appDrawer" style="width: 270px" data-title="Apps"
+     data-swipe-to-open="false">
+    <div data-role="header">
+        <div data-role="navbar">
+            <span data-role="view-title"></span>
+        </div>
+    </div>
+    <ul id="appDrawer-apps" data-role="listview">
+        <li>
+            <a href="views/home.html" data-transition="none"><strong>Home</strong></a>
+        </li>
+        <li>
+            <a href="views/news.html" data-transition="none">
+                <ul class="drawer-content">
+                    <li class="drawer-icon">
+                        <img src="resources/icon/Navigator-icons-news.png" width="32" height="32">
+                    </li>
+                    <li class="drawer-title">News</li>
+                </ul>
+            </a>
+        </li>
+        <li>
+            <a href="views/captains-card.html" data-transition="none">
+                <ul class="drawer-content">
+                    <li class="drawer-icon">
+                        <img src="resources/icon/Navigator-icons-captcard.png" width="32"
+                             height="32">
+                    </li>
+                    <li class="drawer-title">Captain's Card</li>
+                </ul>
+            </a>
+        </li>
+        <li>
+            <a href="views/tv-guide.html" data-transition="none">
+                <ul class="drawer-content">
+                    <li class="drawer-icon">
+                        <img src="resources/icon/Navigator-icons-TVguide.png" width="32"
+                             height="32">
+                    </li>
+                    <li class="drawer-title">TV Guide</li>
+                </ul>
+            </a>
+        </li>
+        <li>
+            <a href="views/calendar.html" data-transition="none">
+                <ul class="drawer-content">
+                    <li class="drawer-icon">
+                        <img src="resources/icon/Navigator-icons-calendar.png" width="32"
+                             height="32">
+                    </li>
+                    <li class="drawer-title">Calendar</li>
+                </ul>
+            </a>
+        </li>
+        <li>
+            <a href="views/wcnu.html" data-transition="none">
+                <ul class="drawer-content">
+                    <li class="drawer-icon">
+                        <img src="resources/icon/Navigator-icons-WCNU.png" width="32" height="32">
+                    </li>
+                    <li class="drawer-title">WCNU Radio</li>
+                </ul>
+            </a>
+        </li>
+        <li>
+            <a href="views/it-status.html" data-transition="none">
+                <ul class="drawer-content">
+                    <li class="drawer-icon">
+                        <img src="resources/icon/Navigator-icons-ITstatus.png" width="32"
+                             height="32">
+                    </li>
+                    <li class="drawer-title">IT Status</li>
+                </ul>
+            </a>
+        </li>
+        <li>
+            <a href="views/recycling-locations.html" data-transition="none">
+                <ul class="drawer-content">
+                    <li class="drawer-icon">
+                        <img src="resources/icon/Navigator-icons-recycle.png" width="32"
+                             height="32">
+                    </li>
+                    <li class="drawer-title">Recycling Locations</li>
+                </ul>
+            </a>
+        </li>
+        <li>
+            <a href="views/printer-locations.html" data-transition="none">
+                <ul class="drawer-content">
+                    <li class="drawer-icon">
+                        <img src="resources/icon/Navigator-icons-printers.png" width="32"
+                             height="32">
+                    </li>
+                    <li class="drawer-title">Printer Locations</li>
+                </ul>
+            </a>
+        </li>
+        <li>
+            <a onclick="window.open('https://thecompass.cnu.edu/', '_blank', 'location=yes');">
+                <ul class="drawer-content">
+                    <li class="drawer-icon">
+                        <img src="resources/icon/Navigator-icons-compass.png" width="32"
+                             height="32">
+                    </li>
+                    <li class="drawer-title">The Compass</li>
+                </ul>
+            </a>
+        </li>
+        <li>
+            <a onclick="window.open('https://cnu.uservoice.com/forums/180964-speakupcnu', '_blank', 'location=yes');">
+                <ul class="drawer-content">
+                    <li class="drawer-icon">
+                        <img src="resources/icon/Navigator-icons-speakupCNU.png" width="32"
+                             height="32">
+                    </li>
+                    <li class="drawer-title">SpeakUpCNU</li>
+                </ul>
+            </a>
+        </li>
+        <hr>
+        <li>
+            <a href="views/application-information.html" data-transition="none">
+                <ul class="drawer-content">
+                    <li class="drawer-icon">
+                        <img src="resources/icon/Navigator-icons-appinformation.png" width="32"
+                             height="32">
+                    </li>
+                    <li class="drawer-title">Application Info</li>
+                </ul>
+            </a>
+        </li>
+        <li class="nav-settings">
+            <a href="views/settings.html" data-transition="none">
+                <ul class="drawer-content">
+                    <li class="drawer-icon">
+                        <img src="resources/icon/Navigator-icons-settings.png" width="32"
+                             height="32">
+                    </li>
+                    <li class="drawer-title">Settings</li>
+                </ul>
+            </a>
+        </li>
+    </ul>
+</div>
+</body>
+
+</html>

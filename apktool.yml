@@ -1,0 +1,55 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: Navigator_com.telerik.Navigator11.apk
+compressionType: false
+doNotCompress:
+  - resources.arsc
+  - png
+  - jpg
+  - assets/www/bower_components/moment/src/lib/locale/pre-post-format.js
+  - assets/www/bower_components/moment/src/lib/utils/is-undefined.js
+  - assets/www/spec/calendar.spec.js
+  - assets/www/spec/captains-card.spec.js
+  - assets/www/spec/captains-log.spec.js
+  - assets/www/spec/cnu-alert.spec.js
+  - assets/www/spec/cnu-tv.spec.js
+  - assets/www/spec/dining.spec.js
+  - assets/www/spec/ferguson.spec.js
+  - assets/www/spec/freeman.spec.js
+  - assets/www/spec/it-status.spec.js
+  - assets/www/spec/news.spec.js
+  - assets/www/spec/printer-locations.spec.js
+  - assets/www/spec/recycling-locations.spec.js
+  - assets/www/spec/sports.spec.js
+  - assets/www/spec/tv-guide.spec.js
+  - assets/www/spec/wcnu.spec.js
+  - assets/www/styles/common-styles.css
+  - assets/www/styles/font-awesome/fonts/fontawesome-webfont.eot
+  - assets/www/styles/font-awesome/fonts/fontawesome-webfont.woff
+  - assets/www/styles/fonts/material.woff
+  - assets/www/styles/fonts/roboto300.woff
+  - assets/www/styles/fonts/roboto400.woff
+  - assets/www/styles/fonts/roboto500.woff
+  - assets/www/styles/fonts/roboto700.woff
+  - gif
+  - assets/www/styles/mobile-nav-font/cnu/cnu.woff
+  - assets/www/styles/mobile-nav-font/mobile-navigator/mobile-navigator.woff
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '14'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  build-data.properties: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+usesFramework:
+  ids:
+    - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '282'
+  versionName: 2.0.1.14

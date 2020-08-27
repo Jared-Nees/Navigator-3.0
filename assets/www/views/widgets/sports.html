@@ -1,0 +1,56 @@
+<div id="sports-card" class="banner-card mdl-card mdl-shadow--2dp"
+     style="min-height: 0 !important; display: none;">
+    <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text">Games This Week</h2>
+    </div>
+    <div class="mdl-card__supporting-text" style="width: 100%">
+        <div id="games"></div>
+    </div>
+    <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+           href="views/sports.html" data-role="button">
+            Go to Sports
+        </a>
+    </div>
+    <div class="mdl-card__menu">
+        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"
+                onclick="openWidgetMenu(this);" data-widget="athletics">
+            <i class="widget-menu fa fa-ellipsis-v" style="color: #34495e;"></i>
+        </button>
+    </div>
+</div>
+<script id="sports-list-template" type="text/x-kendo-tmpl">
+    <div style="margin:0.5rem"><strong>${Date}</strong>: ${Sport.Name} # if (Competitive) { # vs. # } else { # at # } # ${Title}
+    </div>
+
+</script>
+<script>
+    $.getScript("scripts/sports.js", function() {
+        loadWeeklyGames(function(gamesDataSource) {
+            gamesDataSource.fetch(function() {
+                var view = this.view();
+                var sliced = 0;
+                if (view.length > 7) {
+                    var sliceStart = 0;
+                    var sliceStop = 6;
+                    for (var i = view.length - 1; i >= 0; i--) {
+                        if (view[i].Outcome.length < 0) {
+                            sliceStart = i;
+                            sliceStop = Math.min(sliceStart + 6, view.length);
+                        }
+                    }
+                    sliced = view.length - (sliceStop - sliceStart);
+                    view = view.slice(sliceStart, sliceStop);
+                }
+                if (view.length > 0) {
+                    $("#games").append(kendo.render(kendo.template($("#sports-list-template").html()), view));
+                    if (sliced > 0) {
+                        $("#games").append("... and " + sliced + " more");
+                    }
+                    $("#sports-card").css('display', 'block');
+                }
+            });
+        });
+    });
+
+</script>

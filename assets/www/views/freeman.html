@@ -1,0 +1,117 @@
+<div data-role="view" id="freeman-tab-schedule" data-title="Freman Center"
+     data-layout="freeman-layout" data-init="initFreeman" data-show="showScheduleTab">
+    <img class="freeman-header"
+         src="http://cnu.edu/_assets/img/LIF/Fitness/Yoga_class/secondary-retina.jpg" width="100%"/>
+    <ul id="freeman-schedule-list" data-role="listview" data-style="inset" data-type="group"/>
+</div>
+
+<div data-role="view" id="freeman-tab-classes" data-title="Freman Center"
+     data-layout="freeman-layout" data-init="initClasses" data-show="showFreemanTab">
+    <h1 data-bind="html: title">Classes</h1>
+    <ul id="freeman-classes-list" data-role="listview" data-style="inset" data-type="group"/>
+</div>
+
+<div data-role="view" id="freeman-tab-instructors" data-title="Freman Center"
+     data-layout="freeman-layout" data-init="initInstructors" data-show="showFreemanTab">
+    <h1 data-bind="html: title">Instructors</h1>
+    <ul id="freeman-instructors-list" data-role="listview" data-style="inset" data-type="group"/>
+</div>
+
+<div data-role="view" id="freeman-tab-hours" data-title="Freman Center" data-layout="freeman-layout"
+     data-init="initHours" data-show="showFreemanTab">
+    <h1 data-bind="html: title">Hours</h1>
+    <ul id="freeman-hours-list" data-role="listview" data-style="inset" data-type="group"/>
+</div>
+
+<div data-role="layout" data-id="freeman-layout">
+    <div data-role="header">
+        <div data-role="navbar">
+            <span data-role="view-title"></span>
+            <a id="freeman-back-button" class="nav-button" data-role="backbutton" data-align="left"
+               data-click="freemanBackClick">Back</a>
+        </div>
+    </div>
+
+    <!-- application views will be rendered here -->
+
+    <div data-role="footer">
+        <div data-role="tabstrip">
+            <a href="#freeman-tab-schedule" data-icon="schedule">Schedule</a>
+            <a href="#freeman-tab-classes" data-icon="classes">Classes</a>
+            <a href="#freeman-tab-instructors" data-icon="instructors">Instructors</a>
+            <a href="#freeman-tab-hours" data-icon="hours">Hours</a>
+        </div>
+    </div>
+</div>
+<script id="schedule-template" type="text/x-kendo-tmpl">
+    <p>
+        # if (typeof FreemanClass !== 'undefined') { # <strong>#: FreemanClass.Name #</strong> # } # # if (typeof FreemanInstructor !== 'undefined') { # with #: FreemanInstructor.Name # # } #
+    </p>
+    <small class="class-time">${Location}, ${StartTimeFormatted} - ${EndTimeFormatted}</small>
+
+</script>
+<script id="class-template" type="text/x-kendo-tmpl">
+    <p>
+        <strong>${Name}</strong>
+    </p>
+    <p>
+        ${Description}
+    </p>
+
+</script>
+<script id="instructor-template" type="text/x-kendo-tmpl">
+    <img class="instructor-photo" src="data:image/png;base64,${PhotoContent}" width="70" height="70">
+    <p>
+        <strong>${Name}</strong>
+    </p>
+    <p>
+        ${Bio}
+    </p>
+
+</script>
+<script id="hours-template" type="text/x-kendo-tmpl">
+    <p>
+        <strong>${Name}</strong>
+    </p>
+    <p>
+        #= Description #
+    </p>
+
+</script>
+<script src="scripts/freeman.js"></script>
+<style>
+    .freeman-header {
+        padding: 1rem;
+    }
+
+    .class-time {
+        margin-left: 1rem;
+    }
+
+    .instructor-photo {
+        float: right;
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+
+    .km-schedule:after,
+    .km-schedule:before {
+        content: "\e089";
+    }
+
+    .km-classes:after,
+    .km-classes:before {
+        content: "\e0de";
+    }
+
+    .km-instructors:after,
+    .km-instructors:before {
+        content: "\e0d0";
+    }
+
+    .km-hours:after,
+    .km-hours:before {
+        content: "\e08d";
+    }
+
+</style>

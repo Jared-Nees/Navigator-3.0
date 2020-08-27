@@ -1,0 +1,146 @@
+<div data-role="view" data-title="Dining" data-use-native-scrolling="true"
+     data-show="showDiningLocations" id="dining-view">
+    <ul data-role="listview" data-style="inset" class="dining-locations"></ul>
+</div>
+<div data-role="view" data-title="Dining Location" data-use-native-scrolling="true"
+     data-show="showDiningItem" id="dining-location-view">
+    <ul data-role="listview" data-style="inset" class="hours-items"></ul>
+    <ul data-role="listview" data-style="inset" class="menu-items"></ul>
+    <ul data-role="listview" data-style="inset" class="hall-menu-items"></ul>
+</div>
+<div data-role="view" data-title="Dining" data-use-native-scrolling="true"
+     data-show="showDiningItem" id="dining-item-view">
+    <ul data-role="listview" data-style="inset" class="dining-items"></ul>
+</div>
+<script id="dining-location-template" type="text/x-kendo-tmpl">
+    <a onclick="showDiningLocation(this)" data-id="${Id}" data-name="${Name}">
+        <h4>${Name}</h4> # if (Description) { #
+        <p>${Description}</p>
+        # } #
+    </a>
+
+</script>
+<script id="dining-hour-template" type="text/x-kendo-tmpl">
+    <h4>Hours</h4>
+    <h6>${Name}</h6> # if (Description) { #
+    <p>
+        #= Description #
+    </p>
+    # } #
+
+</script>
+<script id="dining-menu-template" type="text/x-kendo-tmpl">
+    <a onclick="showDiningMenu(this)" data-id="${Id}" data-title="${Title}">
+        <h4>${Title}</h4>
+    </a>
+
+</script>
+<script id="dining-hall-menu-template" type="text/x-kendo-tmpl">
+    <a onclick="showDiningHallMenu(this)" data-id="${Id}" data-title="${Title}" data-description="${Description}">
+        <h4>${Title}</h4>
+        <p>
+            <small>${StartDateTimeFormatted} # if (EndTimeFormatted) { # - ${EndTimeFormatted} # } # </small>
+        </p>
+    </a>
+
+</script>
+<script id="dining-item-template" type="text/x-kendo-tmpl">
+    <h4>
+      ${Title}
+    </h4> # if (Description) { #
+    <p>
+        #= Description #
+    </p>
+    # } # # if (Price) { #
+    <p>
+        #= Price #
+    </p>
+    # } #
+
+</script>
+<script>
+    function showDiningLocations(e) {
+        window.APP_INSTANCE.toggleLoading(true);
+        loadDiningLocations(function(locationsDataSource) {
+            $("#dining-view .dining-locations").kendoMobileListView({
+                dataSource: locationsDataSource,
+                template: $("#dining-location-template").text(),
+            });
+            window.APP_INSTANCE.toggleLoading(false);
+        });
+    }
+
+    function showDiningLocation(element) {
+        var locationId = $(element).data('id');
+        var locationName = $(element).data('name');
+
+        if (window.ga) {
+            window.ga.trackEvent('Dining', 'View Location', locationName);
+        }
+
+        window.APP_INSTANCE.toggleLoading(true);
+
+        var id = 'dining-location-view-' + locationId;
+        $('#dining-location-view').clone().prop('id', id).appendTo('body');
+
+        loadDiningHours(locationId, function(hoursDataSource) {
+            $("#" + id + " .hours-items").kendoMobileListView({
+                dataSource: hoursDataSource,
+                template: $("#dining-hour-template").text(),
+            });
+
+            loadDiningMenus(locationId, function(menusDataSource) {
+                $("#" + id + " .menu-items").kendoMobileListView({
+                    dataSource: menusDataSource,
+                    template: $("#dining-menu-template").text(),
+                });
+
+                loadDiningHallMenus(locationId, function(hallMenusDataSource) {
+                    $("#" + id + " .hall-menu-items").kendoMobileListView({
+                        dataSource: hallMenusDataSource,
+                        template: $("#dining-hall-menu-template").text(),
+                    });
+
+                    window.APP_INSTANCE.toggleLoading(false);
+                    window.APP_INSTANCE.navigate('#' + id + '?title=' + locationName);
+                });
+            });
+        });
+    }
+
+    function showDiningMenu(element) {
+        var menuId = $(element).data('id');
+        var menuTitle = $(element).data('title');
+        var id = 'dining-menu-view-' + menuId;
+        $('#dining-item-view').clone().prop('id', id).appendTo('body');
+
+        window.APP_INSTANCE.toggleLoading(true);
+        loadDiningMenuItems(menuId, function(itemsDataSource) {
+            $("#" + id + " .dining-items").kendoMobileListView({
+                dataSource: itemsDataSource,
+                template: $("#dining-item-template").text(),
+            });
+            window.APP_INSTANCE.toggleLoading(false);
+            window.APP_INSTANCE.navigate('#' + id + '?title=' + menuTitle);
+        });
+    }
+
+    function showDiningHallMenu(element) {
+        var name = $(element).data('name');
+        var description = $(element).data('description');
+        navigator.notification.alert(
+            description,
+            null,
+            name,
+            'OK'
+        );
+    }
+
+    function showDiningItem(e) {
+        if (typeof(e.view.params['title']) != 'undefined') {
+            window.APP_INSTANCE.setTitle(e.view.params['title']);
+        }
+    }
+
+</script>
+<script src="scripts/dining.js"></script>

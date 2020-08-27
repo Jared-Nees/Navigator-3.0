@@ -1,0 +1,32 @@
+body {
+    color: #FFFFFF;
+}
+
+h1 {
+    color: #FFFF00;
+    text-transform: uppercase;
+    font-size: 1em !important;
+    margin-top: 0.5em !important;
+}
+
+ol, ul {
+    padding-left: 30px;
+    margin-right: 5px;
+}
+
+li {
+    margin-top: 5px;
+}
+
+h3, p {
+    margin: 0px 5px 15px 5px;
+}
+
+b {
+    font-size: 1.05em;
+    color: #FFFF00;
+}
+
+body a {
+    color: #FFFF00;
+}

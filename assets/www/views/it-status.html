@@ -1,0 +1,14 @@
+<div data-role="view" data-title="IT Status" data-init="initITStatus">
+    <h1 data-bind="html: title">IT Status</h1>
+    <div id="status-items">
+        <h3>No Alerts</h3>
+        <p>There are no known IT issues at this time.</p>
+    </div>
+</div>
+<script src="scripts/it-status.js"></script>
+<script id="status-template" type="text/x-kendo-template">
+    <a class="status-item" href="javascript:void(0)" onclick="window.open('${Link}', '_system');">
+        <h3 class="title">${Title}</h3>
+        <p>${Description}</p>
+        </div>
+</script>

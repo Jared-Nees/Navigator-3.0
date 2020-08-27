@@ -1,0 +1,250 @@
+<div data-role="view" data-title="Application Information" data-init="initAppInfo">
+    <h1 data-bind="html: title"></h1>
+    <div id="info">
+        <p>This app was built for CNU students by CNU students.</p>
+        <p id="app-version"></p>
+    </div>
+    <center>
+        <h2>Development Credits:</h2></center>
+    <div id="developers">
+        <h4>Adam Fendley</h4>
+        <h5>Development Coordinator</h5>
+        <p>
+            Adam designed and developed Version 2.0 of the Navigator, and can be reached at
+            adam.fendley.14@cnu.edu with comments or suggestions.
+        </p>
+        <h4>Juan Vallejo</h4>
+        <h5>Developer</h5>
+        <p>
+            Juan built several important aspects of the application, including the TV channel guide
+            and the WCNU streaming application. He also provided invaluable help with graphic design
+            and a considerable amount of testing.
+        </p>
+        <h4>Kayla McDonald</h4>
+        <h5>Developer</h5>
+        <p>
+            Kayla developed the Emergency Procedures module and contributed code to the TV channel
+            guide. She also provided input for a number of other modules and a considerable amount
+            of testing.
+        </p>
+        <h4>Austin Schaffer</h4>
+        <h5>Former Development Coordinator</h5>
+        <p>
+            Austin created the initial version of the application and oversaw its design,
+            development, testing, and deployment.
+        </p>
+        <h4>Adam Taylor, Justin Ruger and Audie Sumaray</h4>
+        <h5>Former Developers</h5>
+        <p>
+            Adam, Justin, and Audie developed the prototype application that was the springboard for
+            the current mobile app. Adam worked primarily as a Java developer for the Android
+            version, while Justin and Audie worked in Objective-C for the iOS platforms. Their
+            work developing in these native environments established the framework for the initial
+            release of the CNU Mobile app.
+        </p>
+    </div>
+    <hr>
+    <div id="thanks">
+        <p>
+            Development of a mobile application constitutes a lot of behind-the-scenes work and many
+            contributions from people who make the project better. ITS would like to explicitly
+            thank the following individuals for their support in the development and upkeep
+            of this project:
+        </p>
+        <ul id="thanks-list">
+            <li>
+                <strong>Nathan Typanski</strong>, who helped improve usability of the app in 2013.
+            </li>
+            <li>
+                Guidance and direction provided in 2013 by then Vice President of Student
+                Government,
+                <strong>Conner Trebour</strong> and the Editor-in-Chief of the Captains Log,
+                <strong>Sally Holtgrieve</strong>.
+            </li>
+            <li>
+                <strong>Erin Myers</strong> and <strong>Victoria Dixon</strong> for the information
+                related to recycling opportunities at CNU.
+            </li>
+            <li>
+                The <strong>CNU Office of Communications and Public Relations</strong> for guidance
+                and assistance with the app's layout.
+            </li>
+            <li>
+                Special thanks to the <strong>CIO Advisory Group</strong> and the <strong>Executive
+                Steering Committee</strong> for their continued support.
+            </li>
+        </ul>
+    </div>
+    <div id="dots" style="display:none">
+        <div class="dot" id="dot8"></div>
+        <div class="dot" id="dot4"></div>
+        <div class="dot" id="dot2"></div>
+        <div class="dot" id="dot1"></div>
+    </div>
+</div>
+<style>
+    #info {
+        background-color: #bdc3c7;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    #thanks-list {
+        margin-right: 1rem;
+    }
+
+    #dots {
+        display: table;
+        margin: 0 auto;
+    }
+
+    .dot {
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        margin: 5px;
+        border: 1px solid black;
+    }
+
+</style>
+<script>
+    var count = 0;
+
+    function showLogs() {
+        var string = "";
+        for (var i = 0; i < window.logs.length; i++) {
+            string += window.logs[i] + "\r\n";
+        }
+        alert(string);
+    }
+
+    function emailLogs() {
+        var email = "cnumobileapps@cnu.edu";
+        var subject = "Mobile Navigator Device Logs";
+        var deviceName = kendo.support.mobileOS.device;
+        var osName = kendo.support.mobileOS.name;
+        var osVersion = kendo.support.mobileOS.majorVersion + "." + kendo.support.mobileOS.minorVersion;
+        var logs = "";
+        for (var i = 0; i < window.logs.length; i++) {
+            logs += window.logs[i] + "<br>";
+        }
+        cordova.getAppVersion(function(version) {
+            var info = "<strong>Device:</strong> " + deviceName + "<br>" +
+                "<strong>OS:</strong> " + osName + " " + osVersion + "<br>" +
+                "<strong>App:</strong> " + version;
+            var body = info + "<br><br><strong>Logs:</strong><br>" + logs;
+            window.plugins.socialsharing.canShareViaEmail(function() {
+                window.plugins.socialsharing.shareViaEmail(
+                    body,
+                    subject, [email],
+                    null,
+                    null,
+                    null,
+                    function(result) {
+                        window.alert("Logs sent.");
+                    },
+                    function(result) {
+                        window.alert("Logs failed to be sent.");
+                    }
+                );
+            }, function() {
+                window.alert("This feature is not enabled on your device."); // TODO send logs some other way?
+            });
+        });
+    }
+
+    function showDeviceInfo() {
+        var deviceName = kendo.support.mobileOS.device;
+        var osName = kendo.support.mobileOS.name;
+        var osVersion = kendo.support.mobileOS.majorVersion + "." + kendo.support.mobileOS.minorVersion;
+        cordova.getAppVersion(function(version) {
+            var info = "Device: " + deviceName + "\n" +
+                "OS: " + osName + " " + osVersion + "\n" +
+                "App: " + version;
+            window.alert(info);
+        });
+    }
+
+    function editAPI() {
+        navigator.notification.prompt(
+            'Enter API endpoint',
+            function(results) {
+                if (results.buttonIndex == 1) {
+                    window.APP_INSTANCE.setAPIBase(results.input1);
+                    window.alert('API endpoint set to ' + results.input1);
+                } else if (results.buttonIndex == 2) {
+                    window.APP_INSTANCE.resetAPIBase();
+                    window.alert('API endpoint set to ' + window.APP_INSTANCE.getAPIBase());
+                }
+            },
+            'Edit API', ['Set', 'Reset to default', 'Cancel'],
+            window.APP_INSTANCE.getAPIBase()
+        );
+    }
+
+    function resetSettings() {
+        window.APP_INSTANCE.reset();
+    }
+
+    function initAppInfo() {
+        if (window.navigator.simulator === undefined) {
+            cordova.getAppVersion(function(version) {
+                $("#app-version").html('Current Version: <strong>' + version + '</strong>');
+            });
+        } else {
+            $("#app-version").html('Current Version: <strong>DEV</strong>');
+        }
+        $('#info').on("touchend", function() {
+            count++;
+            if (count === 5) {
+                count = 0;
+                var options = {
+                    title: 'Developer Tools',
+                    androidEnableCancelButton: true,
+                    winphoneEnableCancelButton: true,
+                    addCancelButtonWithLabel: 'Cancel',
+                    buttonLabels: ['View Logs', 'Send Logs', 'Device Info', 'Edit API', 'Reset App']
+                };
+                if (window.plugins !== undefined && window.plugins.actionsheet !== undefined) {
+                    window.plugins.actionsheet.show(options, function(buttonIndex) {
+                        setTimeout(function() {
+                            if (buttonIndex === 1) {
+                                showLogs();
+                            } else if (buttonIndex === 2) {
+                                emailLogs();
+                            } else if (buttonIndex === 3) {
+                                showDeviceInfo();
+                            } else if (buttonIndex === 4) {
+                                editAPI();
+                            } else if (buttonIndex === 5) {
+                                resetSettings();
+                            }
+                        });
+                    });
+                } else {
+                    alert('This feature is not enabled for your device.');
+                }
+            }
+        });
+
+        var day = new Date().getDay();
+        if (day > 0) {
+            var code = [
+                ['dot8', 'dot4'],
+                [],
+                ['dot8', 'dot4', 'dot2', 'dot1'],
+                ['dot8', 'dot4', 'dot2', 'dot1'],
+                ['dot8', 'dot4', 'dot2'],
+                ['dot8', 'dot4', 'dot2']
+            ];
+            var today = code[day - 1];
+            for (var i = 0; i < today.length; i++) {
+                $('#' + today[i]).css('background-color', 'black');
+            }
+            $('#dots').css('display', 'table');
+        }
+    }
+
+</script>

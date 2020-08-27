@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "cnu";
+  src:url("cnu.eot");
+  src:url("cnu.eot?#iefix") format("embedded-opentype"),
+    url("cnu.ttf") format("truetype"),
+    url("cnu.svg#cnu") format("svg"),
+    url("cnu.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,3326 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: aAcuebQ5gupI8AeBRCrpsidN148=
+Created-By: 1.0 (Android)
+
+Name: assets/www/styles/font-awesome/scss/_rotated-flipped.scss
+SHA1-Digest: S3/9HbqUwywHxDoHqRMR4Z7Sh6I=
+
+Name: assets/www/bower_components/moment/src/locale/ss.js
+SHA1-Digest: pr6niOdvrQK49G09sDQinJbwJzg=
+
+Name: assets/www/scripts/main.js
+SHA1-Digest: BNui0psdRhfzUlTXlTxiAI/98yg=
+
+Name: assets/www/bower_components/moment/locale/lt.js
+SHA1-Digest: BSfIsaTTC5skJTtj3jn3jGt8NN0=
+
+Name: assets/www/bower_components/moment/src/locale/tzm-latn.js
+SHA1-Digest: hYml3EFCxpTdYCPT8U7aeiCKV6E=
+
+Name: assets/www/bower_components/moment/src/locale/ms-my.js
+SHA1-Digest: roXda7xm3M/RQH/eUZkrWLKgyAY=
+
+Name: assets/www/bower_components/moment/src/locale/bo.js
+SHA1-Digest: 5QfSIcD2C6MBWhpTQXGMYrST1y4=
+
+Name: assets/www/styles/font-awesome/less/larger.less
+SHA1-Digest: oLNPgkkKXtH9Xn3rntykwzKek2M=
+
+Name: res/drawable-xxhdpi-v4/ic_action_remove.png
+SHA1-Digest: 9Utk4+aXETSKYQP8/+rs1q75Fn8=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal.9
+ .png
+SHA1-Digest: u9eiMJswYHdSWHd0ToChqAdDEas=
+
+Name: assets/www/views/wcnu.html
+SHA1-Digest: faR9W1eSRgUrL4J6TIzFukklR74=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/MediaFile.js
+SHA1-Digest: 3GjwdGNpZ5k108bzuogLw6MMiwU=
+
+Name: assets/www/resources/icon/Navigator-icons-WCNU.png
+SHA1-Digest: V1PInS5cq0DNuw8IH5DfdNSQDjc=
+
+Name: res/drawable/abc_list_selector_background_transition_holo_light.
+ xml
+SHA1-Digest: zgjguWfVJKhZvdGqcqR3qXdatd4=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal.
+ 9.png
+SHA1-Digest: xzNKQvNENNnH7+QhIUocYeBKW08=
+
+Name: res/drawable-xxhdpi-v4/ic_action_next_item.png
+SHA1-Digest: VCkMmGnd+0Re/Zh47VJcIYoV8xY=
+
+Name: assets/www/plugins/cordova-plugin-file/www/requestFileSystem.js
+SHA1-Digest: a+OmGt857Lvy4dd1u88nHrNjlbw=
+
+Name: res/color/abc_primary_text_disable_only_material_dark.xml
+SHA1-Digest: w3o61apP+ufxCdg1d8CUzwQvhqg=
+
+Name: assets/www/scripts/news.js
+SHA1-Digest: VYmX9NXOBvYpLdwNw4mGOoISiRo=
+
+Name: res/layout/feedback_item.xml
+SHA1-Digest: Py1sWNqwXyCeXuwbSIWqtcpS1lY=
+
+Name: assets/www/bower_components/sprintf/LICENSE
+SHA1-Digest: eL5sg6rQZYnkS6v9kBon7MkdnOA=
+
+Name: res/drawable-xxxhdpi-v4/icon.png
+SHA1-Digest: lW3Hd4RpY2SjP9/JHIAPZv9ihlk=
+
+Name: assets/www/bower_components/moment/locale/pt-br.js
+SHA1-Digest: i3gR8EeY3Ue8jNYX7DreomRCHg4=
+
+Name: assets/www/views/widgets/wcnu.html
+SHA1-Digest: BlD6UXHh41KD65dQGA8ZyMgmA1g=
+
+Name: assets/www/plugins/cordova-plugin-dialogs/www/android/notificati
+ on.js
+SHA1-Digest: j92wXmNo4MpUeLfGX8FeG7Wwddc=
+
+Name: assets/www/styles/icons/sports/fieldhockey.png
+SHA1-Digest: LNxN91/3jGm/m8JiVt5S6Ox3ONo=
+
+Name: res/drawable-mdpi-v4/ic_action_previous_item.png
+SHA1-Digest: V4xdGX7AIrCXT0Ii5jKxZlGz/aE=
+
+Name: assets/www/bower_components/moment/src/lib/units/week.js
+SHA1-Digest: 6XecQ2Wps5VfEh6LU1LJ5O8AOzc=
+
+Name: assets/www/styles/font-awesome/less/core.less
+SHA1-Digest: Rm8/5wYJKdtt/pUt6pOYrZZGEYI=
+
+Name: assets/www/bower_components/moment/src/locale/lt.js
+SHA1-Digest: vw9G+fEMsO5hzqwsQ0wv0hd2snk=
+
+Name: assets/www/bower_components/moment/src/lib/locale/invalid.js
+SHA1-Digest: 2nu4dxQW2LoNrAqmZVzcr8vCEZI=
+
+Name: assets/www/plugins/cordova-plugin-device-orientation/www/Compass
+ Error.js
+SHA1-Digest: CUKh1IpnTFo6jmgXtR9W1UeEM84=
+
+Name: assets/www/bower_components/moment/locale/eu.js
+SHA1-Digest: u0Jg1RLcSmnInBWf/RS6VganZFw=
+
+Name: res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+SHA1-Digest: r0EtG+sKSLXWqT9XllknXQqSWDI=
+
+Name: res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+SHA1-Digest: XUUeghiBJli27nxrwf5sxQ8N90c=
+
+Name: res/drawable/abc_cab_background_top_material.xml
+SHA1-Digest: Z+2EBs+zMxbPCCEkmiGm2pj627E=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_disabl
+ ed.9.png
+SHA1-Digest: YZat7XeToqPJhJBtMuCzkInt9Uc=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest: dXED2T6IZPPvMnuleOzhDF2YlfE=
+
+Name: res/color/abc_primary_text_material_light.xml
+SHA1-Digest: tyv6Wb+jsYJT58s+DM1TAk8sTvY=
+
+Name: assets/www/styles/jplayer/pink.flag/image/jplayer.pink.flag.jpg
+SHA1-Digest: aUL7rwdfix3oo3NzjWl62F7ryns=
+
+Name: assets/www/bower_components/moment/locale/nb.js
+SHA1-Digest: A9+Ru7b4jpm5J2gqqAZmWSD6W88=
+
+Name: assets/www/scripts/recycling-locations.js
+SHA1-Digest: FA4zPG6VJRfpsy9BGMO3cIq8yIY=
+
+Name: assets/www/bower_components/moment/src/lib/parse/regex.js
+SHA1-Digest: 8vCIHnm3/TAWrXUkAzHBLWlH0rI=
+
+Name: assets/www/styles/jplayer/pink.flag/css/jplayer.pink.flag.css
+SHA1-Digest: Tt4HkkxKBsIfPZDlBC9AYrhlI5A=
+
+Name: assets/www/bower_components/moment/src/locale/mk.js
+SHA1-Digest: H8ZJfTRjL645E0w7PrRSDB7lOVg=
+
+Name: res/color/abc_primary_text_disable_only_material_light.xml
+SHA1-Digest: 1KMYcyPRFsCJCwdd29rweu/yPVM=
+
+Name: assets/www/bower_components/moment/min/moment.min.js
+SHA1-Digest: 2NtDKtw9cLxKMd1h/fj4FTQkY74=
+
+Name: res/drawable-hdpi-v4/feedback_prompt_background.xml
+SHA1-Digest: aR8+qAkeB1y5g91p9fQjCBoahcw=
+
+Name: assets/www/bower_components/moment/src/locale/zh-cn.js
+SHA1-Digest: PWlH2s1muMMIg3tKInKXbyApsso=
+
+Name: res/anim/abc_popup_exit.xml
+SHA1-Digest: aDPmiIn1gaCFuYsbobq7B8XAcQE=
+
+Name: res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest: HFivDekYna/HGttXT/KmXBD3Fmk=
+
+Name: assets/www/bower_components/moment/locale/bo.js
+SHA1-Digest: 4iUXm5UD/ibIFV5L1WANizDhAwc=
+
+Name: assets/www/bower_components/moment/locale/ss.js
+SHA1-Digest: AtjwEbpB77FV3imusfRPRXOG4JI=
+
+Name: res/drawable-land-xhdpi-v4/splashscreen.png
+SHA1-Digest: pH1woKd6Xi3MNFRy7nEl6JTUbbA=
+
+Name: assets/www/bower_components/moment/src/locale/gl.js
+SHA1-Digest: qimUPDiOqN+QI0qIJaWyxmOMfEk=
+
+Name: assets/www/styles/font-awesome/less/extras.less
+SHA1-Digest: OgXDaKWBCr6nAhxIieGC2G7OI3o=
+
+Name: assets/www/styles/mobile-nav-font/cnu/stylesheet.css
+SHA1-Digest: Wixd37ar3LzrPjQLGUKzYUooBus=
+
+Name: assets/www/bower_components/moment/locale/fa.js
+SHA1-Digest: i0QqsKbTjOUinKITSdWeyV6Y5GE=
+
+Name: assets/www/plugins/com.telerik.feedback/www/shake.js
+SHA1-Digest: 7fm0Ff/YcQnxh6mkAK0XSmxVFv0=
+
+Name: assets/www/bower_components/moment/locale/tet.js
+SHA1-Digest: LdH5D02+EEjrcCvFAQs1VZRYbt0=
+
+Name: res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+SHA1-Digest: M5x5yhIyfAE00veLbT8o+OstFp0=
+
+Name: assets/www/bower_components/async/logo/async-logo.ai
+SHA1-Digest: 9E22LcdLeEl/s+0RHPssXYFyxDg=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+SHA1-Digest: 4nH0XK5rb70dFpSIrFzPvY5V8Xk=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/CaptureAudio
+ Options.js
+SHA1-Digest: qiSwFopi53qo5rVNusKr7WIgsA4=
+
+Name: assets/www/bower_components/moment/src/lib/units/timestamp.js
+SHA1-Digest: HaSJZH6P/d6hdo37Wxf91B2RBGE=
+
+Name: res/drawable-ldrtl-mdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+SHA1-Digest: PKSLOGyYURX84CGiQ2+aw2P0vf8=
+
+Name: res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+SHA1-Digest: bKDAz/GvMsK2qKIXXjfzdAwCtG4=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+SHA1-Digest: DWOYDgOfy7ks3s/ayDqgYEpJDyI=
+
+Name: assets/www/kendo/styles/images/kendoui.svg
+SHA1-Digest: jTPJBSyE8t30VI0ZdcYwdEa7Y0Q=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal
+ .9.png
+SHA1-Digest: QYa9biCKtYQ6f5AXSGuHwZvzk0A=
+
+Name: assets/www/views/dining.html
+SHA1-Digest: 6j+H3ZDcqSJAaZvYlKahlr6gXvM=
+
+Name: res/drawable/common_google_signin_btn_icon_light.xml
+SHA1-Digest: VglkU7sqbupfGGQNHEJsGAtyH3o=
+
+Name: assets/www/bower_components/moment/src/locale/fa.js
+SHA1-Digest: nDcFey2hbYpIvdDjjO39PDPlHBE=
+
+Name: assets/www/scripts/ferguson.js
+SHA1-Digest: V36A3IdDUSTtPUSylKzRZVRIMak=
+
+Name: assets/www/spec/recycling-locations.spec.js
+SHA1-Digest: AkRcam6QXSbt4/6m1VSMjiqyRm4=
+
+Name: assets/www/views/freeman.html
+SHA1-Digest: UO0oMKqKLvq4qkOuxcYlIl2fUNk=
+
+Name: res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+SHA1-Digest: 398ZBDf4lfMwMt4KdKNY2wqz6O8=
+
+Name: res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+SHA1-Digest: MNSRjxyJ4OxbiblqAhlauGlX+vQ=
+
+Name: res/drawable-hdpi-v4/done_button.xml
+SHA1-Digest: CT2LOWego8Y6zAPc9bf5ie1mPJA=
+
+Name: assets/www/bower_components/moment/src/locale/th.js
+SHA1-Digest: CXosoGT82sax1CveKFRuiyobrLw=
+
+Name: res/drawable-ldrtl-hdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+SHA1-Digest: GHCTk+x5srJHrfwS7tJWliKIGU4=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+SHA1-Digest: UuBOBDmVSEPh6ANSWj+8JFQUniM=
+
+Name: assets/www/bower_components/moment/locale/en-ca.js
+SHA1-Digest: MtX4O1NKg/8CWbc/Bc/hfhb7swA=
+
+Name: res/menu/send_feedback_activity_menu.xml
+SHA1-Digest: 7DlgG0sXBwh9eBMJliO9Me2fiNo=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_disab
+ led.9.png
+SHA1-Digest: FwqBLnilgKWuJ5KAsODYLwIEdIY=
+
+Name: assets/www/bower_components/moment/src/lib/utils/some.js
+SHA1-Digest: +bl53eJwKS1j6wa2TnUE9+jt1nQ=
+
+Name: assets/www/plugins/cordova-plugin-media/www/Media.js
+SHA1-Digest: AHAbVvswoxr53zEoSuTj2AZoACk=
+
+Name: assets/www/bower_components/moment/locale/en-nz.js
+SHA1-Digest: Oms39a09Msn95uoLbYQjkFJD6Do=
+
+Name: assets/www/bower_components/moment/src/locale/eu.js
+SHA1-Digest: 4oGhfCJIF2ABqSIwRZ4zzfd2TiM=
+
+Name: assets/www/bower_components/moment/src/locale/mi.js
+SHA1-Digest: DjeuCY44s0HN+XcV+sHGsuAq53A=
+
+Name: res/drawable-xxhdpi-v4/ic_done.png
+SHA1-Digest: RwsDVha5+MD+DoXiuIjrc5XCkcc=
+
+Name: assets/www/styles/mobile-nav-font/TrajanPro-Regular/style.css
+SHA1-Digest: LIXClQlRzAbualCTeO/sCfXa63U=
+
+Name: res/anim/abc_popup_enter.xml
+SHA1-Digest: 8aNopi98ipDuf9EK3JB3zdz3JUk=
+
+Name: assets/www/bower_components/moment/src/lib/moment/creation-data.
+ js
+SHA1-Digest: Ky0XEtjKxFtS96fKgCdiji+X1zc=
+
+Name: assets/www/bower_components/moment/src/locale/hy-am.js
+SHA1-Digest: IkyFBhUIyqs7O905PW99JrzF95Q=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_icon_light_disable
+ d.9.png
+SHA1-Digest: sjMqFvP9hMZholuIZC4Mc2IVfP0=
+
+Name: assets/www/bower_components/moment/locale/th.js
+SHA1-Digest: bD+vywMo9PAJ07teTouxdLIoJFo=
+
+Name: assets/www/bower_components/moment/locale/he.js
+SHA1-Digest: LzVRykhonAxo1CZho5oUuvvM3yU=
+
+Name: assets/www/bower_components/moment/src/lib/locale/set.js
+SHA1-Digest: uHuzXqHOC9QALqqlK3hb8QAnhHQ=
+
+Name: res/drawable-hdpi-v4/abc_text_cursor_mtrl_alpha.9.png
+SHA1-Digest: bt6ftz78KPvX1aGRQxqKF6zY2AQ=
+
+Name: assets/www/bower_components/moment/src/locale/sq.js
+SHA1-Digest: rj9+8xk69CivXb9H/eeL8Nj/+8s=
+
+Name: assets/www/bower_components/moment/locale/mk.js
+SHA1-Digest: 5Aa+4Lhbh61r33iZNdI0M43pNUU=
+
+Name: assets/www/bower_components/moment/src/locale/cs.js
+SHA1-Digest: 4QfKiPRkwcAD6fsUjllIatRMHTU=
+
+Name: assets/www/bower_components/moment/locale/en-au.js
+SHA1-Digest: uH0AXsdQaIEMW90uxPFYaowAG5g=
+
+Name: assets/www/spec/calendar.spec.js
+SHA1-Digest: yxrv94U+qbm9WIZOlirDqlWYZiw=
+
+Name: res/layout-v17/abc_dialog_title_material.xml
+SHA1-Digest: W+uNwYWkK1DxJSp8oxJJXRTvCSY=
+
+Name: res/drawable-hdpi-v4/splashscreen.png
+SHA1-Digest: kbcbGQrcfPplOYiAXcBtXoBlTl8=
+
+Name: res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+SHA1-Digest: /TpGMKiJHJBMtZIlo98p3os/rzg=
+
+Name: assets/www/bower_components/sprintf/test/test.js
+SHA1-Digest: 5andESty2VArcNBDQ8SE4xv4nKY=
+
+Name: res/layout/activity_edit_details.xml
+SHA1-Digest: 9VGHjgjHua1N79dZT1LOSXrUGFM=
+
+Name: assets/www/bower_components/moment/locale/el.js
+SHA1-Digest: 6AA/Psv8gC6Ed/kTRt3mBcAK0Vc=
+
+Name: assets/www/plugins/com.telerik.feedback/www/feedback.js
+SHA1-Digest: JvzZU6cBsa5OH24hx+wfPd9w59s=
+
+Name: res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+SHA1-Digest: e1VmrUG8PmI3/C7+Sm5kXYib8CE=
+
+Name: assets/www/bower_components/moment/locale/tlh.js
+SHA1-Digest: /y/0kXgbYxbb8KI0Ez13C3FXgOs=
+
+Name: res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+SHA1-Digest: u7p4+i+MbX5Isql4KGmTM6mrhJ8=
+
+Name: assets/www/bower_components/async/logo/async-logo_readme.jpg
+SHA1-Digest: 1Y8R41IEvpbKFNK4eJeqMYrWUiA=
+
+Name: res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
+SHA1-Digest: qCddjZI8yABkWFvWCWlg+bQVD7M=
+
+Name: res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+SHA1-Digest: 9R8aiwZGHKTNSW570Jyy4DD6M6c=
+
+Name: res/layout-v17/notification_template_part_time.xml
+SHA1-Digest: gHiJ2rvc14QjsUcQkvcASV5D7Hs=
+
+Name: res/color/common_google_signin_btn_text_dark.xml
+SHA1-Digest: n8B7xoUM5bDxcGDE14mSIBN0LN8=
+
+Name: assets/www/bower_components/moment/src/lib/units/priorities.js
+SHA1-Digest: pRzZqxu6brHfGLyh0rRKE93JpDA=
+
+Name: assets/www/bower_components/moment/src/lib/locale/constructor.js
+SHA1-Digest: 3v6O7xgVqmWVxloxvZDeVaTkrX4=
+
+Name: assets/www/bower_components/moment/src/locale/mr.js
+SHA1-Digest: jG0lUi/AwlUiuAC4Fi3zkrpMWgQ=
+
+Name: jsr305_annotations/Jsr305_annotations.gwt.xml
+SHA1-Digest: nmv5U418DLbK/IpqG+mxsvjsH5U=
+
+Name: res/layout-v17/notification_template_part_chronometer.xml
+SHA1-Digest: sro857sKCLyTwtaGQOHrgGW0xuM=
+
+Name: res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest: IiQ92KKKcRVz1q2BpPfR0GMDdtA=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal.
+ 9.png
+SHA1-Digest: 8DEdhN9t5uwnCC/IpG7VARjfSW8=
+
+Name: assets/www/bower_components/moment/locale/ru.js
+SHA1-Digest: VdXPX5+OpYkjtwUs1xuBupR8Odo=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_text_light_pressed
+ .9.png
+SHA1-Digest: 2MD2wyewxnT4yBL6JshfM9mhlyQ=
+
+Name: res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png
+SHA1-Digest: 6LMTm1InS590S2d/jvEnjLlAl54=
+
+Name: res/layout/abc_popup_menu_item_layout.xml
+SHA1-Digest: zA6Or4jaELxTkuOhxTzSksuykaQ=
+
+Name: assets/www/bower_components/moment/src/locale/ro.js
+SHA1-Digest: 5E6zav1te2/kGOJCT6l+qaCtQMM=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+SHA1-Digest: U27x3ezvyg7dVtOg/MfEU+T1OHM=
+
+Name: res/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest: BzNlM5HGuLLtD+r0Jh1jWA0ZBTE=
+
+Name: assets/www/spec/captains-log.spec.js
+SHA1-Digest: 5s++STnCOnbwEB0BpEn4JEKIndU=
+
+Name: assets/www/styles/mobile-nav-font/mobile-navigator/mobile-naviga
+ tor.eot
+SHA1-Digest: KpNoBNXz7+5DC5zTvYu3yC6aJrc=
+
+Name: assets/www/views/widgets/dining.html
+SHA1-Digest: y2NV+h1rdS8C3x7vFamk7MWRpeg=
+
+Name: assets/www/bower_components/moment/src/lib/create/from-string-an
+ d-format.js
+SHA1-Digest: iNbxrXkrtiaysZQcgm3dfVquoEU=
+
+Name: res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+SHA1-Digest: kXL/oF0Wug/Gk2tR7sFuSTOQNZU=
+
+Name: assets/www/bower_components/moment-timezone/builds/moment-timezo
+ ne-with-data.js
+SHA1-Digest: TBTlpPrrn9nrg9r+gnWTWNTtE4Y=
+
+Name: assets/www/styles/mobile-nav-font/TrajanPro-Regular/TrajanPro-Re
+ gular.eot
+SHA1-Digest: 28eyBrvVTN2EPcrPFIev7odCmv0=
+
+Name: assets/www/plugins/cordova-plugin-file/www/android/FileSystem.js
+SHA1-Digest: FZ97tGHloMDBQEh+rJs1pRYG/8U=
+
+Name: assets/www/bower_components/moment/src/locale/nl-be.js
+SHA1-Digest: Q9XflZGZhchT/51KnSC2AKwPqr4=
+
+Name: res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest: noUbrA0YTfnyTN3qU6nIC6HIi2Y=
+
+Name: assets/www/bower_components/moment/src/lib/utils/abs-floor.js
+SHA1-Digest: EEDPfn8w3X6Sjdk+hPDTHWpAqX8=
+
+Name: res/layout/abc_alert_dialog_material.xml
+SHA1-Digest: Cekxu7vY1x86aaK+C4fk23KijX0=
+
+Name: assets/www/plugins/cordova-plugin-file/www/DirectoryEntry.js
+SHA1-Digest: fSneTq62mFK5syVNnziSb1NaxJI=
+
+Name: assets/www/bower_components/moment/src/lib/moment/start-end-of.j
+ s
+SHA1-Digest: foHNG88QkwCS9NWP3a9Nm3QDh/Q=
+
+Name: assets/www/bower_components/moment/locale/lv.js
+SHA1-Digest: pB/ZofsMdjQEVkMaizhdRPVZ8wo=
+
+Name: assets/www/plugins/cordova-plugin-vibration/www/vibration.js
+SHA1-Digest: Qz97UZFieUUhLedh7bIkn3HTtxY=
+
+Name: res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+SHA1-Digest: ofc7kIAlfYjrQaHpwpr2Qca7Ju8=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_pressed
+ .9.png
+SHA1-Digest: 0E0ATQxoNcoSiDMf998cieYXTQM=
+
+Name: assets/www/bower_components/moment/src/locale/ky.js
+SHA1-Digest: m2W0NFkrbgQzohT/sMmizO55/N4=
+
+Name: assets/www/bower_components/moment/src/lib/moment/compare.js
+SHA1-Digest: YS8FeAvig8fGMgUCqQY+gxAuoUo=
+
+Name: assets/www/spec/tv-guide.spec.js
+SHA1-Digest: 6iS+PpjLOhZQBKDycKGhn7L3BLw=
+
+Name: assets/www/views/widgets/ferguson.html
+SHA1-Digest: r7+e+OSveFIjoC7nN4Zz7AmTZdY=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_text_light_disabl
+ ed.9.png
+SHA1-Digest: /WcRcXkhkCOKo3JLUJeWJLIldco=
+
+Name: res/layout/popup_edit_details.xml
+SHA1-Digest: kjWV0/SZsA6ZoBnVzAemhxsDH2g=
+
+Name: assets/www/styles/fonts/roboto.css
+SHA1-Digest: vgq3SX1oGsjQGJ1+HKT04/Oii6w=
+
+Name: assets/www/views/widgets/events.html
+SHA1-Digest: yOq3ybaW6pc/p5XJE5jJQ7b/O2U=
+
+Name: res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+SHA1-Digest: wxS5Do9e7cCh/fgOCbgTwd/ZeDE=
+
+Name: res/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+SHA1-Digest: s2GnUok/Cr0D0WmTK8VKQ+ltPAc=
+
+Name: assets/www/bower_components/moment/src/lib/duration/constructor.
+ js
+SHA1-Digest: wSIDOLPl05tiK8+1tQQJr4Jj320=
+
+Name: assets/www/bower_components/moment/src/lib/units/second.js
+SHA1-Digest: H3McIz4lBAopxtba3kBWPawslsM=
+
+Name: res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.
+ 9.png
+SHA1-Digest: T1UJYSyW0SBmtvS67G524cLlaHM=
+
+Name: assets/www/bower_components/moment/src/locale/hu.js
+SHA1-Digest: 4lHp6dI2hKtpvNWlcK0bdTY9cMs=
+
+Name: res/drawable-hdpi-v4/ic_done.png
+SHA1-Digest: r2fGYM8c/XQLz1/5t77ledTVQvs=
+
+Name: res/drawable-xhdpi-v4/ic_action_previous_item.png
+SHA1-Digest: uG+ZFVmiP0FBZK49mU+oFNFtrpk=
+
+Name: assets/www/bower_components/moment/locale/fy.js
+SHA1-Digest: PJ9leJ2cooug9WSXuN65hX9aFks=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+SHA1-Digest: KeaSUvSkk44lK7SQlRplMrLGFQU=
+
+Name: assets/www/scripts/app.js
+SHA1-Digest: PjdF6uGVHWC5RYIuPpuHCrrINAk=
+
+Name: assets/www/bower_components/moment/src/locale/zh-hk.js
+SHA1-Digest: CgC0gv+fUBfRKBBmxBk293m0M7c=
+
+Name: assets/www/bower_components/moment/locale/hr.js
+SHA1-Digest: GvOKhOKCpOnD+HFXBdwJt2kxAdU=
+
+Name: assets/www/resources/fitness-totd.json
+SHA1-Digest: 18CKX03LGbMoc3FxnI3NQFdRQkI=
+
+Name: res/anim/abc_slide_out_bottom.xml
+SHA1-Digest: QE0YUwjYdedmgPyovw3+5mmYlYE=
+
+Name: res/drawable-hdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+SHA1-Digest: ZtpDnrvKnEfHPjGU70zJPk9fQqE=
+
+Name: res/layout-v17/notification_template_lines.xml
+SHA1-Digest: pN+GJkVNaAeJOQwiZPAjzhZiZic=
+
+Name: assets/www/styles/font-awesome/scss/_core.scss
+SHA1-Digest: DlrMpiNw7z1t5X0PiSmr1i2wWr8=
+
+Name: assets/www/bower_components/sprintf/src/angular-sprintf.js
+SHA1-Digest: 0zLcSvbAypNh895dc8JvZvEE9nM=
+
+Name: res/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+SHA1-Digest: xjj1PWaeFIBVIYkATzJi5WcJYqg=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+SHA1-Digest: 1VvngFKYvMFWDbJYa+AZRd9pfuo=
+
+Name: assets/www/bower_components/moment/src/locale/az.js
+SHA1-Digest: rCLAOzEAU3E0skd1dIX7xPg5pKQ=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal.9
+ .png
+SHA1-Digest: VxPFXIef78x6GxYU8PL5lmVBi6k=
+
+Name: assets/www/plugins/cordova-plugin-file/www/DirectoryReader.js
+SHA1-Digest: 87mxcmAnSMqpvZ9HEJkPPW6awzI=
+
+Name: res/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png
+SHA1-Digest: lUFeTYCjItYIBK8Qj9E5SPFZQNo=
+
+Name: assets/www/bower_components/moment/locale/lb.js
+SHA1-Digest: EAFcDMnnrRgRznrXPMqs27lOOd4=
+
+Name: res/drawable/abc_item_background_holo_light.xml
+SHA1-Digest: Fp25oqaswTKIF/JILRvPqOaxocQ=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+SHA1-Digest: MuW/GRRGQaTxjwIoC4ife6+p7VI=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal.
+ 9.png
+SHA1-Digest: Y/NbJhhMlBo8CWN0HlX5y3Uqq88=
+
+Name: assets/www/bower_components/moment/locale/ta.js
+SHA1-Digest: Q8XYkQsiu52cQpxdQmgm0oj3Y28=
+
+Name: assets/www/bower_components/moment/src/locale/pa-in.js
+SHA1-Digest: GIjEUNWqI1xjER74Gb8h3XJYxmU=
+
+Name: assets/www/styles/font-awesome/scss/_stacked.scss
+SHA1-Digest: cToQFo/63laaTBkS7LusmdEzbHc=
+
+Name: assets/www/bower_components/sprintf/gruntfile.js
+SHA1-Digest: xkjoyDuwLCIrHwCg57a7y7ISj6c=
+
+Name: assets/www/bower_components/moment/locale/it.js
+SHA1-Digest: 60aA9yvLGsHZanBVNeN8EXfWVMA=
+
+Name: assets/www/bower_components/moment/src/lib/create/from-string-an
+ d-array.js
+SHA1-Digest: 70zZf2Xe8rFTrcZskoscKInqVSk=
+
+Name: assets/www/kendo/js/kendo.mobile.min.js
+SHA1-Digest: WY8wRZu4CnYeuyJ3wCr+uKvixC0=
+
+Name: assets/www/styles/mobile-nav-font/cnu/cnu.svg
+SHA1-Digest: eOsMaeLGyWCvRci05MOfhG80GTA=
+
+Name: res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest: P6e0iLoIQdVv5zYT47sluTSi/8U=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+SHA1-Digest: VzxI8cx+F0sJvWSI5umsTs0s8+o=
+
+Name: assets/www/bower_components/moment/src/locale/es.js
+SHA1-Digest: ZTlpINVl6rDgxpoyXOIY3+ORfNk=
+
+Name: res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png
+SHA1-Digest: /HDLqKYSwxPWi6ihR75E/oot/mo=
+
+Name: res/layout-v17/notification_template_media.xml
+SHA1-Digest: Bp4HZNyl3LcrrdF6ht4Xja6KpRU=
+
+Name: assets/www/bower_components/moment/locale/ar-ma.js
+SHA1-Digest: YRyJmTeQAVgqsVAjw9jBgzPBbN8=
+
+Name: assets/www/bower_components/moment/locale/kk.js
+SHA1-Digest: hrgGes7rRHYjGwP+7aCPbYPYBxw=
+
+Name: assets/www/resources/NoTrackInfo.png
+SHA1-Digest: +UmD5MyIUbPGinnXwJrbMwgOILk=
+
+Name: assets/www/styles/font-awesome/scss/_list.scss
+SHA1-Digest: NjSw9kag8/1+qhvXnlF3rzPyqvE=
+
+Name: res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest: x4Dbvdzy3/VsfToQSRTYbjIfLhU=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/CaptureImage
+ Options.js
+SHA1-Digest: vp3f4tBLx/xddUbknS+Rm3i9WE8=
+
+Name: res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest: Ab1GWT87WV0OwigJ3sY829XOufQ=
+
+Name: assets/www/styles/mobile-nav-font/mobile-navigator/mobile-naviga
+ tor.ttf
+SHA1-Digest: E0Upl+qL2wRYWxL4VE8s88XUl14=
+
+Name: res/layout/abc_list_menu_item_layout.xml
+SHA1-Digest: XdPIGIWTkYA0/yERq0uGjKTMCNM=
+
+Name: res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png
+SHA1-Digest: +pi/Z1BDTC/eHcG86xxdoFAyukA=
+
+Name: assets/www/styles/font-awesome/fonts/FontAwesome.otf
+SHA1-Digest: hVsZCl0iJzL2i2gRYpw/aP9x93E=
+
+Name: assets/www/bower_components/moment/locale/fr-ca.js
+SHA1-Digest: 2k8xxauqVSAK0QLWhdUkVKCQnpY=
+
+Name: res/layout/abc_list_menu_item_radio.xml
+SHA1-Digest: JY9auipi+zDLgpb/pv+AbupJofo=
+
+Name: assets/www/bower_components/moment/src/lib/units/quarter.js
+SHA1-Digest: tlZrUb/AX7/akoDeUecs6879ctw=
+
+Name: assets/www/views/cnu-alert.html
+SHA1-Digest: /m3I4Fo/yMf5S8BmMUD3Pg32+0U=
+
+Name: res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+SHA1-Digest: EYD0L7FYlUYj4vZvX1mmqzIwLBE=
+
+Name: assets/www/styles/font-awesome/less/mixins.less
+SHA1-Digest: ZXSgViyYZ6Tq+LWpIwAQYrpbTU0=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal.
+ 9.png
+SHA1-Digest: p7d7bh43fpMDfPpI7/JBjWrO2U8=
+
+Name: res/drawable-land-xxxhdpi-v4/splashscreen.png
+SHA1-Digest: D822e1N8+xYCpXGOLkTdSoqsoKM=
+
+Name: assets/www/plugins/cordova-plugin-device-orientation/www/Compass
+ Heading.js
+SHA1-Digest: uQlGUBhCjvNgCpJM2u/rWn8fj6c=
+
+Name: res/layout/abc_action_menu_layout.xml
+SHA1-Digest: 59VoHSqr54BG6/sHBWEsxwey6mM=
+
+Name: assets/www/bower_components/sprintf/demo/angular.html
+SHA1-Digest: KNNRB9yk3oTQhwO2pqn+6fY0A2U=
+
+Name: assets/www/views/card-actions/text.html
+SHA1-Digest: 77FsFrGOowfaqrLpYX/KbymksO0=
+
+Name: res/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+SHA1-Digest: bELusJ8n8IyKBQGyAWsRu9hmrKA=
+
+Name: assets/www/plugins/cordova-plugin-file/www/fileSystemPaths.js
+SHA1-Digest: ClY0A20E9CX9HQnZ3e9erXbm0mI=
+
+Name: res/layout/fragment_feedback_items.xml
+SHA1-Digest: E7L6rylFOya+ABNsOIjJv3pfaZM=
+
+Name: res/layout/abc_list_menu_item_icon.xml
+SHA1-Digest: QxYwSZ/gYuQP2j33mxUH31RArlw=
+
+Name: assets/www/bower_components/async/LICENSE
+SHA1-Digest: anYAVetqdq9s7x+pGWIbYw4gLzI=
+
+Name: res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.p
+ ng
+SHA1-Digest: +w3pEMRGWqkdGr4D1QDtag7o6sk=
+
+Name: assets/www/bower_components/moment/locale/ca.js
+SHA1-Digest: EMgGTARFmbA8wYP9CH7ypKJSYBE=
+
+Name: assets/www/bower_components/moment/src/locale/sr-cyrl.js
+SHA1-Digest: bvxRtGpuSmuWADa0/hDG9F+pM0Y=
+
+Name: assets/www/bower_components/moment/src/lib/duration/bubble.js
+SHA1-Digest: o1R45R+kC8GkWdc6BtE3J9jFtSw=
+
+Name: assets/www/bower_components/moment/locale/eo.js
+SHA1-Digest: F1hT1ZOWlesXlejUnK6a/XO6pdQ=
+
+Name: assets/www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.
+ js
+SHA1-Digest: v1wGgDK6sWcSrC4rCWCGYZLYnlY=
+
+Name: res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest: IsziyF2OBzAviNmnk3+DRoNCmAA=
+
+Name: assets/www/bower_components/moment/locale/me.js
+SHA1-Digest: I0X6jG1Ih41gDznl5LZsDqr0yk0=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_pressed.
+ 9.png
+SHA1-Digest: pu2UduH933a/d6kojcin05VwLvo=
+
+Name: assets/www/plugins/cordova-plugin-dialogs/www/notification.js
+SHA1-Digest: jixSSnNVeunkotE0PObFv2jS9h4=
+
+Name: res/drawable/common_google_signin_btn_text_dark_focused.xml
+SHA1-Digest: EDyQMA79kQkNbF4XHIms2nQ5bxI=
+
+Name: res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.pn
+ g
+SHA1-Digest: 7jiYC3U0WGA2uR78grIQgTFCxwU=
+
+Name: assets/www/bower_components/moment/src/lib/locale/en.js
+SHA1-Digest: 6xrpK/ig4wLnl9SP3CpRWCKamtA=
+
+Name: res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+SHA1-Digest: lag51wiZpAOgXCKksGJxOIy8Yb0=
+
+Name: res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+SHA1-Digest: 3fhmc4V2nmgfmXePbvfRvhgIwJY=
+
+Name: assets/www/bower_components/moment/locale/ja.js
+SHA1-Digest: OEDU10T8fQDg4ZwrG+d4QJ9KL/Q=
+
+Name: assets/www/bower_components/moment/src/locale/fr-ch.js
+SHA1-Digest: ba5vZ3yhsWsgBRuiDOh+93TnurE=
+
+Name: res/layout/abc_action_bar_view_list_nav_layout.xml
+SHA1-Digest: fSqRodvHBJ8D7VhSkpJmUSSg3dI=
+
+Name: assets/www/bower_components/moment/locale/sr-cyrl.js
+SHA1-Digest: KaJS5L07TfSSqxM+2oCWhoNIqGc=
+
+Name: assets/www/plugins/cordova-plugin-3dtouch/www/ThreeDeeTouch.js
+SHA1-Digest: +ZWp1kDc4iTFybfa5W+B6jx3Fxs=
+
+Name: res/drawable-land-xxhdpi-v4/splashscreen.png
+SHA1-Digest: GSo2Q15SCJoOfh2KR0AuPRdkqF4=
+
+Name: assets/www/scripts/cnu-alert.js
+SHA1-Digest: akNTv8zbb0d2LJLg2viX3STOp/M=
+
+Name: assets/www/bower_components/moment/locale/pt.js
+SHA1-Digest: QBpNsCgbu2yzLKBLTu2XgeLOI+8=
+
+Name: res/anim/abc_slide_in_bottom.xml
+SHA1-Digest: 6SIMoqi7/LVEqpyfDSSCRJ9qRR4=
+
+Name: res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+SHA1-Digest: hHalPEKfujAaI/HNCYxG3j6HCwM=
+
+Name: assets/www/plugins/cordova-plugin-network-information/www/networ
+ k.js
+SHA1-Digest: pYMLF4EQ7c0MEmgS/8LDlMqjg4I=
+
+Name: assets/www/styles/dining.css
+SHA1-Digest: edrC/010bfCC7J/vx9Ndi10WIpg=
+
+Name: res/drawable-xxhdpi-v4/abc_text_cursor_mtrl_alpha.9.png
+SHA1-Digest: Tb9cm+SQALqNFHUAlVQYCIonubg=
+
+Name: res/layout/notification_template_part_chronometer.xml
+SHA1-Digest: SWtiuVwmJAhYsUcBC+AL2sq6MTI=
+
+Name: assets/www/bower_components/moment/src/lib/create/utc.js
+SHA1-Digest: 82L5sdFt68t2MvcncmNDvr8isb0=
+
+Name: assets/www/bower_components/moment/src/locale/me.js
+SHA1-Digest: Bt/xlipuiPe6peMOzbnbtuxIjiw=
+
+Name: assets/www/bower_components/moment/src/lib/units/day-of-year.js
+SHA1-Digest: BP8rq7sGm1GEHnMa3KKksWCZUjQ=
+
+Name: res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png
+SHA1-Digest: I+f9Vf8JVX6hz0eqBuaNI+f4Rtc=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+SHA1-Digest: N0GeqvKsQ86WgTefxF43N8xqR7s=
+
+Name: res/layout-v16/fragment_feedback_items.xml
+SHA1-Digest: wZOqRdFlLg/AshMiW6ZGq5RcEOk=
+
+Name: assets/www/bower_components/moment/locale/zh-tw.js
+SHA1-Digest: c8FtRZZFZ+3l5ADqbY9U4eshBQo=
+
+Name: AndroidManifest.xml
+SHA1-Digest: XoZuNHdhy0pFnbYjb84+6ZTD+Ec=
+
+Name: assets/www/scripts/calendar.js
+SHA1-Digest: wHibW2zJGvMMWwrtp4alzk6dVMw=
+
+Name: assets/www/styles/font-awesome/scss/_variables.scss
+SHA1-Digest: gXdsNjCiOrvYS0ESJitqZWZNuyQ=
+
+Name: assets/www/bower_components/async/dist/async.js
+SHA1-Digest: xXRDn8InYJCHIgJZ3/tElyTyM74=
+
+Name: assets/www/bower_components/moment/src/locale/eo.js
+SHA1-Digest: Gfqg238UUtTkmMSscankd3VlOYE=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_text_light_pressed
+ .9.png
+SHA1-Digest: mV+d3YaPlGIynixwELQbm0nnAjk=
+
+Name: res/drawable-mdpi-v4/ic_send.png
+SHA1-Digest: NBIylkgu3uQzG9z5f9/HCxqKIYo=
+
+Name: assets/www/resources/icon/Navigator-icons-captcard.png
+SHA1-Digest: IBoySMo+kV7coRL6UUrUZ2Zg9+M=
+
+Name: assets/www/bower_components/moment/src/locale/ar-ly.js
+SHA1-Digest: xI4aMxjSFy11FrLqJIhhuYDOU/s=
+
+Name: res/layout/abc_search_dropdown_item_icons_2line.xml
+SHA1-Digest: 2whtBIsYcA7sRdLzeuuyg7F19yU=
+
+Name: assets/www/bower_components/moment/src/locale/zh-tw.js
+SHA1-Digest: l3tQpWMdcva5PjUehaIWnpVMooQ=
+
+Name: res/color-v11/abc_background_cache_hint_selector_material_dark.x
+ ml
+SHA1-Digest: kDMZVn17lFnIjcDierzDe56bmlM=
+
+Name: res/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+SHA1-Digest: jWJsZmetCXat+NVjEu/tBAuBQlg=
+
+Name: assets/www/bower_components/moment/src/locale/ka.js
+SHA1-Digest: /JDRmIHGu/l8seKDhAib4d2IgLU=
+
+Name: assets/www/bower_components/moment/locale/ar-ly.js
+SHA1-Digest: cV+RDt2OPLaodt50G76WccIesqA=
+
+Name: res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+SHA1-Digest: Iz14YLSRp9C85A2InSd7OO4Ga6U=
+
+Name: assets/www/plugins/cordova-plugin-device-orientation/www/compass
+ .js
+SHA1-Digest: ymyMTtfRrNRqlFD8j3o1VFPwwGA=
+
+Name: assets/www/bower_components/moment/bower.json
+SHA1-Digest: IXRWhNg4bhb8kYfNJnx/qqtaPek=
+
+Name: assets/www/bower_components/dialog-polyfill/package.json
+SHA1-Digest: 7ggrrE4ISMZ9wR+/rMCzXtqickU=
+
+Name: assets/www/bower_components/moment/src/lib/utils/abs-ceil.js
+SHA1-Digest: DD9L20arEzUL723XhNqxDtAJ9BA=
+
+Name: assets/www/styles/font-awesome/scss/font-awesome.scss
+SHA1-Digest: q3Y4xoRCg8auaFOR1eDjOhu5Cn8=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_disabl
+ ed.9.png
+SHA1-Digest: Swy4bwtMVbIBH3uAhtDC4aqTDUs=
+
+Name: assets/www/resources/icon/Navigator-icons-dining.png
+SHA1-Digest: /f+/aRqxxy5rlTPFdu7zfYYwV1o=
+
+Name: res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest: aUIDnRamFb6j/PqhSvVTX3mqFjk=
+
+Name: assets/www/bower_components/moment/src/locale/pt.js
+SHA1-Digest: 1yNDtpXQa9qYWcWfR6Ogd8UNP2M=
+
+Name: assets/www/resources/icon/Navigator-icons-news.png
+SHA1-Digest: JS47NQd1w8JYuQKiHSgIJL60YCk=
+
+Name: assets/www/bower_components/moment/locale/x-pseudo.js
+SHA1-Digest: 7olI86PkkvKJ2glP02AcLlD8kXY=
+
+Name: assets/www/styles/icons/status/yellow.png
+SHA1-Digest: lR7OgfAo1vXmXd1WosRnkrETrhI=
+
+Name: assets/www/bower_components/moment-timezone/composer.json
+SHA1-Digest: 4W8ArHMaJXBdbCj/yS3G6LZ0QjA=
+
+Name: assets/www/bower_components/moment/src/lib/units/aliases.js
+SHA1-Digest: x27+cdlYixNOqU7i8tOMoXna398=
+
+Name: res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+SHA1-Digest: d0kEEI+/V8o5ZktC8lIZ+SzV6rs=
+
+Name: res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+SHA1-Digest: Y1JwQeRwRJZRUJx5Q0CPt7J3lHY=
+
+Name: assets/www/cordova.js
+SHA1-Digest: xeu+GvvWOI8wQf//Y709NTI3TH4=
+
+Name: res/drawable-hdpi-v4/icon.png
+SHA1-Digest: 5pv1JDub8S7f191vPezQOQirGp4=
+
+Name: assets/www/bower_components/moment-timezone/changelog.md
+SHA1-Digest: STdgsk2o2AMq9SOxoMrMmSTZxzk=
+
+Name: assets/www/resources/moment-timezone.min.js
+SHA1-Digest: yJp6nN9McLAxKfKwNWNuwGSFeRI=
+
+Name: res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+SHA1-Digest: rL3TZUhohITTkRelAbXfdtwvnBs=
+
+Name: assets/www/styles/icons/reload.png
+SHA1-Digest: mZIUZtFdqRuesVPDV3jHiJBAM2E=
+
+Name: assets/www/styles/mobile-nav-font/TrajanPro-Regular/TrajanPro-Re
+ gular.svg
+SHA1-Digest: YI+rgQqbj1jpOB84j+6Us3wRHzk=
+
+Name: assets/www/bower_components/moment/src/locale/ar.js
+SHA1-Digest: 0d0adMkQX6X1VkQjOlYf5bC5WiE=
+
+Name: res/drawable/abc_list_selector_holo_light.xml
+SHA1-Digest: 5N9tD5EOpPgTU+lgDxepJzZ5ffE=
+
+Name: assets/www/bower_components/moment/locale/nl-be.js
+SHA1-Digest: 7ep6vrIv2LeF7AE2X+hm58BHBG0=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileEntry.js
+SHA1-Digest: f43gQV+aF0HCws4LibGYdJoiWKk=
+
+Name: assets/www/spec/wcnu.spec.js
+SHA1-Digest: COCtoXBpRFZWD4jC8ujOqqo4mSk=
+
+Name: res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+SHA1-Digest: ZdSi9pjnfeKp4nzWqkhiXZ/W3us=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_norma
+ l.9.png
+SHA1-Digest: c3xbG7nznckTitL9WIZt/Oh5fJs=
+
+Name: assets/www/bower_components/moment/src/lib/utils/defaults.js
+SHA1-Digest: HArb9Q7a/SxssRFOSXaycfKm06o=
+
+Name: res/drawable-land-hdpi-v4/splashscreen.png
+SHA1-Digest: B8lQpmXEWvf7fE2w32YqCdoBgTw=
+
+Name: assets/www/scripts/campus-map.js
+SHA1-Digest: AcruQSFX3zyt2braYcLvTVQLlXQ=
+
+Name: assets/www/bower_components/moment/locale/da.js
+SHA1-Digest: aKMPrf/xXQ/Ah3enyTICfdnM/cc=
+
+Name: assets/www/bower_components/moment-timezone/builds/moment-timezo
+ ne-with-data.min.js
+SHA1-Digest: J4m3R7pB5UqaSkD5ZYd1VHeH7cc=
+
+Name: assets/www/bower_components/moment/locale/en-gb.js
+SHA1-Digest: h6CXLd9D0QZadYEz24P3qxqDjkI=
+
+Name: assets/www/bower_components/moment/src/lib/utils/hooks.js
+SHA1-Digest: oAM3mHIk2FTj008thvSice+WWc8=
+
+Name: assets/www/styles/images/mobile-navigator.png
+SHA1-Digest: B6GLyTjfMAlGV/GmsGJqNAp7cok=
+
+Name: assets/www/bower_components/moment/src/locale/ne.js
+SHA1-Digest: IJRscBdKQ75k+mzhGgThiWnJSRM=
+
+Name: res/drawable-xhdpi-v4/abc_list_focused_holo.9.png
+SHA1-Digest: Odk0wSbJp0hyQ3RZGhgf+2IXqBU=
+
+Name: assets/www/styles/font-awesome/less/spinning.less
+SHA1-Digest: 8TiOMgP9WQywQmDMoa98ebB5wTs=
+
+Name: assets/www/bower_components/moment/src/lib/units/minute.js
+SHA1-Digest: XT2A5MuYsT/hLRAzQXTALDlHo2I=
+
+Name: assets/www/bower_components/moment/src/lib/utils/is-array.js
+SHA1-Digest: 70WYPe496pPA+gXWl9JUfV9qza0=
+
+Name: res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+SHA1-Digest: GsP9bvmw/aSdYnV9d6BOP1UPSu0=
+
+Name: assets/www/styles/jplayer/pink.flag/image/jplayer.pink.flag.seek
+ ing.gif
+SHA1-Digest: LU19XbYaclDwx+7HaHxsc1+fG6Y=
+
+Name: assets/www/bower_components/dialog-polyfill/bower.json
+SHA1-Digest: IDa0QjGE3TqkjXAy6ZCyRpdYbTg=
+
+Name: assets/www/bower_components/moment/locale/tzm.js
+SHA1-Digest: BjaB83W590s62Fd2CBQgGtsJOuM=
+
+Name: assets/www/bower_components/moment/locale/ar-dz.js
+SHA1-Digest: r2p0r/8u0RFTLHEYVMBT9O0+wuk=
+
+Name: assets/www/bower_components/moment/src/lib/units/month.js
+SHA1-Digest: 1UV8jiZ367gpp/SK0CiTvFx4Z00=
+
+Name: assets/www/bower_components/moment/src/locale/vi.js
+SHA1-Digest: jEVHIJ9TvNiHbBVyuNhhUZB9cvc=
+
+Name: res/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png
+SHA1-Digest: q+kc0HxkKtQPKuAqRk2Y5gpw36E=
+
+Name: assets/www/bower_components/moment/src/locale/my.js
+SHA1-Digest: HZ6LMtmkmO7F7CYjgau5hBwJ4xQ=
+
+Name: res/drawable/abc_dialog_material_background_dark.xml
+SHA1-Digest: uhnIaFCV3Qb1AlpCgHD8gzkLQW8=
+
+Name: assets/www/bower_components/moment/locale/fr-ch.js
+SHA1-Digest: e9ko9bbgTzynu+4/4AOp0CXq6lo=
+
+Name: assets/www/bower_components/moment/locale/ky.js
+SHA1-Digest: S4OdJSQqHJuhEEvKE0YsXFprbEc=
+
+Name: assets/www/plugins/cordova-plugin-device/www/device.js
+SHA1-Digest: px3MV6AYWn9rdTxcFkfk+kwIZEM=
+
+Name: res/layout/select_dialog_multichoice_material.xml
+SHA1-Digest: a1quZWT+OAbhACUszxR1jCKiCeU=
+
+Name: res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+SHA1-Digest: D05vLA3EQm5s0I7/LkpTwljdVKs=
+
+Name: assets/www/views/settings.html
+SHA1-Digest: Cw0/WIBUZNenNYDh4QxguxXVYl8=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_icon_light_pressed
+ .9.png
+SHA1-Digest: cL7k+oa3kwakxaqSnJJS4l9jqVE=
+
+Name: res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
+SHA1-Digest: ZbFwYRiDS6lC6psf14qui2W4zQQ=
+
+Name: assets/www/spec/app.spec.js
+SHA1-Digest: RXbwJ+G+lD/9RmnvQS/IfefldsU=
+
+Name: res/layout/abc_action_mode_bar.xml
+SHA1-Digest: kh4yYMc9DAcX0o2sPlbAxjNqHpw=
+
+Name: assets/www/scripts/program.js
+SHA1-Digest: W/GmrEPIX7QuOjVbNpy3MHe8f14=
+
+Name: assets/www/bower_components/moment/src/lib/units/week-year.js
+SHA1-Digest: Hnn9QYAbkvJX5YoiZXFqKWB/baw=
+
+Name: res/layout/notification_media_action.xml
+SHA1-Digest: G2rWy7ZO2jcPYKHVJx13XJTO/AA=
+
+Name: assets/www/styles/jplayer/pink.flag/image/jplayer.pink.flag.vide
+ o.play.png
+SHA1-Digest: wHj4DZE3bNzeL2mkcumR1pb7Ev8=
+
+Name: res/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+SHA1-Digest: 9dHaWB2IB3lvbwLbTWpP1DOw7gA=
+
+Name: assets/www/bower_components/dialog-polyfill/suite.js
+SHA1-Digest: MJ295m7rO/yjrcVQnT+0LZ/84Ic=
+
+Name: assets/www/bower_components/moment/locale/uz.js
+SHA1-Digest: KvbsWhu6nDXA/y9GEhpcruQB8k0=
+
+Name: res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha
+ .9.png
+SHA1-Digest: nsQuRlyDdelXmMOnrRJLopJfiKM=
+
+Name: res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+SHA1-Digest: nuld1RomiGBKqE5EsGnC+AbnNZ4=
+
+Name: assets/www/bower_components/moment/src/lib/duration/iso-string.j
+ s
+SHA1-Digest: KP7gKTCdX/+t2pVfg7sWuz78aIQ=
+
+Name: assets/www/bower_components/moment/src/lib/duration/prototype.js
+SHA1-Digest: 2QaTQI8VNnIUhq5geoEapL3Y1V8=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+SHA1-Digest: ZSt+MfbTTjV0uWsWLMQxxpiAMKs=
+
+Name: assets/www/bower_components/moment/src/locale/ja.js
+SHA1-Digest: 6kNJH5CAg2ciIs+eM1YVZAg6xRo=
+
+Name: res/layout/abc_list_menu_item_checkbox.xml
+SHA1-Digest: qp3D8RetZy060Cr6z82q338APXs=
+
+Name: assets/www/bower_components/moment/src/lib/locale/lists.js
+SHA1-Digest: rVxmucoYvLgzXczXVlQA3mgf9oo=
+
+Name: assets/www/kendo/styles/images/wp8_icons.png
+SHA1-Digest: 6QLUI2OaM/EEfZEJLru4rlU/TII=
+
+Name: res/color/abc_secondary_text_material_dark.xml
+SHA1-Digest: f/qkxjrulA3xh/Yx9N9Hi0ZRrfU=
+
+Name: assets/www/bower_components/moment/templates/test-header.js
+SHA1-Digest: 8pyB+M0ZJ06lZMjOABCsu3IPs+Q=
+
+Name: assets/www/bower_components/moment/src/locale/sv.js
+SHA1-Digest: zegx1qWGY2/ulBRApso6Bf213R0=
+
+Name: res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+SHA1-Digest: VWLF8TTTUOBsAiD0yvJLEW+a31s=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_disabl
+ ed.9.png
+SHA1-Digest: KBkwSYr+uoZj9aOAdZnVz/yK1ug=
+
+Name: assets/www/bower_components/moment/src/lib/utils/is-number.js
+SHA1-Digest: DfXl2D39NMTGZ5LC+iYD1+/1dpM=
+
+Name: assets/www/styles/common-styles.css
+SHA1-Digest: B/XJNGV2gm1DLCWn6QfQ9O+SrKE=
+
+Name: assets/www/views/ferguson.html
+SHA1-Digest: 913PlGjepWBcfHSvtwJhTn4tBIE=
+
+Name: assets/www/bower_components/moment/locale/hu.js
+SHA1-Digest: fRPQJT6sMfygUMRAPoutwclckE0=
+
+Name: res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+SHA1-Digest: Ru/5gdvlfkildvpGUFrUQC8Khas=
+
+Name: res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+SHA1-Digest: kOk4QMDxjU9YV4nRZrKqHFOddV0=
+
+Name: res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+SHA1-Digest: nM7eMb1IwRTSPeCUiRnPcn3CGRw=
+
+Name: res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png
+SHA1-Digest: gLcFerBxZUHHCrWZLH3iEvl0WT0=
+
+Name: assets/www/bower_components/moment/src/lib/create/from-array.js
+SHA1-Digest: wVXSBWFWoefRJbTLkj2ejbDr4o0=
+
+Name: assets/www/plugins/cordova-plugin-whitelist/whitelist.js
+SHA1-Digest: MoyJOyBLOGY52NDXvZ3+1dLPrpQ=
+
+Name: res/drawable/common_google_signin_btn_text_light_focused.xml
+SHA1-Digest: pw9puP5vp5t6Y/u0nHDyxhzLWTc=
+
+Name: res/layout/notification_template_media.xml
+SHA1-Digest: MjtXMMuViDqh+356+nOFICVOZk4=
+
+Name: assets/www/bower_components/moment/locale/bs.js
+SHA1-Digest: cZwuNsLNBEqLtOnLt9F9o8lgylQ=
+
+Name: assets/www/views/cnutv.html
+SHA1-Digest: RYUhPNNBBz8DIPJq3X27BGQz5zA=
+
+Name: res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+SHA1-Digest: h5j/dClhlo/B7IhQ8Pwg9pfpSto=
+
+Name: res/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png
+SHA1-Digest: 4IOwKMQ3nb6V0ec6C06JyK8vzu8=
+
+Name: res/layout/notification_template_lines.xml
+SHA1-Digest: hori4pWIZqZcOtG04LCgcYV9rwA=
+
+Name: assets/www/bower_components/moment/src/locale/ar-dz.js
+SHA1-Digest: ZsemYvau6lm5bGhEM2RWHQNlFcQ=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest: BNXGswOGl0PZX/K4NOGx53YEYsE=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_text_dark_disabled
+ .9.png
+SHA1-Digest: E7WHFDMXxpUR+MprHb1MUJfZrjQ=
+
+Name: assets/www/bower_components/moment/min/moment-with-locales.min.j
+ s
+SHA1-Digest: MT/D4bv9/hfRW0gvNjrHsyLTkhA=
+
+Name: assets/www/bower_components/slidr/README.md
+SHA1-Digest: Y99i+8APGK1Vnb922+GwA618y5o=
+
+Name: res/anim/abc_slide_in_top.xml
+SHA1-Digest: ps83fDCN37hSi5vdARGgPEjdET8=
+
+Name: res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png
+SHA1-Digest: BY8cHWBjISmMI2i+RFH96y5MQfc=
+
+Name: assets/www/plugins/cordova-plugin-google-analytics/www/analytics
+ .js
+SHA1-Digest: h7Geoipkv+0lPJaPRvLC64PNn4s=
+
+Name: assets/www/bower_components/moment/src/locale/nn.js
+SHA1-Digest: Z0oKmYtJcxUhxT8hb0fwP5F2+Qo=
+
+Name: assets/www/styles/font-awesome/less/icons.less
+SHA1-Digest: TrpcB/wAJDdM0ZVV35DbwixtPgc=
+
+Name: res/layout/abc_simple_dropdown_hint.xml
+SHA1-Digest: xGE5Nr11Us1ancpYebhmXYNfUjo=
+
+Name: assets/www/bower_components/moment/src/locale/sk.js
+SHA1-Digest: uDYNlxYfR1AHC75DXey3VvHfOfM=
+
+Name: assets/www/plugins/cordova-plugin-file/www/Flags.js
+SHA1-Digest: As5lNueeCAEqhtEQqUc37dt0ojU=
+
+Name: assets/www/views/printer-locations.html
+SHA1-Digest: anTxl9OCg16wsxGHlTzslO1w4qg=
+
+Name: res/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+SHA1-Digest: 5IatRhjXej5+Bc3aYio+o9214lQ=
+
+Name: res/color/abc_primary_text_material_dark.xml
+SHA1-Digest: +em2a5oDjKtkOQ/rnnaw/QRGI6Q=
+
+Name: assets/www/styles/emergency-information.css
+SHA1-Digest: Gfu2PbErTobVYh24rP53WAVJ5C0=
+
+Name: res/drawable-hdpi-v4/comment_indicator.xml
+SHA1-Digest: Y4FMussg0QZLNlJfwuNFLXOEHjs=
+
+Name: assets/www/bower_components/moment/src/locale/tlh.js
+SHA1-Digest: B8qp1HXw3Z1w+20eDnb+f2LbgfI=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_icon_light_pressed
+ .9.png
+SHA1-Digest: cz9llAqUk80rB8STSuR+1iAmoQ0=
+
+Name: assets/www/resources/icon/recycle.png
+SHA1-Digest: 4NFbyj1fPamUIf8nq3XvjKbMhnk=
+
+Name: res/color-v11/abc_background_cache_hint_selector_material_light.
+ xml
+SHA1-Digest: e8KhMUBVDx4U4mvWVkOKABoTXGo=
+
+Name: assets/www/bower_components/moment/src/lib/utils/keys.js
+SHA1-Digest: Sf5OE3irnJYE3oxCE4PMg2oMG0U=
+
+Name: assets/www/resources/icon/Navigator-icons-recycle.png
+SHA1-Digest: UDHchgHq8ds4EVBrrlHXFBfI7W0=
+
+Name: res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+SHA1-Digest: Bj6BC2+QG7pc8RQwt/bo9WgmUR0=
+
+Name: assets/www/bower_components/moment/locale/sq.js
+SHA1-Digest: su933n/RMLcWsB5ryoR69Jrhztg=
+
+Name: assets/www/scripts/captains-card.js
+SHA1-Digest: UedjTBNfspnxddMs7LQicuu4/Ys=
+
+Name: assets/www/bower_components/moment/src/lib/moment/get-set.js
+SHA1-Digest: RNejoB3T8GptF6QAALnjYsRk6XY=
+
+Name: res/drawable/abc_textfield_search_material.xml
+SHA1-Digest: OPeH9JCx9wcD/7IOEKBjpttiXZE=
+
+Name: assets/www/bower_components/moment/src/lib/create/parsing-flags.
+ js
+SHA1-Digest: O94Xn+sXtFjz9iuK2NBqQPiR3EY=
+
+Name: res/drawable-land-mdpi-v4/splashscreen.png
+SHA1-Digest: POOkzZvJTLt4QucuZ02Hbg9Ekg0=
+
+Name: assets/www/bower_components/moment/src/locale/yo.js
+SHA1-Digest: PPNSM24loH7wGOi10CeCpjTdfGc=
+
+Name: assets/www/styles/icons/sports/football.png
+SHA1-Digest: WiSggOjx4uLNd+nXPnO9LC7FX+k=
+
+Name: assets/www/views/application-information.html
+SHA1-Digest: MlSjCZm0UWcO5dT/iDqtOq5MDFY=
+
+Name: assets/www/scripts/it-status.js
+SHA1-Digest: ynCj+9J3S4VD5dVjIaoC3DOc74s=
+
+Name: assets/www/views/program.html
+SHA1-Digest: e/8zDpWX+7A+/WTiyTdhmnsMMzc=
+
+Name: res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+SHA1-Digest: Jrc7Wnxi6R1ydjCdOBfCkiBqY5s=
+
+Name: res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png
+SHA1-Digest: jaCqE8RSPyJL2tSTf5ctOZ8Wkp8=
+
+Name: res/layout-v17/notification_template_big_media.xml
+SHA1-Digest: OJEWsvCYlofKKupfzAmS4s2m9ZY=
+
+Name: res/drawable-mdpi-v4/ic_action_next_item.png
+SHA1-Digest: ZzISkM7wLyAw7HkVAX3PN79mc5w=
+
+Name: assets/www/bower_components/dialog-polyfill/dialog-polyfill.js
+SHA1-Digest: wZSfURqH6p0Jrilsx1m0hCvpmp0=
+
+Name: assets/www/bower_components/moment/src/lib/locale/prototype.js
+SHA1-Digest: Ssovi6S9YN3uTuJBt5UCQ+6L2K4=
+
+Name: assets/www/bower_components/moment/locale/cs.js
+SHA1-Digest: HiOgXHRi2CjQEx80UQjs/97mygE=
+
+Name: assets/www/bower_components/moment/locale/ro.js
+SHA1-Digest: KWPuN1V7gdXYL+i6zHdwZGyyn1k=
+
+Name: assets/www/bower_components/moment/src/lib/units/timezone.js
+SHA1-Digest: jxDEaRCJeYMNr3VBAA3ZLxL3Yac=
+
+Name: assets/www/styles/font-awesome/fonts/fontawesome-webfont.ttf
+SHA1-Digest: XdhK+kX5AUaBhZhbpmKwxMkQc9Q=
+
+Name: assets/www/bower_components/dialog-polyfill/test.html
+SHA1-Digest: NEQDqJc7tx9joKS9y2ccMdKsqU8=
+
+Name: res/layout/abc_action_bar_up_container.xml
+SHA1-Digest: uv7mQ2TwvEAkl0s+nKeBvHEsg1o=
+
+Name: assets/www/bower_components/moment/src/locale/gd.js
+SHA1-Digest: gdN1Dk+AofhqeyIqPSaXb6lIqc0=
+
+Name: assets/www/bower_components/moment/src/locale/dv.js
+SHA1-Digest: 31EMuQfdQisuIcyMJgkDvQD6Kb0=
+
+Name: assets/www/bower_components/moment/locale/af.js
+SHA1-Digest: SxAMOowjGA8k70i5mIXwRqWHUP0=
+
+Name: res/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+SHA1-Digest: 5ULb9hyY8B2KhMZvym8Z5+FVzfg=
+
+Name: res/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+SHA1-Digest: vQmXQdNzmXCBqdsbY/d/c4tcriY=
+
+Name: assets/www/bower_components/moment/min/moment-with-locales.js
+SHA1-Digest: yay2pdreyvtENj6+C9ePSC3vJws=
+
+Name: assets/www/scripts/cnutv.js
+SHA1-Digest: yhu+Tzhk35F4Kfw8mi4whHHhInE=
+
+Name: res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest: 1eUw+sL9F3lrH3Egz6PJLi/DcLE=
+
+Name: res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest: nXZ4V1mFaOHaCmrZgjirnAh+5fg=
+
+Name: assets/www/bower_components/moment/src/locale/en-gb.js
+SHA1-Digest: y9cIcP0EzjQmtWsdrnVJNiVE7i4=
+
+Name: res/drawable-hdpi-v4/common_full_open_on_phone.png
+SHA1-Digest: IYhERD2r3O1CfXk1KLb3SP8B6vo=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal
+ .9.png
+SHA1-Digest: 3k8iTomgtb3SG+7LxwHcL2G0T4U=
+
+Name: assets/www/bower_components/moment/CHANGELOG.md
+SHA1-Digest: L9BNDUSbwaPTeKd1JzP4v3b3g0w=
+
+Name: res/drawable-mdpi-v4/abc_ic_clear_mtrl_alpha.png
+SHA1-Digest: uBeEbcEjrdVCjqYrMZxnKjGCKO8=
+
+Name: res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+SHA1-Digest: sNds9Ym0phYx3ALXo+MZX8xlc30=
+
+Name: assets/www/bower_components/moment/locale/es.js
+SHA1-Digest: 7m/gjMVHk+3V0BPoeCepVRYQ4nQ=
+
+Name: res/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+SHA1-Digest: bXYpcCYT7HFxTzc+wiqDupDdAh0=
+
+Name: assets/www/styles/icons/grid.png
+SHA1-Digest: JlFGW+3xSr5BeDG5XzW4Iwhm7a8=
+
+Name: res/layout/list_progress_indicator.xml
+SHA1-Digest: 0CHapvp3Cn1ODn1WT6Jg2knrYX4=
+
+Name: assets/www/bower_components/moment/src/lib/duration/create.js
+SHA1-Digest: jHSHWimtHIhpvesLVVnKXIlrsJA=
+
+Name: assets/www/styles/mobile-nav-font/mobile-navigator/mobile-naviga
+ tor.woff
+SHA1-Digest: d1pFeZkj2Jlh7iDLpC/gT7qf1Vc=
+
+Name: res/drawable/abc_edit_text_material.xml
+SHA1-Digest: hgMTVEB1E06+344xi4LaqCZ/bPA=
+
+Name: res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png
+SHA1-Digest: ZYylbxghmao0BSij8GU41e5ABNk=
+
+Name: assets/www/views/emergency-procedures.html
+SHA1-Digest: 07bRxMBoo7CJcgVcAZHtBbjFAdo=
+
+Name: res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+SHA1-Digest: 6jnEZnvF6Wf/iso9scq8BExu9D4=
+
+Name: assets/www/bower_components/moment/src/lib/moment/add-subtract.j
+ s
+SHA1-Digest: 3ntF9CZb7emQCojGjeozQC/dQO0=
+
+Name: assets/www/bower_components/moment/locale/mi.js
+SHA1-Digest: yZraA9BmH/KSxPJFWfmUi/db6yE=
+
+Name: res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png
+SHA1-Digest: VAWAgM1S6jdrYNnzjAk62DbHpA8=
+
+Name: assets/www/scripts/tv-guide.js
+SHA1-Digest: E+TVYnUpfgFOUB5XTEmH7Vyn0EU=
+
+Name: res/anim/abc_grow_fade_in_from_bottom.xml
+SHA1-Digest: IZJZrbKJdaCmOjZ+4tsaOiU4nW8=
+
+Name: res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png
+SHA1-Digest: +VIFOUvUwxbnTdHmmjA8LWrUN0k=
+
+Name: res/color/switch_thumb_material_dark.xml
+SHA1-Digest: hekhSjhnLA7VqoCnNvbgwFtv5x8=
+
+Name: assets/www/bower_components/moment/moment.js
+SHA1-Digest: g/32RZlD17V8bsyPJbxbuIoIL8s=
+
+Name: assets/www/bower_components/moment/src/locale/tet.js
+SHA1-Digest: ldRfAEiJOp0t/HZ5R9xHe46hKa4=
+
+Name: res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png
+SHA1-Digest: iTn+f2UeqDS/N9Mz61cAgLYvyNY=
+
+Name: assets/www/bower_components/moment/src/lib/utils/zero-fill.js
+SHA1-Digest: +vgFJ50/dBi6tSdyUIQYKsrtf0Q=
+
+Name: assets/www/styles/icons/sports/lacrosse.png
+SHA1-Digest: ilA1mP2WCXwOXDfeiFu47IkYBY4=
+
+Name: assets/www/bower_components/moment/src/lib/units/constants.js
+SHA1-Digest: 4Px/Fz3Xkpz64BLuDDOfzeix0Qs=
+
+Name: assets/www/bower_components/moment/src/lib/utils/is-date.js
+SHA1-Digest: zYavxmn9rHDKogwa7dnf20yz22A=
+
+Name: assets/www/styles/font-awesome/less/list.less
+SHA1-Digest: QpX4VaA0M3qHxpZlHwEf4VeqqMg=
+
+Name: res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png
+SHA1-Digest: cfFMIxTwNtetJtTXsoiAssgHwhE=
+
+Name: assets/www/bower_components/moment/src/lib/duration/as.js
+SHA1-Digest: 6qJo7TFQ+C0b1WNx+jGpKcc53VI=
+
+Name: assets/www/bower_components/async/intro.md
+SHA1-Digest: aFPgmybmmytMaCz/HJKRNT98vwk=
+
+Name: assets/www/resources/icon/Navigator-icons-gym_weight.png
+SHA1-Digest: jD+rukZ13bC/EsZhHjwAyzfQQzY=
+
+Name: assets/www/bower_components/moment/locale/mr.js
+SHA1-Digest: 46/a1g/Gxo+I6F4FJOwjJd0ldJ0=
+
+Name: assets/www/bower_components/moment/src/locale/is.js
+SHA1-Digest: pk+F4SWEKmBFySVqnjQWDkEWkGM=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_text_dark_pressed.
+ 9.png
+SHA1-Digest: ZUx+r87PvylNCeALeVLwtL3lPWE=
+
+Name: assets/www/bower_components/moment/src/locale/ml.js
+SHA1-Digest: RFjzIHX3A24LtQHwtwQp5OOXVMI=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileError.js
+SHA1-Digest: skIRQcTKz8zTXtsZkSUoDfyckSI=
+
+Name: assets/www/bower_components/moment/src/lib/utils/is-function.js
+SHA1-Digest: upe0gY8/EvI3aPgjprNKGeGQMOU=
+
+Name: assets/www/styles/font-awesome/scss/_larger.scss
+SHA1-Digest: rqd1IsoFPpZ57NLDe1coiZrAx64=
+
+Name: res/layout/abc_action_mode_close_item_material.xml
+SHA1-Digest: 57LxHR4xrkPEEqgH3L4fcgm7XCE=
+
+Name: assets/www/bower_components/moment/src/locale/fo.js
+SHA1-Digest: +wHu0OebWvZjt67Mq8HLG+VqfBU=
+
+Name: res/drawable-mdpi-v4/abc_list_focused_holo.9.png
+SHA1-Digest: P0wooDvrgcWxD6FuObhOb0leW5c=
+
+Name: assets/www/styles/font-awesome/scss/_fixed-width.scss
+SHA1-Digest: AE9SNVv3ieepThvvOyIUt1gLmbI=
+
+Name: assets/www/bower_components/moment/src/locale/tzm.js
+SHA1-Digest: nXoOy8VhNK9eDp6whGxGQYJXKXk=
+
+Name: res/drawable-mdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+SHA1-Digest: Aqq3eWALeRKydQY7plMxk8OWEU8=
+
+Name: assets/www/bower_components/moment/locale/gl.js
+SHA1-Digest: 5ULNL0nXVJ9AqUmcz9xxEIJkGNY=
+
+Name: assets/www/bower_components/moment/src/moment.js
+SHA1-Digest: hsZEsMRvBXmH6i633uwFfS2eNoE=
+
+Name: assets/www/resources/material.min.js
+SHA1-Digest: nCR6apLtAd4teDRAiLhfzMXclL4=
+
+Name: assets/www/bower_components/moment/src/locale/si.js
+SHA1-Digest: vGYbUyhDUHTgSU9fI9gZqWyzOZ8=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_disable
+ d.9.png
+SHA1-Digest: zIiMk7gmw0RlOws5TyFMyNYSRVs=
+
+Name: res/layout/abc_activity_chooser_view.xml
+SHA1-Digest: LZinmsjlFUAO9oaeRgJrJEkibDo=
+
+Name: assets/www/kendo/styles/kendo.common.min.css
+SHA1-Digest: lSmV4At7bc19QsmEhQmXGLqd1Fg=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_text_light_disable
+ d.9.png
+SHA1-Digest: /hf61tU9y7JNwngQojAE2eN+RIQ=
+
+Name: assets/www/bower_components/slidr/slidr.js
+SHA1-Digest: ACcAIhGpOxo1+l5G2xwoZISfd7w=
+
+Name: assets/www/bower_components/async/bower.json
+SHA1-Digest: zXJuAPDBN71luceX7Z05d1YnT/Y=
+
+Name: assets/www/bower_components/moment/locale/ms-my.js
+SHA1-Digest: WPs4QyodXul70zbMyle44+Y5l/Q=
+
+Name: assets/www/styles/font-awesome/css/font-awesome.min.css
+SHA1-Digest: QLrZDeR56qG1YvDNSXnR7+k3sCI=
+
+Name: assets/www/bower_components/moment/src/locale/cv.js
+SHA1-Digest: VFI8NALgQlVDAqvIXFWjlMSOcxM=
+
+Name: assets/www/bower_components/moment/locale/az.js
+SHA1-Digest: rfxJBU4AsB1AqfmUcdpnFu+RtzQ=
+
+Name: assets/www/bower_components/moment/src/locale/uk.js
+SHA1-Digest: NHT+UDLoK2M1cdkS1mkltvQFmyY=
+
+Name: assets/www/styles/icons/forward.png
+SHA1-Digest: 0k0heamrv77ZQ01du4TqQAlBBNg=
+
+Name: classes.dex
+SHA1-Digest: FvuEc8ZOP2lYwQH9wyESOtoFArg=
+
+Name: assets/www/bower_components/moment/src/locale/id.js
+SHA1-Digest: UZ4Gcxm3+YVLyXBsiLDMXnl63Qs=
+
+Name: assets/www/bower_components/moment/locale/be.js
+SHA1-Digest: jSgCYcsLwA5GzIIu6pq6WO2Bbdw=
+
+Name: assets/www/bower_components/moment/src/lib/moment/diff.js
+SHA1-Digest: S6Z3mmzFCb91UhUhgcTrPl8gbn0=
+
+Name: assets/www/styles/font-awesome/scss/_bordered-pulled.scss
+SHA1-Digest: V2Oh3jqk+cUPVmAPIc88RyTHEec=
+
+Name: res/drawable-xhdpi-v4/splashscreen.png
+SHA1-Digest: ayvRo6f/sM+/+0cuBWk1MXpXxsY=
+
+Name: assets/www/bower_components/dialog-polyfill/LICENSE
+SHA1-Digest: EP3rruiUZqQsmCSm/yjwEVUKJMw=
+
+Name: assets/www/scripts/sports.js
+SHA1-Digest: 8wxptA97MlfcVkMgUFz32+2g/Aw=
+
+Name: res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png
+SHA1-Digest: xcQ0bHWRc+R9tuxQ3wgY1a2eY0k=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal.9
+ .png
+SHA1-Digest: XQr3UhdNDtYxt1WdrVmPR0mLQ3Y=
+
+Name: assets/www/bower_components/moment/locale/nl.js
+SHA1-Digest: 0l3ulYkse9dqy454uoZ+n+2V+zw=
+
+Name: assets/www/bower_components/moment/src/locale/en-nz.js
+SHA1-Digest: fAubme7o2cC/P/ShxxNu9nErH88=
+
+Name: assets/www/styles/radio.css
+SHA1-Digest: hBbpTQD5dJHoswfOM7NDSo8cvwg=
+
+Name: assets/www/views/recycling-locations.html
+SHA1-Digest: hTDN9ECDNLk8Bv2oKFumDryPuYk=
+
+Name: assets/www/bower_components/moment/locale/zh-hk.js
+SHA1-Digest: cFpA/MKN28W5e+n8Mp/u3GfNYQo=
+
+Name: res/menu/view_feedback_items_activity_menu.xml
+SHA1-Digest: 0Qn3Bv3RlrcWMeJzFmJKpPH+TeU=
+
+Name: res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+SHA1-Digest: DqYT/YomMpTVjcgLxNiWd75/E14=
+
+Name: assets/www/kendo/styles/images/kendoui.ttf
+SHA1-Digest: gKkPvYfAUzqqv8eG0EVZBF02TVE=
+
+Name: assets/www/styles/font-awesome/less/font-awesome.less
+SHA1-Digest: Cazhfr2d/kMwC5O3OudJtU6AksA=
+
+Name: assets/www/styles/images/radio-modal-pause.png
+SHA1-Digest: 6rmwA8L085ZofWk9fdwonIkk/dk=
+
+Name: res/layout/feedback_indicator.xml
+SHA1-Digest: p7Fpme1ayqgTG8bWhdIywLM+yqo=
+
+Name: assets/www/styles/applet-icons.css
+SHA1-Digest: QNGb2/+11PBG59bT1S8lk9QN+1k=
+
+Name: assets/www/bower_components/moment/src/lib/moment/to-type.js
+SHA1-Digest: 5prqSCGSDvKTictPAc4dPy/DLhk=
+
+Name: assets/www/bower_components/sprintf/dist/sprintf.min.js
+SHA1-Digest: 2Ym/thNJ7oXUeo1/0q+2y3ZYWgs=
+
+Name: res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9
+ .png
+SHA1-Digest: xc8ZS/e2x39PQlMx1BJGveVjmz4=
+
+Name: assets/www/bower_components/moment/src/lib/locale/base-config.js
+SHA1-Digest: zy6zYqhUtT5TeSkHEWo8Ei9fMQ8=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileWriter.js
+SHA1-Digest: f8LnGMOzApCmvSU6vlNsWMNhHaY=
+
+Name: assets/www/plugins/cordova-plugin-file/www/Entry.js
+SHA1-Digest: dhQXX+8EAuYZzITuBOur83HkAzw=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_norma
+ l.9.png
+SHA1-Digest: SX7OtyetkNSUsr8SQa/Enbh+D28=
+
+Name: assets/www/bower_components/moment/src/lib/create/from-anything.
+ js
+SHA1-Digest: BQDG8/DJpmUF4swwxVNx2FoMeeI=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest: OaiFXSiJUWpwH4XKZfMuGT4thjQ=
+
+Name: resources.arsc
+SHA1-Digest: p47lGNmiQBYvoRVr3Y6x6vcpenU=
+
+Name: assets/www/styles/fonts/roboto400.woff
+SHA1-Digest: ijhJxliHxHF/XuUcBy8QKkB63sk=
+
+Name: res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.pn
+ g
+SHA1-Digest: lwt2Am3zmZOoOe2VkIeiv/r8A54=
+
+Name: assets/www/bower_components/moment/locale/si.js
+SHA1-Digest: /0laH6LZdsT/tJ9+6tClYSxS9NE=
+
+Name: assets/www/scripts/weather.js
+SHA1-Digest: 18D43h4DYBDK6Kx9XyXe24e7XEU=
+
+Name: assets/www/bower_components/moment/locale/uk.js
+SHA1-Digest: scJ1FPSdhJZ26Qa0aFik7wMHH0c=
+
+Name: res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png
+SHA1-Digest: o79LWrpVg8mMdhT8PFdC/uVHnB4=
+
+Name: assets/www/bower_components/moment/min/tests.js
+SHA1-Digest: UZYAihGro/5IqmjTRidx7k4o04o=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal.
+ 9.png
+SHA1-Digest: 17D4AV7f8PgEri4YuRv26Y0Ordc=
+
+Name: res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+SHA1-Digest: LdyLROvWFgig9Vsgsaypd9fZOJY=
+
+Name: res/drawable/abc_list_selector_background_transition_holo_dark.x
+ ml
+SHA1-Digest: ckPgrpq+/sjIMoTaGuCPxvlbN/8=
+
+Name: assets/www/resources/icon/Navigator-icons-ITstatus.png
+SHA1-Digest: XjxCkvhUhJf4laRT5SWvuegfkHY=
+
+Name: assets/www/styles/font-awesome/fonts/fontawesome-webfont.eot
+SHA1-Digest: 8F25FsT4TPv+C7AfoDcD2iUz+OI=
+
+Name: res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest: 9HmgRLugE7XLFQSCcDKTHa0FfIU=
+
+Name: assets/www/views/widgets/sports.html
+SHA1-Digest: ZncN64D9vgVDWxLuhKlw4r82bgI=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_press
+ ed.9.png
+SHA1-Digest: tT3OjMpfkb7fWqyIyxQDvCm6gLo=
+
+Name: assets/www/bower_components/moment/locale/id.js
+SHA1-Digest: O03H55kfhOUCJ9WIxHEc+Mxie1s=
+
+Name: res/drawable-xxhdpi-v4/splashscreen.png
+SHA1-Digest: G6vnRwIwa+yTI9xVqjZP4EaLz5E=
+
+Name: res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png
+SHA1-Digest: qAIMFkG/0R3M4aqwyY6VSqbRGn4=
+
+Name: assets/www/bower_components/moment/src/locale/nl.js
+SHA1-Digest: t82XN2EPpXGiXJs4c83H8oYd85Q=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileReader.js
+SHA1-Digest: jLseLx1kBPvj1iCJM1UbKnIWS/I=
+
+Name: res/layout/abc_screen_simple_overlay_action_mode.xml
+SHA1-Digest: Ntfi+/vR5xGA7fMPDYgGqt6tEnc=
+
+Name: res/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+SHA1-Digest: scPn+EPDdKvl5hwugqtIaBmUIK0=
+
+Name: assets/www/styles/icons/sports/soccer.png
+SHA1-Digest: xrLPAvq9LnoR8s02beETHPOK1+w=
+
+Name: res/layout-v17/notification_template_big_media_narrow.xml
+SHA1-Digest: Ry2cCPVZK5RM1EaEnkRWaDzO5C8=
+
+Name: assets/www/bower_components/moment/src/lib/moment/to.js
+SHA1-Digest: GXZPKXFDTbOb9ewMZ8HQna96Gpc=
+
+Name: res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+SHA1-Digest: fWFzmRTvlhVZBzFAxTslbjQMJB4=
+
+Name: assets/www/bower_components/moment/src/locale/et.js
+SHA1-Digest: jKB/e0eOv5ZEU35+NtbmbsMxVkg=
+
+Name: assets/www/bower_components/moment/src/locale/x-pseudo.js
+SHA1-Digest: wx3XrpZ0AFCvaD7KWqGHx0XnIxk=
+
+Name: res/drawable-ldpi-v4/splashscreen.png
+SHA1-Digest: OPMI6A+Fi7unQ91H8A4g6wKc7/E=
+
+Name: assets/www/bower_components/async/dist/async.min.js
+SHA1-Digest: PVNrC+LgSPosMVkOH4th7GNcM+8=
+
+Name: res/anim/abc_fade_in.xml
+SHA1-Digest: wE1QEZhFkLBWMw4TRtxPdsiMRtA=
+
+Name: assets/www/views/tv-guide.html
+SHA1-Digest: DY7yflFWKq7NI6/Luio9ZeRJ778=
+
+Name: res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+SHA1-Digest: hjdfuuinn9/ytY96BoMTO3mjzAc=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_disabled
+ .9.png
+SHA1-Digest: IHPjtuoT1FFbFIlKhX9TvLkKwQw=
+
+Name: res/drawable-ldrtl-xhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+SHA1-Digest: cMFYXX0Wn9qaHdZ8PJDgDc1emIk=
+
+Name: res/color/abc_search_url_text.xml
+SHA1-Digest: oSjKQK2C/8Bt2U3e1yG3h4kSSvw=
+
+Name: res/drawable-hdpi-v4/ic_feedback_sync.png
+SHA1-Digest: PVYktlms/scM7SHF5WWK42wm6Jc=
+
+Name: assets/www/bower_components/moment/locale/zh-cn.js
+SHA1-Digest: gs8i9uJeEM5nFZ2KdABs16aAkwc=
+
+Name: assets/www/bower_components/moment/src/locale/bn.js
+SHA1-Digest: BhkMlN+c80Jv+D1zKVCRFcAZZp8=
+
+Name: assets/www/bower_components/moment/src/locale/sr.js
+SHA1-Digest: g7xwcdEXjozCvct/ybqRRTC26hU=
+
+Name: assets/www/plugins/cordova-plugin-statusbar/www/statusbar.js
+SHA1-Digest: HG/u6YRNRMJUAk5K3XP1GY9qlHA=
+
+Name: res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+SHA1-Digest: /UEK2xt/qrP3cCJflXSymHBKVrQ=
+
+Name: res/layout-v16/feedback_item.xml
+SHA1-Digest: Y3WwV1QgNELSS8Mnshk+fsuMCmo=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal.9
+ .png
+SHA1-Digest: prTyBF5GGEsxFJU1ImdMe2IXpDY=
+
+Name: assets/www/kendo/styles/Flat/sprite_2x.png
+SHA1-Digest: zwB1zftK8Trr8AQrc/IycDvzVcU=
+
+Name: res/drawable/common_google_signin_btn_icon_dark_focused.xml
+SHA1-Digest: 4H9PtdOQs6ti68rxNmjbMBwD+JI=
+
+Name: assets/www/bower_components/moment/locale/sr.js
+SHA1-Digest: GfhiW65q6P0ZQP5e4H1Wi96OkJs=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/MediaFileDat
+ a.js
+SHA1-Digest: LKiwYXPl2GlhPgPrUjjEOd/sCo0=
+
+Name: res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+SHA1-Digest: aDVNEMw56XRan+KMRcehPlfMQzo=
+
+Name: res/drawable-xxhdpi-v4/ic_send.png
+SHA1-Digest: MrCN0QKS4pSmr3NYETIKiDOt18E=
+
+Name: assets/www/styles/icons/home.png
+SHA1-Digest: yP08ey9DpNGDblci23vumXa7IWA=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal
+ .9.png
+SHA1-Digest: yEJWbgAzgavk7TegO57ECMmGHKk=
+
+Name: assets/www/bower_components/moment/src/lib/utils/to-int.js
+SHA1-Digest: AOcSpNvb9pdMbJqt4tv4y8vX1yw=
+
+Name: assets/www/resources/icon/Navigator-icons-settings.png
+SHA1-Digest: cwcS1FPYivfaaeFmY+H1fmj3TIM=
+
+Name: res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.p
+ ng
+SHA1-Digest: hueEUb7BKeKtGy0bhtSrneyN6wQ=
+
+Name: res/drawable-xhdpi-v4/abc_text_cursor_mtrl_alpha.9.png
+SHA1-Digest: H1dhEppsdGOn9/EhP7+Lf2TuVOY=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/capture.js
+SHA1-Digest: hd1x0u4r93cUzwCTmuR736HGbRQ=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_presse
+ d.9.png
+SHA1-Digest: spRRf0JdZ6odfhMFjKEGVRJDoO0=
+
+Name: res/layout/abc_dialog_title_material.xml
+SHA1-Digest: WpwGyJp+QVFI4EScoiTUNbjWIXk=
+
+Name: res/layout/notification_template_part_time.xml
+SHA1-Digest: Mwxm9lbYy78F3Ma7C2a6wTtZRNo=
+
+Name: res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest: oQXUTVCmKbEkuIGzA7hY1v2BYpE=
+
+Name: assets/www/bower_components/moment/src/locale/fr-ca.js
+SHA1-Digest: FVAhor3XtUFRUmdfmkFcNYri0Jw=
+
+Name: assets/www/bower_components/moment/src/lib/create/local.js
+SHA1-Digest: rDvvWqdVEHvDeuPZPPs9aVj+gmg=
+
+Name: assets/www/bower_components/moment/src/lib/locale/formats.js
+SHA1-Digest: Ghwrfr4oQIhnVYDW5A5Ba1jWx0w=
+
+Name: assets/www/plugins/nl.x-services.plugins.socialsharing/www/Socia
+ lSharing.js
+SHA1-Digest: ILVMtEiEhseSNo6g7bHAGseOtHs=
+
+Name: assets/www/plugins/cordova-plugin-media/www/MediaError.js
+SHA1-Digest: UxUBebnqQC4rRrsHsdlzyAmTNBs=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_press
+ ed.9.png
+SHA1-Digest: G2gM9ZUTMeBiKMtcfkvjbdmM+lY=
+
+Name: res/drawable-xxhdpi-v4/icon.png
+SHA1-Digest: xHn8+X930I8UEnX33JJQLmJ8QfI=
+
+Name: assets/www/bower_components/moment/src/lib/moment/calendar.js
+SHA1-Digest: k/NcRys4Xy/+0FDWs6rU9if0obc=
+
+Name: res/drawable-hdpi-v4/abc_list_focused_holo.9.png
+SHA1-Digest: z5rmTEqRHuMsX24l4sP3B88dR3Q=
+
+Name: assets/www/plugins/cordova-plugin-file/www/File.js
+SHA1-Digest: CU7Gk3y90aPQ9GSMXAJ60Z+QVHQ=
+
+Name: res/drawable-mdpi-v4/ic_action_remove.png
+SHA1-Digest: Xm1eOMvIE8MEYmU9ms+pWE8RPv0=
+
+Name: res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+SHA1-Digest: pekxWTKwrzIagiU2Ssj+otR4tkc=
+
+Name: assets/www/bower_components/slidr/LICENSE.md
+SHA1-Digest: 7/y0iywWMr3yrM3uKkiSb4TzcTQ=
+
+Name: res/drawable/common_google_signin_btn_icon_dark.xml
+SHA1-Digest: QOS3xEx/LVUFlE3KyN86t64D+w8=
+
+Name: assets/www/bower_components/moment/src/locale/ar-ma.js
+SHA1-Digest: NOXO//Hwsp+ty4+dNMa/5DvDImY=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_text_light_presse
+ d.9.png
+SHA1-Digest: D0OxLDskAc6/VlPfhzvyCQqtrlE=
+
+Name: assets/www/scripts/account.js
+SHA1-Digest: 7M0hyOQLVrFIn93RLCd1R4bz6hA=
+
+Name: res/layout-v17/abc_alert_dialog_material.xml
+SHA1-Digest: 1VLnKrz5gsGW3IoDVbREJdXaFNQ=
+
+Name: assets/www/bower_components/moment-timezone/builds/moment-timezo
+ ne.min.js
+SHA1-Digest: q63zs0sesuolIVHLmKPSK0XgZpE=
+
+Name: assets/www/resources/moment.min.js
+SHA1-Digest: ACJsfZHmcGCQiEdrMcE3L/X8fK8=
+
+Name: assets/www/views/card-actions/schedule.html
+SHA1-Digest: bMqJqFXqUCP0Sn18spHI70AWFcc=
+
+Name: assets/www/resources/icon/Navigator-icons-athletics.png
+SHA1-Digest: yHMODFjO7gA/zUlF654EGcSC60E=
+
+Name: assets/www/bower_components/moment/locale/bn.js
+SHA1-Digest: eBUSm/FNPZCjtGI/E/dONMmR/zI=
+
+Name: res/color/abc_background_cache_hint_selector_material_dark.xml
+SHA1-Digest: iyF0ppakvjD8J+cYnmM9TA67viU=
+
+Name: assets/www/bower_components/moment/src/lib/moment/now.js
+SHA1-Digest: skVby7+OXCzUIpuEHn64cg0qQQg=
+
+Name: res/layout-v16/main_menu_list_item.xml
+SHA1-Digest: vejTXnEOcioYCuPOhNeTZIBzryQ=
+
+Name: assets/www/bower_components/moment/src/locale/tr.js
+SHA1-Digest: Hd8m+CanNR7HH53G5sV9XmXjdPA=
+
+Name: assets/www/kendo/styles/kendo.mobile.all.min.css
+SHA1-Digest: tU7z6qvSjQCO4bgudD07GJJXGzw=
+
+Name: assets/www/spec/sports.spec.js
+SHA1-Digest: nVFw6SUdB4gNOKTx6c1ETnQ4rXs=
+
+Name: assets/www/bower_components/moment/src/lib/create/valid.js
+SHA1-Digest: 6FvUG9RaheXsW2DcA3n5VCpLtO4=
+
+Name: res/layout/abc_search_view.xml
+SHA1-Digest: /iMP20iXgnIHfl+ZkoxyN86YtXc=
+
+Name: assets/www/styles/icons/status/red.png
+SHA1-Digest: mgr8ZQpp/+VUlvJ2Y7uaIxOl94k=
+
+Name: assets/www/plugins/cordova-plugin-geolocation/www/PositionError.
+ js
+SHA1-Digest: EdOmm9W+mLNQpvkB7MRJv6M9sI8=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+SHA1-Digest: 3gxWloyRzoPOsZ9cFcwCHqhvSbg=
+
+Name: assets/www/kendo/styles/kendo.flat.min.css
+SHA1-Digest: imrS7Lws6ePEIOGkZXVHG5t1M8g=
+
+Name: assets/www/styles/icons/status/info.png
+SHA1-Digest: 0APqvLGEU/JeNqMwZ66xWmGHViM=
+
+Name: res/drawable/abc_ratingbar_full_material.xml
+SHA1-Digest: WHYoWxmi28r46aVQivVHH52O90I=
+
+Name: assets/www/spec/freeman.spec.js
+SHA1-Digest: 9mxLJN4KKSncd86Vt9MlH9Wfcwo=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_text_dark_disabled
+ .9.png
+SHA1-Digest: Craex0Ue+fcfcJMnQn1KYTc2rFI=
+
+Name: res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+SHA1-Digest: j7oKd56yOLmG/qIDUU3a+2EFFV4=
+
+Name: assets/www/bower_components/moment/src/lib/create/date-from-arra
+ y.js
+SHA1-Digest: uN7wjJx2CbcY6jnlVTA816UqohY=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileUploadOptions.js
+SHA1-Digest: c6qqp60CDC7lcEUhfPHQtsRiY2U=
+
+Name: assets/www/bower_components/moment/src/lib/units/offset.js
+SHA1-Digest: 5tMG04h9i3IPUpTVogahhBmu/Yk=
+
+Name: res/raw/gtm_analytics
+SHA1-Digest: gtP8hwUXM4kTM8gxlRJVfULNR14=
+
+Name: assets/www/bower_components/moment/locale/yo.js
+SHA1-Digest: BcHgrEWvJpXJEpwylP2rZw+ka3Q=
+
+Name: assets/www/bower_components/moment/src/locale/br.js
+SHA1-Digest: j3/sgad4lfB6avdN6+xglQeV/FQ=
+
+Name: assets/www/resources/icon/Navigator-icons-printers.png
+SHA1-Digest: ZOwhz00gzgW6jYVgF02uuuFKqqI=
+
+Name: assets/www/bower_components/moment/LICENSE
+SHA1-Digest: mIyEoTX2l2lpb5QpalPJrJkDRYE=
+
+Name: assets/www/bower_components/moment/src/lib/utils/map.js
+SHA1-Digest: N4dC8d5EgJjBVW3rE5r28LYtZCQ=
+
+Name: assets/www/styles/jplayer/pink.flag/css/jplayer.pink.flag.min.cs
+ s
+SHA1-Digest: UIqmArFygFk9ZJF+tohBgGLtphY=
+
+Name: res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+SHA1-Digest: B4luoaAag1FkbeAuEZI2OhM8Eok=
+
+Name: assets/www/kendo/styles/images/back.png
+SHA1-Digest: qcvT7at+OQyIOekQBQvYZPNv9MM=
+
+Name: assets/www/bower_components/moment/src/locale/cy.js
+SHA1-Digest: wI5c0UHu8K3aAC7hjxHtDZY/Loc=
+
+Name: assets/www/views/sports.html
+SHA1-Digest: Zz5kgdQl/FMWNOJj6fGir9gJnxg=
+
+Name: assets/www/bower_components/moment/locale/sv.js
+SHA1-Digest: utF8btuHv2AvNVRTbSMl9zPH1Fg=
+
+Name: assets/www/bower_components/sprintf/README.md
+SHA1-Digest: /3Qhu1vRu+x0KgBfcLAy0uYnhkY=
+
+Name: res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_disabled
+ .9.png
+SHA1-Digest: JvC+nJmefLhJvo/9krFJZU3tc1Q=
+
+Name: res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.
+ png
+SHA1-Digest: jEQGK0zNZB6quTj7VYnd0rBIJoU=
+
+Name: assets/www/bower_components/moment/src/locale/bg.js
+SHA1-Digest: UOpvQW5OYaZMKksQ3ScOjxTwuqU=
+
+Name: assets/www/bower_components/moment/src/locale/ko.js
+SHA1-Digest: Dxl7MqazIXremIxrtio3n3aHISc=
+
+Name: assets/www/bower_components/moment/locale/de.js
+SHA1-Digest: FgMSm4f1wxDTXrB5q4DJolaqZ8U=
+
+Name: res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+SHA1-Digest: 5IfbVueKJ3k6lYEwFWTPnz7XNo8=
+
+Name: assets/www/bower_components/moment/src/locale/de.js
+SHA1-Digest: JsncfSh7Saf9jLMtiTtJ7dJvXiE=
+
+Name: assets/www/bower_components/moment/locale/gd.js
+SHA1-Digest: g7toWKQ993sw6Y5RahOwBEfb1D4=
+
+Name: assets/www/bower_components/moment/src/locale/en-ca.js
+SHA1-Digest: 5z1qlQ6Psrm+Rbi+zu1tAUvmcvQ=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_pressed
+ .9.png
+SHA1-Digest: m2JSgRivdfjbHWsrA1E0EAGTrcs=
+
+Name: res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest: YHeDDDAv87CQiG80Oqv1QqfDoOM=
+
+Name: assets/www/bower_components/moment/src/lib/moment/valid.js
+SHA1-Digest: NgU9ORS3lr6HOpUov1Z/9osivEA=
+
+Name: assets/www/bower_components/moment-timezone/builds/moment-timezo
+ ne-with-data-2010-2020.min.js
+SHA1-Digest: eFVw5/Mhk1uEIIJHT72OTe/d/dQ=
+
+Name: assets/www/bower_components/async/README.md
+SHA1-Digest: uIeaAwlQnoqBMvTuCcEzXwVAIto=
+
+Name: res/layout/abc_expanded_menu_layout.xml
+SHA1-Digest: iati4d7F54vf1PYkzMIQkdwlNnM=
+
+Name: assets/www/bower_components/moment/src/lib/utils/is-object-empty
+ .js
+SHA1-Digest: DMYrAMm1gbK5EZqPg069cQxPoVE=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/CaptureVideo
+ Options.js
+SHA1-Digest: k567n5iFNJtUB1nNp5qfqt918Zo=
+
+Name: assets/www/bower_components/moment/src/locale/fr.js
+SHA1-Digest: kcH+Aw24CLYsVkn8kMp23T31xpM=
+
+Name: assets/www/bower_components/moment/locale/dv.js
+SHA1-Digest: aLHEO74xrFI9svri54eCxD3tLBs=
+
+Name: assets/www/views/captains-card.html
+SHA1-Digest: /y9FOTPEHeI15+KM9DGgjRxcSZU=
+
+Name: assets/www/bower_components/moment/locale/cy.js
+SHA1-Digest: uRR+Po8HTvwaLLTirRvbnHQ+GAc=
+
+Name: res/layout/abc_screen_toolbar.xml
+SHA1-Digest: Zct9V3oUlbG4ZCA+usL3tfRuxSE=
+
+Name: assets/www/spec/ferguson.spec.js
+SHA1-Digest: ko1Bq4D15KwROUWiXBesWVmQ09E=
+
+Name: res/drawable/abc_btn_borderless_material.xml
+SHA1-Digest: a34HFTCLfE6qRhIYeb2+m0GeFSM=
+
+Name: res/layout-v16/activity_send_feedback.xml
+SHA1-Digest: SAavGSFMpEjfpo2jK4uWAcdQqAg=
+
+Name: res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+SHA1-Digest: CwBgZCf6HQH3oXQJ4vFliod7poc=
+
+Name: res/drawable-mdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+SHA1-Digest: DZTlgHL/8J79oy3btP8rDmT1YmQ=
+
+Name: assets/www/styles/icons/sports/baseball.png
+SHA1-Digest: NP3EdXxgwm+9KORLWolqfIZZ9rg=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_presse
+ d.9.png
+SHA1-Digest: 0Vx3UhuNRpxpDzK3s2j3RvIWQss=
+
+Name: assets/www/bower_components/moment/locale/es-do.js
+SHA1-Digest: u5TIj7vac5fFW6hrMDfHhfqVPmw=
+
+Name: res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+SHA1-Digest: DjgjddBKSH0OILJhqJkZXAYKmKg=
+
+Name: res/drawable/abc_tab_indicator_material.xml
+SHA1-Digest: rVV0oDrrUZGFhlkxvsB3Qwv8pJM=
+
+Name: assets/www/bower_components/moment/src/lib/utils/compare-arrays.
+ js
+SHA1-Digest: NEYuFoeBix5Ai3jl4xEKWX6Gl5E=
+
+Name: assets/www/bower_components/moment/src/lib/utils/abs-round.js
+SHA1-Digest: KvNshrzU2qnhq9RmflUdxu+rc0Q=
+
+Name: assets/www/styles/emergency-procedures.css
+SHA1-Digest: rIBeE1SSAEN3LijDxLMMZ9Lifkk=
+
+Name: assets/www/styles/font-awesome/less/rotated-flipped.less
+SHA1-Digest: urOiwdcgOImX+aIdBdMDD8oemyA=
+
+Name: assets/www/bower_components/moment/locale/my.js
+SHA1-Digest: UBss8TfGuNU0GyVS/PBt43P86UU=
+
+Name: assets/www/bower_components/moment/src/locale/se.js
+SHA1-Digest: 3wMcrxVZx/peoo3gDwlBy9U8vRc=
+
+Name: res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest: bxN4QZhQdZQrXrV8vUXHrWlXp5Y=
+
+Name: res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.p
+ ng
+SHA1-Digest: U3/CaDN2Ja7uv22X18ECs8ugFMs=
+
+Name: assets/www/bower_components/moment/locale/ne.js
+SHA1-Digest: 4qDscP2IK/eo3Eb44nWKgCocb0E=
+
+Name: assets/www/kendo/js/jquery.min.js
+SHA1-Digest: 9dB08kaF1wCknISyiKbZty2KxZw=
+
+Name: assets/www/styles/images/mobile-navigator-small.png
+SHA1-Digest: smSz/eCl7ClnpJ/h4YXoMsvwIj8=
+
+Name: assets/www/bower_components/moment/src/locale/pl.js
+SHA1-Digest: vVZwjMgIj7lnn/1vmc7cB16CAJE=
+
+Name: assets/www/bower_components/moment/min/locales.js
+SHA1-Digest: WjxQ18NJtVV6ZjDd8JXZU5C+Svk=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_disable
+ d.9.png
+SHA1-Digest: zcB4MkPlzBDGaB9SvEUdMSPN9aU=
+
+Name: res/layout/abc_activity_chooser_view_list_item.xml
+SHA1-Digest: +9JfX+Q8WPK31SZCtW8LOGMvYNo=
+
+Name: res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+SHA1-Digest: kxSGYJoMOYG0HnE3IprNwOq5ou8=
+
+Name: res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+SHA1-Digest: GVcCGwI7JkYwalKoXNkz6qOe3CQ=
+
+Name: res/menu/edit_details.xml
+SHA1-Digest: Owj7meo2OZveLishdsbev2vaFRo=
+
+Name: assets/www/bower_components/moment/src/locale/ms.js
+SHA1-Digest: uJcrKm7yJwoP4VFCRaQqD/hm5d0=
+
+Name: res/layout/abc_action_bar_title_item.xml
+SHA1-Digest: QztGe9Dj8xl7HygFUtZExStkFI8=
+
+Name: assets/www/bower_components/moment/locale/ml.js
+SHA1-Digest: t/Sga4pBsDayWSQYoA6C6i5JdDo=
+
+Name: res/drawable/abc_btn_check_material.xml
+SHA1-Digest: qqKDcqHOhBip1wTOipczEivN5o8=
+
+Name: assets/www/bower_components/moment/locale/sk.js
+SHA1-Digest: XnBN/G8KG17oOB7TM8ky0JkFhb8=
+
+Name: assets/www/styles/font-awesome/less/variables.less
+SHA1-Digest: yj59SgJpT341eNCZsdOU8FASW6s=
+
+Name: assets/www/bower_components/moment/src/locale/fi.js
+SHA1-Digest: ntL+CxbMcPujYWO0kBhoOaKW1Vg=
+
+Name: assets/www/bower_components/moment/locale/fo.js
+SHA1-Digest: IOd9WnXeob36w2PalcltCMFpll0=
+
+Name: assets/www/styles/fonts/material.css
+SHA1-Digest: RtrNafpFhh4bxCABsF7qTJkP6qc=
+
+Name: res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+SHA1-Digest: RImLnhpiXQVmRJeR7zOhgbz7d3s=
+
+Name: assets/www/plugins/cordova-plugin-file/www/Metadata.js
+SHA1-Digest: sdbeSfxds/XPzGtN+LxqVfHbEd8=
+
+Name: assets/www/spec/captains-card.spec.js
+SHA1-Digest: CXLHMWojLYSyh3PU3q3v80ytU+E=
+
+Name: assets/www/bower_components/moment/src/locale/tl-ph.js
+SHA1-Digest: QCKWcCqkCB7rLIy488IcPzy603A=
+
+Name: assets/www/styles/mobile-nav-font/cnu/cnu.woff
+SHA1-Digest: euIGD+LrRx/ikr9TYLUctzyC3BQ=
+
+Name: assets/www/bower_components/moment/src/locale/uz.js
+SHA1-Digest: 8GBhM2K7gYmNaC2pUNtIvEFggDg=
+
+Name: res/drawable/abc_btn_radio_material.xml
+SHA1-Digest: g37/vP2kVJLkh33OYxbOYGil9NA=
+
+Name: assets/www/bower_components/moment-timezone/data/meta/latest.jso
+ n
+SHA1-Digest: fzH/pKYGGjj7csdXHvdnBckA4hI=
+
+Name: assets/www/kendo/styles/images/wp8_inverseicons.png
+SHA1-Digest: YInxg8fO//9qWf5HwDutReE8H2c=
+
+Name: assets/www/bower_components/moment/src/lib/units/day-of-week.js
+SHA1-Digest: OZq9tfkqj0ezRr5RDirgWgZocos=
+
+Name: res/layout/notification_template_big_media.xml
+SHA1-Digest: 6IkgVSN8QvfecECCteT+AlWQM/M=
+
+Name: assets/www/styles/sports.css
+SHA1-Digest: lI889Y5IlSzj55MXApDZwmH63/E=
+
+Name: res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest: r46W+UnoFhYO8vScUCJ0Ihq61K4=
+
+Name: res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+SHA1-Digest: 2lRuxodMxnuWn+IclaJShuAV5+Y=
+
+Name: res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png
+SHA1-Digest: 1gu0+JdGxgtkd7hnwaQbfLEaaZc=
+
+Name: res/drawable/common_google_signin_btn_icon_light_focused.xml
+SHA1-Digest: CoxgJIpgOQ+UgP6nbxwn43pCogM=
+
+Name: assets/www/bower_components/moment/src/lib/moment/clone.js
+SHA1-Digest: 9GtCEOO+kmkIDkC+H/E38v1TnbE=
+
+Name: res/drawable/abc_cab_background_internal_bg.xml
+SHA1-Digest: OpZTAPON/eHCLK5xEp9Ei2cska4=
+
+Name: assets/www/bower_components/async/logo/favicon.ico
+SHA1-Digest: 9+HQ37zO3LIEoNjn/8aV5WDBwgI=
+
+Name: assets/www/resources/icon/Navigator-icons-TVguide.png
+SHA1-Digest: AhYMZyWLSxDm9EQQa2ylnkgKDrw=
+
+Name: assets/www/plugins/cordova-plugin-file/www/resolveLocalFileSyste
+ mURI.js
+SHA1-Digest: 3NR4CtCpHiNNLwtpFjAHnDjBMlM=
+
+Name: assets/www/bower_components/moment/src/locale/en-au.js
+SHA1-Digest: yYT9mZ87dfNM9i7XOO/YWqOjcmY=
+
+Name: assets/www/plugins/cordova-plugin-file/www/fileSystems.js
+SHA1-Digest: A7i344MVIUHrFzabPuvlg2CZieM=
+
+Name: res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+SHA1-Digest: LHgpBq22Tp/Uz7G6kTktjBB334g=
+
+Name: assets/www/bower_components/moment/templates/default.js
+SHA1-Digest: X/dc+28rH9oyx2kJujUqng/fnJc=
+
+Name: res/layout/activity_view_feedback.xml
+SHA1-Digest: 6wIvYSwnIJIkgRNEfwyE8PEoR24=
+
+Name: assets/www/bower_components/moment/locale/ka.js
+SHA1-Digest: qBE/yUzOX7Q1ni4pp9SgX1HWRcw=
+
+Name: assets/www/bower_components/sprintf/dist/angular-sprintf.min.js
+SHA1-Digest: MI1/gS+lzT74/NslY3NkxsnBu+4=
+
+Name: assets/www/bower_components/moment/src/lib/units/hour.js
+SHA1-Digest: caXz5dvY0iyLhFxgTxMvTsLB6pk=
+
+Name: res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png
+SHA1-Digest: tqSsogfg8Kfg/ptGchhUxMBE4+c=
+
+Name: res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest: lXxLTliYDB5MfGJ3phpLBjIOSvg=
+
+Name: assets/www/bower_components/moment/src/lib/moment/format.js
+SHA1-Digest: gYMmq69ZMExfAujCjjhw9ez3sXo=
+
+Name: assets/www/bower_components/moment/README.md
+SHA1-Digest: VLFlGBhovdlwl3qcZtAY9dNNDkU=
+
+Name: res/drawable-hdpi-v4/ic_action_previous_item.png
+SHA1-Digest: M1GfB2VNcCSehXeSgRHXvHxnf3E=
+
+Name: res/layout/select_dialog_item_material.xml
+SHA1-Digest: LNuFMQipqrhJtg8GR+qL8DLJs/k=
+
+Name: res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest: sFAV4f7j8XaudTIBCHrbTv3bdQE=
+
+Name: res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9
+ .png
+SHA1-Digest: jA6OHf2Pmvaf3nMpMCAqQj8mJLM=
+
+Name: assets/www/styles/icons/status/black.png
+SHA1-Digest: LTK4Bv1ebX2qb3XJUfamlZQWHMo=
+
+Name: res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest: cVnySG63cChr86Xl5aTin9ET16o=
+
+Name: assets/www/styles/font-awesome/less/fixed-width.less
+SHA1-Digest: 5ooBQtfLYh5jrUn2xd90SzdgOxg=
+
+Name: res/drawable-xhdpi-v4/ic_send.png
+SHA1-Digest: gyxWvqxC1PYtBOozhHk4cfgokbI=
+
+Name: assets/www/bower_components/moment/locale/nn.js
+SHA1-Digest: cwJX6t8JD2Zj67TouwREaEZr8YM=
+
+Name: assets/www/styles/images/wcnulogo.png
+SHA1-Digest: iaXRuJ8gI15HrtS2b6ldoXORl1M=
+
+Name: assets/www/bower_components/moment/src/lib/moment/min-max.js
+SHA1-Digest: lH1lkQE94P2Kp/sl/KaV7VKlocs=
+
+Name: assets/www/bower_components/moment/src/lib/utils/is-object.js
+SHA1-Digest: a18Q4DoaEmHX3wPhkwSrkOk6JFg=
+
+Name: assets/www/bower_components/moment/src/locale/pt-br.js
+SHA1-Digest: 1ybBHcP2GHgKjv8ZzzD1ec5fjBY=
+
+Name: assets/www/views/home.html
+SHA1-Digest: NUawi9hxgmh1hI4WQh1Eg8xSyt8=
+
+Name: assets/www/bower_components/moment/locale/hy-am.js
+SHA1-Digest: F/j6mXdgQ8/IB94BpK9hOIspYZs=
+
+Name: assets/www/bower_components/moment/src/locale/te.js
+SHA1-Digest: BbKkhqy3RAHqAIjCVs8xQFunnYs=
+
+Name: assets/www/plugins/uk.co.whiteoctober.cordova.appversion/www/App
+ VersionPlugin.js
+SHA1-Digest: 2s80QBbOpLmGApoCEjAIKYbka78=
+
+Name: assets/www/bower_components/moment/locale/is.js
+SHA1-Digest: LVe4o2xsGMzYW9SRfp/GsSIGYuA=
+
+Name: res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+SHA1-Digest: bTNFsVJfPn6MYG0AqtJNqG+o5hs=
+
+Name: assets/www/bower_components/moment/src/lib/format/format.js
+SHA1-Digest: poAbrxZ1F2WS7wqDVC2nfwVQ7w4=
+
+Name: res/color/abc_secondary_text_material_light.xml
+SHA1-Digest: HawfjjCyYIlHocc3IZWx7QmNf6U=
+
+Name: assets/www/bower_components/sprintf/bower.json
+SHA1-Digest: xqA3vYS4GzGpEpCoF66Yjdsbfk0=
+
+Name: res/color/switch_thumb_material_light.xml
+SHA1-Digest: tlctZkfPAnu40HFvTaSI+7zjzYo=
+
+Name: assets/www/bower_components/async/logo/async-logo.svg
+SHA1-Digest: I0IvOGFIau6KQrMKt1u7DPBjX0g=
+
+Name: assets/www/bower_components/moment/src/locale/be.js
+SHA1-Digest: UiCVPsVWTvI+Q3ib+hkIqqdsHCs=
+
+Name: res/anim/abc_slide_out_top.xml
+SHA1-Digest: NM9nWh/XI2zag3rBwIXEqrpl9XA=
+
+Name: res/layout/abc_screen_simple.xml
+SHA1-Digest: kIrBk1kmUul0u1pnZMCNExc1efo=
+
+Name: assets/www/resources/icon/Navigator-icons-calendar.png
+SHA1-Digest: ltHvvyOSJTf/z8BntW/7jE3k5+s=
+
+Name: res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+SHA1-Digest: ToVo2KPSLrpwpzwqt2DA6d7KLWk=
+
+Name: assets/www/bower_components/moment/src/lib/units/year.js
+SHA1-Digest: gc87TNdm+6Oowy0FlezK4b/L5EM=
+
+Name: assets/www/bower_components/async/karma.conf.js
+SHA1-Digest: H6ReSDkO1xNZ2IroiMSRGbV+lRs=
+
+Name: res/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png
+SHA1-Digest: woWVryJK8PtnVh0PP6+a+6Tqlcc=
+
+Name: assets/www/bower_components/slidr/slidr.min.js
+SHA1-Digest: Jaa5p70d47icha9zdYnT8LUZu98=
+
+Name: res/drawable/abc_switch_thumb_material.xml
+SHA1-Digest: GMLceoxorxIv4SfySzjNiKy4yRk=
+
+Name: assets/www/bower_components/moment/src/lib/locale/locale.js
+SHA1-Digest: il4oD9Yjw3QO1BKMY6h1s4ACD7k=
+
+Name: assets/www/styles/fonts/roboto700.woff
+SHA1-Digest: 1z7oOK4oDbJQphzIER6BSRarwxU=
+
+Name: assets/www/resources/icon/Navigator-icons-map.png
+SHA1-Digest: eN8QFb5vPauR7QlSDrtIISg8S8M=
+
+Name: res/drawable-xhdpi-v4/ic_feedback_sync.png
+SHA1-Digest: ooVbS6+NOCypiq3JFEQEch7W0lM=
+
+Name: res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+SHA1-Digest: CZuc7e6DOG4Ixf0kth3Na6oqva4=
+
+Name: res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+SHA1-Digest: ORZEUwpye3vs2cpRUfvVYVg7UtU=
+
+Name: assets/www/bower_components/moment/locale/km.js
+SHA1-Digest: 8qRVJKMK7C3i00GNFsxrCKMqOCc=
+
+Name: assets/www/bower_components/moment/src/lib/create/from-string.js
+SHA1-Digest: WHXG0pUHIS4hy9mFwuHFZkw7Ajg=
+
+Name: assets/www/bower_components/moment/locale/tzl.js
+SHA1-Digest: x64LniV2donTeDWj3lbntknWJpo=
+
+Name: assets/www/resources/icon/Navigator-icons-appinformation.png
+SHA1-Digest: iYEWPZ/kNp/eTWCn42NHlL/wJmM=
+
+Name: assets/www/kendo/styles/Flat/sprite.png
+SHA1-Digest: EUZ8RsIZDg5rj+2zD5b3/xuGNTQ=
+
+Name: assets/www/styles/mobile-nav-font/TrajanPro-Regular/TrajanPro-Re
+ gular.ttf
+SHA1-Digest: MVDWbvIhMgmZzUeS3mfuatRpbRI=
+
+Name: assets/www/views/account.html
+SHA1-Digest: 0jxfPVtRPA0Q1/s1oI+tlYCOhOY=
+
+Name: res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest: /KJBt8RiwmgoHRN2Oa34BrXDiCo=
+
+Name: res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+SHA1-Digest: L4kldLqb9NR6DgoipZDWi2jQHbs=
+
+Name: assets/www/bower_components/moment/src/lib/locale/ordinal.js
+SHA1-Digest: /rePw+lSlAkUFMHZe8fBmINrfVY=
+
+Name: assets/www/styles/font-awesome/scss/_icons.scss
+SHA1-Digest: v7IP7wbX04eLB/oujCCgUMJEm08=
+
+Name: res/drawable-land-ldpi-v4/splashscreen.png
+SHA1-Digest: 07AyELAiPAF8vUfPxBK5g2xfBgA=
+
+Name: assets/www/bower_components/moment/src/locale/it.js
+SHA1-Digest: yzwSfERbt+QJVzs00AI3Kq3hVqU=
+
+Name: assets/www/plugins/cordova-plugin-media-capture/www/CaptureError
+ .js
+SHA1-Digest: b9oxJH018mqVxDnZVhiAMDBcOF4=
+
+Name: assets/www/views/campus-map.html
+SHA1-Digest: bZjGAMFNxIb1LG66AH1IIYww2s8=
+
+Name: assets/www/views/it-status.html
+SHA1-Digest: RthFeqxZCkcnOpthRKyAB4qMvYM=
+
+Name: assets/www/bower_components/moment-timezone/LICENSE
+SHA1-Digest: 2lIEpwB4wdGank4IKrAxtDm9mP0=
+
+Name: assets/www/bower_components/moment/src/lib/duration/abs.js
+SHA1-Digest: 5c9dthcewCtgJ1RrArbTCWaUZw8=
+
+Name: res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest: KzhnnLeXQKQNdwKFBbwltiBdbwA=
+
+Name: assets/www/bower_components/moment/src/lib/locale/locales.js
+SHA1-Digest: AkNm5tsNFrE/dSylmbZ8SI0t2pA=
+
+Name: assets/www/bower_components/moment/src/lib/utils/extend.js
+SHA1-Digest: RyhUblYuVLS8TdCTRWK2TBV7ygM=
+
+Name: assets/www/bower_components/moment/locale/te.js
+SHA1-Digest: 1X64mv+Zs2toqN07/9/NHIWe7/0=
+
+Name: res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
+SHA1-Digest: 4CNgdraLjH84scvRJUfzItc3PbA=
+
+Name: assets/www/bower_components/moment/src/lib/moment/locale.js
+SHA1-Digest: zBnuKI5vU3RQ5VzGYtGbaIDhoi8=
+
+Name: assets/www/styles/mobile-nav-font/cnu/cnu.ttf
+SHA1-Digest: Kmo4EMxJIB/m1jtO3ve/CLU3y1A=
+
+Name: assets/www/bower_components/moment/locale/pa-in.js
+SHA1-Digest: a5EpPmMEeISgk3xzJmidq21cB4A=
+
+Name: res/layout/abc_action_menu_item_layout.xml
+SHA1-Digest: N4+cJ0gHusdFzbOGL9uOVAoQRoc=
+
+Name: assets/www/styles/fonts/material.woff
+SHA1-Digest: VCtOTp+Fg4z000t6wvbStBOiGbE=
+
+Name: assets/www/bower_components/moment-timezone/data/unpacked/latest
+ .json
+SHA1-Digest: 0ovV9rrOQHhJPhYlP5WjZoWTtA8=
+
+Name: res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal
+ .9.png
+SHA1-Digest: 87sqUSWDtdrksG1KwaY1OME65x4=
+
+Name: assets/www/views/widgets/fitness.html
+SHA1-Digest: 4iMxuL7AdXEnPKDwFC4clH3VvJw=
+
+Name: assets/www/bower_components/moment/src/lib/moment/constructor.js
+SHA1-Digest: 0tkghHK1sOeY4Z92i7AYpKrr/e4=
+
+Name: assets/www/plugins/cordova-plugin-file/www/ProgressEvent.js
+SHA1-Digest: U9DYFL29Zd2bn5qMq+XhiXd3pws=
+
+Name: res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+SHA1-Digest: N0JreKvhlyMPBSf34DQond465n0=
+
+Name: assets/www/bower_components/moment/locale/de-at.js
+SHA1-Digest: /9IERLzZwSIz8mEYVtryWB6TovM=
+
+Name: res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+SHA1-Digest: o6T1nENnpl79GnrVrE8AKfzN0kU=
+
+Name: assets/www/bower_components/moment/locale/cv.js
+SHA1-Digest: TVX8xfEK74QO9t0iL4qOeTza4MA=
+
+Name: assets/www/bower_components/moment/src/lib/utils/index-of.js
+SHA1-Digest: H5QTjlhmlULOfG/GLj6jI9sld04=
+
+Name: assets/www/bower_components/moment/src/locale/hr.js
+SHA1-Digest: 2vSMi71E/4EyjbbAN1rOWqCHJhE=
+
+Name: assets/www/resources/icon/Navigator-icons-compass.png
+SHA1-Digest: 69bjFMYir4zNG6LQIbQJFT7fyig=
+
+Name: res/xml/config.xml
+SHA1-Digest: LEoZE14B/heLeTs+Ybpz1Wcexoc=
+
+Name: assets/www/spec/it-status.spec.js
+SHA1-Digest: fnF9xVIOCnV93jUYV/YNl9MQ3XM=
+
+Name: res/layout-v17/abc_search_view.xml
+SHA1-Digest: u1hm2vzE9gzCkKyMh9kqKeE5nfE=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_icon_light_disable
+ d.9.png
+SHA1-Digest: 4d83njSybTzi1hsuXVORTbSH/Rc=
+
+Name: assets/www/bower_components/dialog-polyfill/README.md
+SHA1-Digest: 3hC13OHM6EP5lRgNSUerJw3u1fQ=
+
+Name: assets/www/bower_components/moment/locale/hi.js
+SHA1-Digest: iK4NhcKEJsQFEC8y4ck8EQF+m20=
+
+Name: assets/www/bower_components/moment/templates/locale-header.js
+SHA1-Digest: V1iVRwWa1RlDtNC4QjaCpg62i8I=
+
+Name: assets/www/resources/icon/Navigator-icons-ferguson.png
+SHA1-Digest: 5Rw1a1SsONmreJbWC2rdG09LkHU=
+
+Name: res/layout/activity_view_feedback_item.xml
+SHA1-Digest: mKVIvDrR4W58YpPHKchlCeiyflg=
+
+Name: assets/www/scripts/dining.js
+SHA1-Digest: olmGW1NYwEiMFQOgIiZIwALoqGY=
+
+Name: assets/www/styles/mobile-nav-font/mobile-navigator/mobile-naviga
+ tor.svg
+SHA1-Digest: dcfwnNRONqv5erRmLYQ+s0+Y1NU=
+
+Name: res/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+SHA1-Digest: 2WusDPqcX2En3v5H00Hw6xhTgf4=
+
+Name: assets/www/bower_components/moment/src/lib/duration/humanize.js
+SHA1-Digest: 2gjqcrA/X+QPvC4t8PMC1D27na0=
+
+Name: res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+SHA1-Digest: n3rquhXmVYjYpHMG9RG+SAJc+rA=
+
+Name: assets/www/styles/icons/sports/sailing.png
+SHA1-Digest: wA0392K0uoDmRQT1eyuJYJmQHl4=
+
+Name: assets/www/bower_components/moment/locale/jv.js
+SHA1-Digest: vlQRvpIdtK7RjkTKbDFeVw8CR0s=
+
+Name: assets/www/bower_components/moment/src/locale/lb.js
+SHA1-Digest: bXvqOGx/iEvZilQBSpA3asagxWA=
+
+Name: res/drawable-xhdpi-v4/ic_action_remove.png
+SHA1-Digest: EhvoyAdNZQu17Um9w6vEbO8Q4yc=
+
+Name: assets/www/bower_components/moment/locale/tl-ph.js
+SHA1-Digest: F7p3KaQ4sRWYzfuzy7PFqbHXMSE=
+
+Name: res/anim/abc_fade_out.xml
+SHA1-Digest: MfCV1efdxSKtesRMF81I08Zyvvo=
+
+Name: assets/www/bower_components/moment/src/locale/lo.js
+SHA1-Digest: snRo7MSfgWGGaR8e510hGZMmcWA=
+
+Name: res/color/abc_background_cache_hint_selector_material_light.xml
+SHA1-Digest: w65dgAzER08A91rylpqGzy13hvw=
+
+Name: res/drawable-hdpi-v4/ic_action_next_item.png
+SHA1-Digest: if3MCCMitp+rQkSVaFJf812cKSw=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+SHA1-Digest: wclpH7IG2+KdO9pqylVhqV3yN20=
+
+Name: res/drawable-mdpi-v4/ic_done.png
+SHA1-Digest: KS0atFvlPFI0PH3w6zYbJwZdsTk=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+SHA1-Digest: JJ1FCdFjEYqWFuv5t4/cqMDvQxI=
+
+Name: res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+SHA1-Digest: Eh+ZTEk9nWC3r6F65kTTCqFuv/0=
+
+Name: assets/www/plugins/de.appplant.cordova.plugin.local-notification
+ /www/local-notification.js
+SHA1-Digest: 0Q8ovuaUFWeqcCwltW/dwZWxRso=
+
+Name: assets/www/bower_components/moment/src/locale/sw.js
+SHA1-Digest: MEqU5j1m+abkiKD97KCDUv4pMI0=
+
+Name: res/layout-v21/abc_screen_toolbar.xml
+SHA1-Digest: eVz+Zvnf8k/oQC7KQllNyeqngFE=
+
+Name: assets/www/styles/icons/sports/basketball.png
+SHA1-Digest: 2TG9o6BiFqK3RfVtL4tcXblOBbY=
+
+Name: res/drawable-mdpi-v4/splashscreen.png
+SHA1-Digest: dZpTIW5Ud/54log+KsEArn1wXV0=
+
+Name: assets/www/plugins/de.appplant.cordova.plugin.local-notification
+ /www/local-notification-util.js
+SHA1-Digest: j+01NI4eIbb2oTLDvKhSbR90psM=
+
+Name: res/drawable-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+SHA1-Digest: bBTz/LLVsiXC7Y6POB2EJeLohTY=
+
+Name: assets/www/bower_components/moment/src/lib/locale/pre-post-forma
+ t.js
+SHA1-Digest: 71TUeknQDuKgGM2hiZMuZyM07Pk=
+
+Name: assets/www/plugins/cordova-plugin-geolocation/www/android/geoloc
+ ation.js
+SHA1-Digest: lQyqOlRjrZHAnFwWDDePsorSlZA=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal.
+ 9.png
+SHA1-Digest: dy86QOpBLFbWovG+hUZ6y+r/W6s=
+
+Name: assets/www/styles/images/radio-icon.png
+SHA1-Digest: 2V9hXojsgFIQfvJFffSApunWtDo=
+
+Name: res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest: Q8smcGKis4wj+L64p6+KnljkNfc=
+
+Name: assets/www/bower_components/async/CHANGELOG.md
+SHA1-Digest: wQVDE14hCbLlkPc7DOEZGyMYMSM=
+
+Name: res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png
+SHA1-Digest: Z6SIIC97mku9jiqDCLc6pgfmpn4=
+
+Name: assets/www/bower_components/moment/locale/fr.js
+SHA1-Digest: NZeZ7TDHz3GfGL2TtZrPFvg2Tqc=
+
+Name: assets/www/bower_components/moment/src/locale/bs.js
+SHA1-Digest: t85mt+DXXF/h68kCPJKVz/RpKbY=
+
+Name: assets/www/bower_components/moment-timezone/README.md
+SHA1-Digest: HvxKsozzMrN4oBsvIabe8S9+lG0=
+
+Name: assets/www/bower_components/moment/src/lib/create/from-object.js
+SHA1-Digest: T+DAkYnBZyPCvUkBGVS4JYhvVIQ=
+
+Name: res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9
+ .png
+SHA1-Digest: //A7KZpV7o1Cu/v6UT6IkXl27Lw=
+
+Name: res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+SHA1-Digest: VUhYLfnfzh+GJvWwWExu5xxM7KY=
+
+Name: res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+SHA1-Digest: FMht/m4XBbHpokbZ3kWISfLkbp0=
+
+Name: res/drawable-xhdpi-v4/icon.png
+SHA1-Digest: 9ysP1Xd4u5xYa0JQ/QxNSjEhpyg=
+
+Name: res/drawable-hdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+SHA1-Digest: HWaMRmn5TsZMT7VLTv6Enqh0xXE=
+
+Name: assets/www/styles/font-awesome/fonts/fontawesome-webfont.woff
+SHA1-Digest: +Cv79xsxs7pVXoxHTZinNVytdSs=
+
+Name: assets/www/bower_components/moment-timezone/builds/moment-timezo
+ ne-with-data-2010-2020.js
+SHA1-Digest: 6/Fd3hosNZzj8dpcojbwNu9IQWI=
+
+Name: assets/www/bower_components/moment/src/locale/sl.js
+SHA1-Digest: I3583zzTLlRayTJwr09D/oEgSJc=
+
+Name: assets/www/styles/icons/status/blue.png
+SHA1-Digest: YkVUnQRLVImZUNU97F0a0vs+34c=
+
+Name: res/layout/activity_send_feedback.xml
+SHA1-Digest: gRKlPtAS6waMAoZlp0J2tKSWnW8=
+
+Name: assets/www/bower_components/moment/src/lib/units/millisecond.js
+SHA1-Digest: 81RhrLfYbpbIgekSmTQUw7SpxIk=
+
+Name: assets/www/plugins/cordova-plugin-splashscreen/www/splashscreen.
+ js
+SHA1-Digest: ZRWCLMvkxSpqlf4fPxnPPy1Z4BY=
+
+Name: assets/www/views/starwars.html
+SHA1-Digest: 6FFQsebMgY67FHZ8tkNYANaap3E=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+SHA1-Digest: P4AGceQKZYWw+Ywiv5PHEw0btaE=
+
+Name: res/anim/abc_shrink_fade_out_from_bottom.xml
+SHA1-Digest: NIqgZSwX0u5Y55R6FpsWWSeqYrc=
+
+Name: res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+SHA1-Digest: mR09HvpVz5fSdtAXMNCt8QIjyhA=
+
+Name: res/drawable-xxhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+SHA1-Digest: e/YcCg1Ow7KsauoaaUr1VL2k0y4=
+
+Name: res/drawable/abc_dialog_material_background_light.xml
+SHA1-Digest: t63jXUtZWBhVXJllEBvbpbgROKs=
+
+Name: assets/www/styles/font-awesome/scss/_path.scss
+SHA1-Digest: aPMSCgb1zoxBLhU0kvt0kwnqrFY=
+
+Name: assets/www/styles/icons/info.png
+SHA1-Digest: 0GaTazG4+llA6HLuKH1fwJ6rg7M=
+
+Name: res/drawable-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+SHA1-Digest: e/CR3pcYEt0ZaFSdIyvlJqCaqUk=
+
+Name: assets/www/bower_components/slidr/bower.json
+SHA1-Digest: 26IBZ1jKcTDTdyYde57SKiXSZ6c=
+
+Name: assets/www/bower_components/moment/min/locales.min.js
+SHA1-Digest: yFQc8IPiwS+xlw3lUtCENLhyHPA=
+
+Name: assets/www/bower_components/moment/src/locale/ar-tn.js
+SHA1-Digest: HCEfAJ5kot2JsPNIUq3547POUhs=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+SHA1-Digest: E10z0hELAoua9pTamCIcXYtC/oA=
+
+Name: res/drawable-ldpi-v4/icon.png
+SHA1-Digest: aGJwB53j+AjVfApu1NzrAV8b7uk=
+
+Name: assets/www/styles/icons/sports/track.png
+SHA1-Digest: sSUYSaUbLtW7g2c3EcYiSIhBiKs=
+
+Name: res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+SHA1-Digest: Lr8CV2APFenrT2CnF18DHzPxPmc=
+
+Name: assets/www/spec/news.spec.js
+SHA1-Digest: Eg8tA/5/cmSFJ014icQsFZCRGFc=
+
+Name: res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+SHA1-Digest: rDoVKQUYnqgVz5KStlGT59UHjW4=
+
+Name: assets/www/views/weather.html
+SHA1-Digest: pREahEOPq4M2t+rVjKk0B97kZFA=
+
+Name: assets/www/styles/campus-map.css
+SHA1-Digest: nbnDa4TONaMgRfkHcnd+OlHGR4k=
+
+Name: assets/www/bower_components/moment/src/lib/locale/relative.js
+SHA1-Digest: GZOJJZPpJ8/00AsarOh6QVVFyIM=
+
+Name: res/drawable/abc_item_background_holo_dark.xml
+SHA1-Digest: F2yLJsE+7ODFEuhj16zbRn21874=
+
+Name: assets/www/styles/font-awesome/scss/_extras.scss
+SHA1-Digest: vS7CMzuq7INfC/uNIQLZCbYr3E4=
+
+Name: assets/www/bower_components/moment/locale/lo.js
+SHA1-Digest: q5yCYop0ZOnyuzf6UtdzZjPiMLE=
+
+Name: assets/www/bower_components/moment/locale/sl.js
+SHA1-Digest: YUOj6os4vaazf/W0lazCgAn1zDA=
+
+Name: assets/www/bower_components/moment/src/locale/km.js
+SHA1-Digest: rLC+9FVvfMqawB1/NTV4tpoIwAw=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileSystem.js
+SHA1-Digest: M4rAoTQ4S/euOR/Kk/47adPeYXk=
+
+Name: assets/www/bower_components/moment/src/locale/hi.js
+SHA1-Digest: oYU3QnL+shCrimoNCbS7xm/5fZM=
+
+Name: assets/www/resources/material.min.css
+SHA1-Digest: 28l97+R+5mrczV/FXZLAsC3rqEM=
+
+Name: assets/www/styles/font-awesome/fonts/fontawesome-webfont.svg
+SHA1-Digest: jG2zms6G0YLtrFXRV8XndFw/yUI=
+
+Name: res/color/common_google_signin_btn_text_light.xml
+SHA1-Digest: VY7f5u0oP7J/gssaLg0dDIYuYRA=
+
+Name: assets/www/bower_components/moment/src/locale/jv.js
+SHA1-Digest: faSbjdzc7OHu60SqYaGYRy/QEK0=
+
+Name: assets/www/bower_components/moment/locale/ar.js
+SHA1-Digest: qnzvM7NL9BIUJ6k7li+OHyG9r9I=
+
+Name: res/layout/feedback_comment.xml
+SHA1-Digest: 4idUoVakWzJbb1gQ2hHXOQUuCsk=
+
+Name: assets/www/bower_components/moment/src/lib/duration/add-subtract
+ .js
+SHA1-Digest: bZKVxCVrCDBy/YlDYNli0cgdsLk=
+
+Name: assets/www/bower_components/moment/src/locale/af.js
+SHA1-Digest: NVtiOB5dpAG9fvPbUYDYdImwLOw=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_pressed.
+ 9.png
+SHA1-Digest: ni3Sh2b8OyN5sKxAk0n4TjpGkAc=
+
+Name: assets/www/styles/font-awesome/css/font-awesome.css
+SHA1-Digest: wpvPOX+Kg1frTieYYnlDufNFOvg=
+
+Name: assets/www/styles/icons/status/green.png
+SHA1-Digest: rXtYvWRP42pGvDmi5n64/NQm8M8=
+
+Name: res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+SHA1-Digest: 0lawN0TfON5HQhuTBR7Om1xGxUI=
+
+Name: assets/www/bower_components/moment/src/lib/locale/calendar.js
+SHA1-Digest: 2APqFuBWBH1C9kEOeSLd+LhZRoU=
+
+Name: assets/www/bower_components/moment/src/locale/ru.js
+SHA1-Digest: TVy740/lkhVt+mCiokLnV8gV80k=
+
+Name: assets/www/bower_components/moment/locale/sw.js
+SHA1-Digest: YFNbxrGwCD9VO6B+2toZ/Ei+zjA=
+
+Name: res/drawable-mdpi-v4/abc_text_cursor_mtrl_alpha.9.png
+SHA1-Digest: FwPa5NerE5275kps4QTPHbjNZEY=
+
+Name: assets/www/styles/fonts/roboto300.woff
+SHA1-Digest: 0KnVIhWko2uzAVgdJWHVnMYSBFc=
+
+Name: res/layout/support_simple_spinner_dropdown_item.xml
+SHA1-Digest: uaBy4faRQLnskvOc/uFI3l8Ry9Y=
+
+Name: assets/www/bower_components/dialog-polyfill/dialog-polyfill.css
+SHA1-Digest: 1ARycftXo4BRWuZsmnw0+LmSxSA=
+
+Name: res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+SHA1-Digest: hlPg0mO16g5nYlkb2LmahKOZAG8=
+
+Name: assets/www/scripts/printer-locations.js
+SHA1-Digest: M820yP8/BO8IJzpCesXzCkqBqcQ=
+
+Name: assets/www/views/calendar.html
+SHA1-Digest: acd31VonbD9lRxR/bLeR3Ny4BLc=
+
+Name: assets/www/bower_components/moment/src/locale/lv.js
+SHA1-Digest: oBRLqwSWukkF3Hb/SOTcm45rM54=
+
+Name: res/drawable-xxxhdpi-v4/splashscreen.png
+SHA1-Digest: 1CsD5dbS8vyktiG9XTMY6mUVdGw=
+
+Name: res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.pn
+ g
+SHA1-Digest: oAyfbfTCf9SnHiyy6Cgmrt5OvRw=
+
+Name: assets/www/spec/cnu-alert.spec.js
+SHA1-Digest: 327BkJqr2K2ewp2uwWiVsQDjF4U=
+
+Name: res/layout/abc_select_dialog_material.xml
+SHA1-Digest: TfGAgD3WWPn5i/9U6vy7eh8fURI=
+
+Name: res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png
+SHA1-Digest: 0zBo9Tp1wTO3RHYh5z1M+TUN+H8=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_presse
+ d.9.png
+SHA1-Digest: cB3UntxNDIukiO32H0QEvuf/iGo=
+
+Name: assets/www/bower_components/moment/src/locale/en-ie.js
+SHA1-Digest: 8hDDrqhWJHT84xtAUeY/Baml8/U=
+
+Name: assets/www/plugins/de.appplant.cordova.plugin.local-notification
+ /www/local-notification-core.js
+SHA1-Digest: 6C+O3Dy3Lurhqcx22xN5ZeXE/eI=
+
+Name: assets/www/styles/font-awesome/less/path.less
+SHA1-Digest: /Kg4iZn/fqs46tv9KqEGT2Nflkg=
+
+Name: assets/www/resources/icon/Navigator-icons-speakupCNU.png
+SHA1-Digest: Hia+ZTxOoL1j0UU8HQO2X1uZrdM=
+
+Name: assets/www/bower_components/moment/locale/ar-sa.js
+SHA1-Digest: B1sLOTgAcnEz7yglRuw0OTmAv4A=
+
+Name: assets/www/styles/mobile-nav-font/cnu/cnu.eot
+SHA1-Digest: KRmS8PIF0elR9GVRHGfmmoF2wy4=
+
+Name: assets/www/bower_components/moment/locale/ms.js
+SHA1-Digest: zJmuHVSNZHaqeCyFWXK1ONbQoXM=
+
+Name: res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest: BPgIPQ4ohzhBtuarM9DUELUDCR4=
+
+Name: assets/www/bower_components/moment/locale/pl.js
+SHA1-Digest: 4JuhPWz6VIJ+X95kj7KOJ5ZX68s=
+
+Name: assets/www/index.html
+SHA1-Digest: 6s10RFHto5tihzb6hHyoLZPeScM=
+
+Name: assets/www/bower_components/moment/locale/tr.js
+SHA1-Digest: lDIQz/nmAXa7qGB3x3mdKNq7/ps=
+
+Name: assets/www/plugins/cordova-plugin-network-information/www/Connec
+ tion.js
+SHA1-Digest: uQKqpA1eUJBZvIKgMXkRPE9YNb0=
+
+Name: assets/www/plugins/cordova-plugin-file/www/fileSystems-roots.js
+SHA1-Digest: OQlLLj5fg5ElRhtSoiXlla9PyQw=
+
+Name: assets/www/bower_components/moment/src/locale/ta.js
+SHA1-Digest: OmYD1lXVeN4x3OqJ/itnWlm1m8Y=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_text_light_disable
+ d.9.png
+SHA1-Digest: zMAchrReVo20u8Es+cU3DU2+1rE=
+
+Name: assets/www/bower_components/moment/src/lib/utils/is-undefined.js
+SHA1-Digest: aphF7VRuyVgyJF8/PgJo8tGoLB8=
+
+Name: res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+SHA1-Digest: e4ohyk0oL+cO4MqEvXGUOHsi27Q=
+
+Name: assets/www/bower_components/moment/src/lib/units/week-calendar-u
+ tils.js
+SHA1-Digest: cHQf0rzlDu3Q31PsqBCMmHgVQ9E=
+
+Name: assets/www/bower_components/moment/locale/ar-tn.js
+SHA1-Digest: dwF4CNn3Nf8hdF33LBa735Ga52Y=
+
+Name: assets/www/bower_components/moment/src/locale/de-at.js
+SHA1-Digest: E9+092y+MC5GjkbJHdBvXlvebF4=
+
+Name: assets/www/styles/font-awesome/less/stacked.less
+SHA1-Digest: 0m8GQKtJGlOSFnisG1DRPVFzadw=
+
+Name: assets/www/kendo/styles/images/kendoui.woff
+SHA1-Digest: VesnmxG0eYX8j77SkYM6BBQQ2VY=
+
+Name: assets/www/scripts/wcnu.js
+SHA1-Digest: iBtvQhoX89XsPw85/zU6QmzS8E8=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+SHA1-Digest: zhJBU8Vr0pYdgVYztcDkhakfP70=
+
+Name: res/drawable/common_google_signin_btn_text_light.xml
+SHA1-Digest: g+lz4OKyXyua7h274gao/H+1xFU=
+
+Name: assets/www/plugins/cordova-plugin-file/www/LocalFileSystem.js
+SHA1-Digest: yXEOCQN57N9DGPg7mMMfi9gkE40=
+
+Name: assets/www/bower_components/moment-timezone/data/packed/latest.j
+ son
+SHA1-Digest: OcdtLCB/G7PhbDrm1nkwBU7eqTE=
+
+Name: assets/www/bower_components/moment/src/lib/create/check-overflow
+ .js
+SHA1-Digest: VBHFUM7NZIkwxAhnmJqFq+Np/m0=
+
+Name: assets/www/bower_components/moment/locale/ko.js
+SHA1-Digest: tukLlUDQoJ9s+9WYNTHWMwqTjBw=
+
+Name: assets/www/bower_components/moment/src/locale/es-do.js
+SHA1-Digest: KWT83/MveFA3g1lz2eSinTVJe6g=
+
+Name: res/drawable-hdpi-v4/ic_send.png
+SHA1-Digest: xffGd4YcclmR0jpdgufaQxFna4Y=
+
+Name: assets/www/styles/icons/back.png
+SHA1-Digest: /7NN9MLocf+VYH72H8ry3k3tglo=
+
+Name: res/drawable-ldrtl-xxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+SHA1-Digest: qLZJ5cnK9ORCQ8wk3F7XQke6Zf4=
+
+Name: res/drawable/abc_list_selector_holo_dark.xml
+SHA1-Digest: kGc2+FrF+UPeEFUwH6wLg21SXdw=
+
+Name: res/drawable-mdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+SHA1-Digest: UcM7nCYjoD1yowVKwSbmD5B24SU=
+
+Name: res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+SHA1-Digest: KXjGqvNLjts2UH6Ip9W/0y8LAew=
+
+Name: assets/www/styles/icons/sports/volleyball.png
+SHA1-Digest: GLm1l/iMnm1bL77tC3i2cdw4zjg=
+
+Name: assets/www/bower_components/moment/locale/br.js
+SHA1-Digest: qITqulmbxO23Lc6pwe2QHhRSniE=
+
+Name: assets/www/styles/mobile-nav-font/TrajanPro-Regular/TrajanPro-Re
+ gular.woff
+SHA1-Digest: kY3u0/TurwWB9z5Ug0OeRARCvz8=
+
+Name: res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+SHA1-Digest: EpWFRfq9yIDfGyT3negBLgIFtFw=
+
+Name: assets/www/bower_components/moment/src/locale/el.js
+SHA1-Digest: 3WQQ9qSIK4dM/DM+xivlgkf+Xw8=
+
+Name: assets/www/bower_components/async/logo/async-logo_favicon.png
+SHA1-Digest: MAEo3tax/hEwBdSeFk9webPQJuY=
+
+Name: assets/www/bower_components/moment/src/lib/utils/deprecate.js
+SHA1-Digest: M1oErmnYZ677F97EAAPod8HqE7s=
+
+Name: assets/www/bower_components/moment/src/lib/units/units.js
+SHA1-Digest: 4/+p6/8+DAry+AbqMgshUryPZiU=
+
+Name: assets/www/plugins/cordova-plugin-file/www/FileUploadResult.js
+SHA1-Digest: fdtF/5AkNuCc/j14QtYdYBmv05Q=
+
+Name: assets/www/views/news.html
+SHA1-Digest: vGtwyXwJuVD1JKKrDnIGPvQGpkc=
+
+Name: res/drawable/abc_spinner_textfield_background_material.xml
+SHA1-Digest: nMNsQpqcmLdtqWS3rzz23fgL+ms=
+
+Name: assets/www/plugins/cordova-plugin-file/www/browser/isChrome.js
+SHA1-Digest: 6SQuF/+9UgPb3r2yMoVi2/dmfb4=
+
+Name: assets/www/plugins/nl.x-services.plugins.actionsheet/www/ActionS
+ heet.js
+SHA1-Digest: UdofPo98W/7WpLbTGSz+XgL7Mrg=
+
+Name: assets/www/bower_components/moment/src/locale/tzl.js
+SHA1-Digest: BlavtFC13mQRdEwlijCD4alr/7M=
+
+Name: assets/www/spec/printer-locations.spec.js
+SHA1-Digest: 8IcEltTrK1C1Y9U19cIv/lxS4hw=
+
+Name: assets/www/styles/font-awesome/scss/_mixins.scss
+SHA1-Digest: 0Q9TziPU3BogDW6Z+STj6FJQcIE=
+
+Name: assets/www/spec/support/jasmine.json
+SHA1-Digest: Rio469j3EKRmN8vZUNYu7YOKPcI=
+
+Name: assets/www/bower_components/moment/src/locale/he.js
+SHA1-Digest: pwrO3q01yntWt1r0f/Eyj0iJoFg=
+
+Name: assets/www/bower_components/moment/src/lib/duration/duration.js
+SHA1-Digest: hk8BFkX0pm1nyyG1rsNSXN+WaQA=
+
+Name: res/drawable-mdpi-v4/icon.png
+SHA1-Digest: pGTh2Cw2K4O+pey8dTaBxrqKMVU=
+
+Name: assets/www/styles/fonts/roboto500.woff
+SHA1-Digest: jS4vMNik20Pw62GG9nS5xhRiA3w=
+
+Name: assets/www/bower_components/moment/locale/fi.js
+SHA1-Digest: 6TxUtPFYWfqdxcOwlpmeBxIgP+E=
+
+Name: res/layout/notification_media_cancel_action.xml
+SHA1-Digest: KWqe7eQPz6eyqQVJo2SeF5/5TK4=
+
+Name: assets/www/bower_components/moment/locale/bg.js
+SHA1-Digest: SRhHNpS+sG5JBpV2bm0E/4AVEnM=
+
+Name: res/drawable-mdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+SHA1-Digest: nqwfE8eJsAh7IUoYeC+CW+VDQtc=
+
+Name: res/drawable-xxhdpi-v4/ic_action_previous_item.png
+SHA1-Digest: MMQuqfVCNxhbSTH40JlRn05/z90=
+
+Name: assets/www/bower_components/moment/src/locale/ar-sa.js
+SHA1-Digest: Arinwim+I7OkblAicYlJQu4Rexc=
+
+Name: assets/www/bower_components/moment/src/locale/nb.js
+SHA1-Digest: Vfs4hAZVw6aCXMAvlD3uXNHmdvQ=
+
+Name: res/drawable-ldrtl-xxxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+SHA1-Digest: MzrobPNjNSIWZ2gIbVzG8vK/VSs=
+
+Name: assets/www/bower_components/moment/locale/vi.js
+SHA1-Digest: wJBcYGz7lTIDD6CnhtnAsJye1lc=
+
+Name: res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png
+SHA1-Digest: 820v7Ld2xJRiXLLPkCLJyfaHtZY=
+
+Name: res/drawable-mdpi-v4/ic_feedback_sync.png
+SHA1-Digest: eheBfQbc6bD2KOG/CuIW7vjzFB4=
+
+Name: res/drawable-xxhdpi-v4/ic_feedback_sync.png
+SHA1-Digest: mH/OQB0e7cvW728FHI5qMr8xGkI=
+
+Name: res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+SHA1-Digest: vVifsTusCsEMS/QLwleavhByCls=
+
+Name: res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+SHA1-Digest: hAaYOMaS4mxT8qWq2ZsiORIHwzU=
+
+Name: assets/www/bower_components/moment/src/lib/units/day-of-month.js
+SHA1-Digest: kOPqaYoHV0UZm8ukaRbrDXgDxxI=
+
+Name: assets/www/bower_components/moment/src/lib/utils/has-own-prop.js
+SHA1-Digest: R1XyHm9Z2myTRdrs1ny3CvJkWIQ=
+
+Name: res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+SHA1-Digest: i8wYHM8BdG6ZwwbsPcMgrtWVs1o=
+
+Name: assets/www/bower_components/moment/src/lib/moment/from.js
+SHA1-Digest: /HOWtUPaZq+qxtrNC0lbdxx61uA=
+
+Name: assets/www/bower_components/sprintf/package.json
+SHA1-Digest: 3rLkIlPZsUt76vXiPSOZNjW7Chc=
+
+Name: res/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+SHA1-Digest: NZsq5yN7oLD4IYkCWUFA7jzgp5Y=
+
+Name: assets/www/bower_components/moment/locale/en-ie.js
+SHA1-Digest: EaFBDnER0kTISEQeGl8KjkFqLGg=
+
+Name: res/layout/main_menu_list_item.xml
+SHA1-Digest: KL2hVuMPS1CpLJEf71VmRTISclE=
+
+Name: assets/www/bower_components/moment/src/locale/kk.js
+SHA1-Digest: eNwRZP7XHqVOd/bnDOTZg/xiEdo=
+
+Name: res/layout/main_menu_content.xml
+SHA1-Digest: g1hFgfhMmJCzla03tw3uA18DHEQ=
+
+Name: assets/www/bower_components/moment/locale/se.js
+SHA1-Digest: LQ97IGoHZmknaiv89iPgylnoSYA=
+
+Name: assets/www/bower.json
+SHA1-Digest: tZa8Z8IDjZPgslUiu43QWiEd++U=
+
+Name: res/layout/abc_screen_content_include.xml
+SHA1-Digest: HC1WLPxm+BQbnqJutm2l1mGdo3c=
+
+Name: assets/www/scripts/freeman.js
+SHA1-Digest: DVQOW7739gPDWlI7fRig6Czkjjs=
+
+Name: assets/www/bower_components/moment-timezone/moment-timezone-util
+ s.js
+SHA1-Digest: kmYanj+U2oxk1HNI19/Nc9iJBps=
+
+Name: assets/www/bower_components/moment/src/locale/fy.js
+SHA1-Digest: LLVNNaZIjPP1opjr8DHXUJvyF0o=
+
+Name: assets/www/bower_components/moment/src/lib/duration/get.js
+SHA1-Digest: 3JN8XtVFdZLYyAUKCm0J9JOQADw=
+
+Name: assets/www/bower_components/sprintf/src/sprintf.js
+SHA1-Digest: ZCbbPasjLhAW2vuR5P9KjOVrUQA=
+
+Name: res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+SHA1-Digest: x6v2WXfb5dlObVj7r3apFaVYbqU=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+SHA1-Digest: Y/M0qHyWXLArlVvw3Av8j6SEJdg=
+
+Name: res/drawable/common_google_signin_btn_text_dark.xml
+SHA1-Digest: ok8cz6oGl9m+n5TWIDU/0AJQbWw=
+
+Name: res/layout/select_dialog_singlechoice_material.xml
+SHA1-Digest: tRDkOeLSK8HOJEBlkHOoDsUNxHY=
+
+Name: assets/www/bower_components/moment/src/locale/da.js
+SHA1-Digest: dcMfnxvX0x6mDOIjH8ca0fuzje0=
+
+Name: assets/www/cordova_plugins.js
+SHA1-Digest: cQ6XlJyGGrZjuYLN0i/E/i+WknQ=
+
+Name: assets/www/bower_components/moment-timezone/bower.json
+SHA1-Digest: zNXAgWve1JAFhUZew8iIsPcIzwQ=
+
+Name: assets/www/bower_components/moment-timezone/moment-timezone.js
+SHA1-Digest: TV2MpWuMmIZlqCLBxXwlzp6vrcY=
+
+Name: assets/www/styles/images/radio-modal-play.png
+SHA1-Digest: z8QomfJoztAT0uxPnrOCV7iMSzw=
+
+Name: res/drawable-mdpi-v4/common_google_signin_btn_text_dark_pressed.
+ 9.png
+SHA1-Digest: XPhD4bARLKypQA9Qvf5hFDkT7gM=
+
+Name: res/drawable-xhdpi-v4/ic_action_next_item.png
+SHA1-Digest: vId0P8iSrMw9IbpTh7JhARxcbHc=
+
+Name: assets/www/spec/cnu-tv.spec.js
+SHA1-Digest: TUQ/nW+utglxDB/cADEFBL8U0VY=
+
+Name: assets/www/bower_components/moment/src/locale/ca.js
+SHA1-Digest: BTPtH/Tcj3oOgocXJUAic9oyWWA=
+
+Name: assets/www/styles/icons/sports/tennis.png
+SHA1-Digest: vGJxMwPm5ADNOh+A88yIbIZTgxE=
+
+Name: assets/www/styles/font-awesome/scss/_spinning.scss
+SHA1-Digest: /jhzgKI0bKFBL/LJk3hSW5IAv/M=
+
+Name: res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+SHA1-Digest: X0cQEr/Z77FMglo8ZjI543jH/SY=
+
+Name: res/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+SHA1-Digest: 3bFsGFbrhaPSWVqDV5RIaTpxs3w=
+
+Name: build-data.properties
+SHA1-Digest: fZXuSBfNVu+D6pBLEWs23yMg2ys=
+
+Name: assets/www/styles/mobile-nav-font/fonts.css
+SHA1-Digest: 2WB0VmZOgG+fPWxx4EBPPVLS1pc=
+
+Name: assets/www/bower_components/moment/locale/et.js
+SHA1-Digest: fII/ZWlr1WGxMGS+Ks3/1rFiNgM=
+
+Name: res/drawable/abc_btn_default_mtrl_shape.xml
+SHA1-Digest: iX7nBNc0ry5Xr4iRoB76u8S03Yw=
+
+Name: assets/www/styles/font-awesome/less/bordered-pulled.less
+SHA1-Digest: g/Eytg1W/h3mJjDFHNPrkvQfCUA=
+
+Name: res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+SHA1-Digest: sORfnhpPIEXLnh57veYnu5sMZD0=
+
+Name: assets/www/styles/main.css
+SHA1-Digest: rUjpuIzZjUZI3FPIGWCPjSAkxsI=
+
+Name: assets/www/views/widgets/weather.html
+SHA1-Digest: CEeutDIbqI3Yi4xdnvxYfQpfM5U=
+
+Name: res/drawable-xhdpi-v4/ic_done.png
+SHA1-Digest: ewiI0F+l9+e+harZiwj3fnymae0=
+
+Name: assets/www/spec/dining.spec.js
+SHA1-Digest: 48Rx5z7umAzwIhBpY1r8HjJDXng=
+
+Name: assets/www/bower_components/moment/src/lib/moment/moment.js
+SHA1-Digest: X83Y1xWfOdpljhitrhwj4uGNyMc=
+
+Name: assets/www/styles/icons/sports/golf.png
+SHA1-Digest: H8cwqINXmwJxar33cI3vE5FTNSw=
+
+Name: res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+SHA1-Digest: 5wP7ipA8ksNVGy9cU8X5mBmBWt8=
+
+Name: res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_disab
+ led.9.png
+SHA1-Digest: ZFSzFFR6SCKpo/TULPFEUPS2hEg=
+
+Name: assets/www/bower_components/moment/src/lib/moment/prototype.js
+SHA1-Digest: HXefB6bD+Edxn29A8BLyNAP34aM=
+
+Name: assets/www/bower_components/moment/locale/tzm-latn.js
+SHA1-Digest: hQ+bUB2ocuujAq3EBwp1uyerfmc=
+
+Name: res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+SHA1-Digest: PIZprngie1clc1fat6kH+iHy6P4=
+
+Name: res/drawable-xhdpi-v4/common_full_open_on_phone.png
+SHA1-Digest: eugP4LXZwrLWnhyn0WFL5vSlEbM=
+
+Name: res/layout/notification_template_big_media_narrow.xml
+SHA1-Digest: XbJB6g/5Euu/rNS+8tmLbCI+Wgk=
+
+Name: res/drawable-hdpi-v4/ic_action_remove.png
+SHA1-Digest: 4yiGHHAsMSLLJvngmTVlLn1qOUI=
+
+Name: assets/www/bower_components/moment/src/lib/parse/token.js
+SHA1-Digest: 0YnVkgQsYbWbAfPX6tjImp1dBL4=
+

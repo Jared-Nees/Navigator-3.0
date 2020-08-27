@@ -1,0 +1,2 @@
+describe("CNU Alerts", function() {
+});

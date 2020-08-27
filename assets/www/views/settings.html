@@ -1,0 +1,161 @@
+<div data-role="view" data-title="Settings">
+    <h1 data-bind="html: title"></h1>
+    <center>
+        <h2>Settings:</h2></center>
+    <ul id="settings-list" data-role="listview" data-style="inset"
+        data-source="window.APP_INSTANCE.settingsDataSource" data-template="settings-template"
+        data-bound="settingsListBound">
+    </ul>
+    <center>
+        <h2>Home Screen Widgets:</h2></center>
+    <ul id="widgets-list" data-role="listview" data-style="inset"
+        data-source="window.APP_INSTANCE.widgetDataSource" data-template="widget-template"
+        data-bound="widgetListBound">
+    </ul>
+    <center>
+        <button id="feedback-button" onclick="feedback.showFeedback();" data-role="button">Send
+            Feedback
+        </button>
+    </center>
+</div>
+<script id="settings-template" type="text/x-kendo-tmpl">
+    <ul class="config">
+        <li>
+            <h4>${title}</h4>
+            <p>${description}</p>
+        </li>
+        <li style="width: 30%">
+          # if (type == 'boolean') { #
+            <button class="toggle setting-toggle mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="toggleSetting(this);" data-setting="${id}" data-role="button" data-enabled="${enabled}" } />
+          # } else if (type == 'int') { #
+            <input style="width: inherit" class="setting-spinner" type="number" onkeypress="return validateSpinnerValue(this);" name="${title}" min="${valueMin}" min="${valueMax}" step="1" value="${value}" data-setting="${id}" data-min="${valueMin}" data-max="${valueMax}" />
+          # } #
+        </li>
+    </ul>
+
+</script>
+<script id="widget-template" type="text/x-kendo-tmpl">
+    <ul class="config">
+        <li>
+            <h4>${title}</h4>
+            <p>${description}</p>
+        </li>
+        <li>
+            <button class="toggle widget-toggle mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="toggleWidget(this);" data-widget="${id}" data-role="button" data-enabled="${enabled}" }>
+            </button>
+        </li>
+    </ul>
+
+</script>
+<style>
+    #info {
+        background-color: #bdc3c7;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .toggle .setting-spinner {
+        float: right;
+        margin-right: 0.5rem;
+    }
+
+    .config {
+        width: 100%;
+        display: table;
+        border-collapse: collapse;
+    }
+
+    .config>li {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .config>li:last-child {
+        white-space: nowrap;
+    }
+
+    #widgets-list>li {
+        padding: 0;
+    }
+
+    #settings-list>li {
+        padding: 0;
+    }
+
+</style>
+<script>
+    function toggleWidget(element) {
+        var widget = $(element).data('widget');
+        var enabled = $(element).data('enabled');
+        window.APP_INSTANCE.toggleWidget(widget, !enabled);
+        $(element).data('enabled', !enabled);
+        updateToggle(element, "fa-eye", "fa-eye-slash", "On", "Off");
+    }
+
+    function toggleSetting(element) {
+        var setting = $(element).data('setting');
+        var enabled = $(element).data('enabled');
+        window.APP_INSTANCE.toggleSetting(setting, !enabled);
+        $(element).data('enabled', !enabled);
+        updateToggle(element, "fa-check", "fa-close", "On", "Off");
+    }
+
+    function setSetting(element, value) {
+        var setting = $(element).data('setting');
+        window.APP_INSTANCE.setSetting(setting, value);
+    }
+
+    function validateSpinnerValue(element) {
+      var value;
+      if (event.type == "keypress") {
+        // Get the value that was just entered
+        value = String.fromCharCode(event.keyCode)
+      } else {
+        value = element.value;
+      }
+      var min = $(element).data('min');
+      var max = $(element).data('max');
+      if (isInt(value)) {
+        var intVal = parseInt(value);
+        if (intVal >= min && intVal <= max) {
+          return true;
+        }
+      }
+      return false;
+    }
+
+    function settingsListBound() {
+        $('.setting-toggle').each(function() {
+            updateToggle(this, "fa-check", "fa-close", "On", "Off");
+        });
+        $('.setting-spinner').bind('change focusout', function() {
+          if (validateSpinnerValue(this)) {
+            setSetting(this, this.value);
+          }
+        });
+    }
+
+    function isInt(value) {
+      return !isNaN(value) &&
+             parseInt(Number(value)) == value &&
+             !isNaN(parseInt(value, 10));
+    }
+
+    function widgetListBound() {
+        $('.widget-toggle').each(function() {
+            updateToggle(this, "fa-eye", "fa-eye-slash", "On", "Off");
+        });
+    }
+
+    function updateToggle(element, on, off, onText, offText) {
+        var enabled = $(element).data('enabled');
+        $(element).html('');
+        if (enabled) {
+            $(element).html('<i class="fa ' + on + '"></i> ' + onText);
+        } else {
+            $(element).html('<i class="fa ' + off + '"></i> ' + offText);
+        }
+    }
+
+</script>

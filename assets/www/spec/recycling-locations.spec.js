@@ -1,0 +1,2 @@
+describe("Recycling Locations", function() {
+});

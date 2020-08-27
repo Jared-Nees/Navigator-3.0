@@ -1,0 +1,41 @@
+<div id="wcnu-card" class="banner-card mdl-card mdl-shadow--2dp"
+     style="min-height: 0 !important; display: none;">
+    <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text">WCNU Shows</h2>
+    </div>
+    <div class="mdl-card__supporting-text" style="width: 100%">
+        <div id="wcnu-shows"></div>
+    </div>
+    <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+           href="views/wcnu.html" data-role="button">
+            Listen Live
+        </a>
+    </div>
+    <div class="mdl-card__menu">
+        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect"
+                onclick="openWidgetMenu(this);" data-widget="wcnu">
+            <i class="widget-menu fa fa-ellipsis-v" style="color: #34495e;"></i>
+        </button>
+    </div>
+</div>
+<script id="show-list-template" type="text/x-kendo-tmpl">
+    <div style="margin:0.5rem">
+        <strong>${StartTimeFormatted}</strong>: ${Show}
+    </div>
+
+</script>
+<script>
+    $.getScript("scripts/wcnu.js", function() {
+      fetchDailyShows(function(shows, sliced) {
+          if (shows.length > 0) {
+              $("#wcnu-shows").append(kendo.render(kendo.template($("#show-list-template").html()), shows));
+              if (sliced > 0) {
+                  $("#wcnu-shows").append("... and " + sliced + " more");
+              }
+              $("#wcnu-card").css('display', 'block');
+          }
+      });
+    });
+
+</script>

@@ -1,0 +1,51 @@
+#emergency-procedures-button {
+    text-decoration: none;
+    color: black;
+}
+
+#emergency-procedures-button-text {
+    margin: 0px 5px 5px 5px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#cnu-alert-buttons {
+    margin: 5px;
+    height: 3em;
+}
+
+.alert-button {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+
+.alert-button-contents {
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.left-button {
+    margin-right: 2.5px;
+}
+
+.right-button {
+    margin-left: 2.5px;
+}
+
+.left-button .text {
+    padding-top: 1em;
+}
+
+.right-button .text {
+    padding-top: 0.25em;
+}

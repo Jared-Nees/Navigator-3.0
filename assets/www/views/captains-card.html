@@ -1,0 +1,18 @@
+<div data-role="view" data-title="Captain's Card" data-init="initCaptainsCard">
+    <h2>Merchants which accept Captain's Card</h2>
+    <p>Note: merchants subject to change without notice.</p>
+    <center>
+        <a data-role="button"
+           onclick="window.open('https://mycaptainscard-sp.blackboard.com/eAccounts/', '_blank', 'location=yes');">
+            Captain's Card Balance
+        </a>
+    </center>
+    <ul id="merchant-items" data-role="listview" data-style="inset">
+    </ul>
+</div>
+<script id="merchant-template" type="text/x-kendo-tmpl">
+    <h4>${Name}</h4>
+    <p>${Description}</p>
+
+</script>
+<script src="scripts/captains-card.js"></script>

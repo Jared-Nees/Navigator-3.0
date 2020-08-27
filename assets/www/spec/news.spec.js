@@ -1,0 +1,2 @@
+describe("News", function() {
+});

@@ -1,0 +1,52 @@
+/* App Icon Breakdown
+*
+* #app-index
+*   <div>.app
+*     <a>
+*       <div>.app-icon
+*         <i>
+*     <p>
+*/
+
+#app-index {
+    padding-top: 10px;
+}
+
+#app-index .app {
+    padding: 0;
+    float: left;
+    text-align: center;
+    width: 25%;
+    margin-bottom: 5px;
+}
+
+#app-index a:link, #app-index a:visited, #app-index a:active {
+    text-decoration: none;
+}
+
+#app-index .app .app-icon {
+    /*Centers the div tag*/
+    margin-left: auto;
+    margin-right: auto;
+    /*Icon: 64px by 64px*/
+    width: 64px;
+    height: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    border-radius: 1px;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+#app-index .app .app-icon i {
+    font-size: 50px;
+}
+
+#app-index div p {
+    color: white;
+    height: 2.5em;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 12px;
+}

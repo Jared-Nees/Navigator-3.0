@@ -1,0 +1,94 @@
+<div data-role="view" data-title="WCNU Radio" data-init="initWCNU">
+    <center>
+        <div data-role="collapsible">
+            <h3>Disclaimer</h3>
+            <p>
+                WCNU is a student-run noncommercial radio station broadcasting from Christopher
+                Newport University in Newport News, VA. The views, opinions, and conclusions
+                expressed by WCNU Radio are strictly those of the individual students and not
+                necessarily those
+                of Christopher Newport University, its officers, or trustees. More information is
+                available at
+                <a href="javascript:void(0)"
+                   onclick="window.open('http://wcnuradio.com', '_system');">http://wcnuradio.com</a>.
+            </p>
+        </div>
+        <div class="player">
+            <img class="album" src="resources/NoTrackInfo.png">
+            <table class="player-controls">
+                <tr>
+                    <td style="vertical-align:middle">
+                        <a class="play" data-role="button" style="display: inline-block;"><i
+                                class="fa fa-play"></i></a>
+                        <a class="stop" data-role="button" style="display: none;"><i
+                                class="fa fa-pause"></i></a>
+                    </td>
+                    <td style="vertical-align:middle">
+                        <p class="song-info">Loading...</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <ul id="show-list" data-role="listview" data-style="inset">
+        </ul>
+    </center>
+</div>
+<script id="wcnu-template" type="text/x-kendo-tmpl">
+  <div # if (typeof(Current) !== 'undefined' && Current) { # class="wcnu-show wcnu-show-next" # } #>
+    # if (Show != null) { #
+      <img src="data:image/png;base64,${Show.PhotoContent}" width=50 height=50>
+      <p>${Show.Name}</p>
+    # } #
+    <h4>${StartTimeFormatted}</h4>
+  </div>
+
+</script>
+<script src="scripts/wcnu.js"></script>
+<style>
+    #show-list {
+        z-index: 5;
+        overflow: auto;
+        margin-bottom: 20px;
+    }
+
+    #show-list > li {
+      padding: 0.5em !important;
+    }
+
+    .wcnu-show-next {
+        border: 0.2em solid rgba(230, 126, 34, 0.5);
+    }
+
+    #disclaimer p {
+        padding: 0.5rem;
+    }
+
+    .player {
+        position: relative;
+        width: 100%;
+    }
+
+    .album {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+    }
+
+    .player-controls {
+        background-color: rgba(52, 73, 94, 0.7);
+        position: absolute;
+        z-index: 3;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .player-controls .play,
+    .player-controls .stop {
+        font-size: 2em;
+    }
+
+    .player-controls .song-info {
+        color: white;
+    }
+
+</style>

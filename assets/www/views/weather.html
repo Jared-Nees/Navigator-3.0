@@ -1,0 +1,23 @@
+<div data-role="view" data-title="Weather" data-init="init">
+    <span style="display: block !important; width: 320px; text-align: center; font-family: sans-serif; font-size: 12px;"><a
+            href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:23601.1.99999&bannertypeclick=wu_clean2day"
+            title="Christopher Newport University Weather Forecast" target="_blank"><img
+            src="http://weathersticker.wunderground.com/weathersticker/cgi-bin/banner/ban/wxBanner?bannertype=wu_clean2day_cond&airportcode=KPHF&ForcedCity=Newport News&ForcedState=VA&zip=23601&language=EN"
+            alt="Find more about Weather in Newport News, VA" width="300"/></a><br><a
+            href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:23601.1.99999&bannertypeclick=wu_clean2day"
+            title="Get latest Weather Forecast updates"
+            style="font-family: sans-serif; font-size: 12px" target="_blank">Click for weather forecast</a></span>
+    <ul id="weather-list"></ul>
+</div>
+<script id="weather-template" type="text/x-kendo-tmpl">
+    <h4>${title}</h4>
+    <p>${date}</p>
+
+</script>
+<script src="scripts/weather.js"></script>
+<script type="text/javascript">
+if (window.ga) {
+    window.ga.trackView('Weather');
+}
+
+</script>

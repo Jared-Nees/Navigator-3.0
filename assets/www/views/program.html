@@ -1,0 +1,92 @@
+<div data-role="view" data-title="Program" data-use-native-scrolling="true" data-show="showProgram"
+     id="program-view">
+    <ul data-role="listview" data-style="inset" class="segment-items"></ul>
+    <ul data-role="listview" data-style="inset" class="event-items"></ul>
+</div>
+<div data-role="view" data-title="Program" data-use-native-scrolling="true" id="segment-view"
+     data-show="showSegment">
+    <ul data-role="listview" data-style="inset" class="segment-items"></ul>
+    <ul data-role="listview" data-style="inset" class="event-items"></ul>
+</div>
+<script id="program-segment-template" type="text/x-kendo-tmpl">
+    <a onclick="displaySegment(${Id}, '${Name}')">
+        <h4>${Name}</h4> # if (Description) { #
+        <p>${Description}</p>
+        # } #
+    </a>
+
+</script>
+<script id="program-event-template" type="text/x-kendo-tmpl">
+    <h4>
+      ${Title}
+    </h4> # if (Description) { #
+    <p>${Description}</p>
+    # } # # if (Location) { #
+    <p>${Location}</p>
+    # } # # if (StartTime) { #
+    <small class="schedule-time">${StartTime} # if (EndTime) { # - ${EndTime} # } # </small> # } #
+
+</script>
+<script>
+    function showProgram(e) {
+        var id = e.view.params.id;
+        var title = e.view.params.title;
+
+        window.APP_INSTANCE.setTitle(title);
+
+        loadProgramSegments(id, function(segmentsDataSource) {
+            if (segmentsDataSource) {
+                $("#program-view .segment-items").kendoMobileListView({
+                    dataSource: segmentsDataSource,
+                    template: $("#program-segment-template").text(),
+                });
+                loadProgramEvents(id, function(eventsDataSource) {
+                    if (eventsDataSource) {
+                        $("#program-view .event-items").kendoMobileListView({
+                            dataSource: eventsDataSource,
+                            template: $("#program-events-template").text(),
+                        });
+                    } else {
+                        window.APP_INSTANCE.applyError('#program-view .event-items', 'program');
+                    }
+                });
+            } else {
+                window.APP_INSTANCE.applyError('#program-view .segment-items', 'program');
+            }
+        });
+    }
+
+    function showSegment(e) {
+        if (typeof(e.view.params['title']) != 'undefined') {
+            window.APP_INSTANCE.setTitle(e.view.params['title']);
+        }
+    }
+
+    function displaySegment(segmentId, segmentName) {
+        var id = 'segment-view-' + segmentId;
+        $('#segment-view').clone().prop('id', id).appendTo('body');
+
+        loadSegmentSegments(segmentId, function(segmentsDataSource) {
+            if (segmentsDataSource) {
+                $("#" + id + " .segment-items").kendoMobileListView({
+                    dataSource: segmentsDataSource,
+                    template: $("#program-segment-template").text(),
+                });
+                loadSegmentEvents(segmentId, function(eventsDataSource) {
+                    if (eventsDataSource) {
+                        $("#" + id + " .event-items").kendoMobileListView({
+                            dataSource: eventsDataSource,
+                            template: $("#program-event-template").text(),
+                        });
+                    } else {
+                        window.APP_INSTANCE.applyError('#' + id + ' .event-items', 'program');
+                    }
+                    window.APP_INSTANCE.navigate('#' + id + '?title=' + segmentName);
+                });
+            } else {
+                window.APP_INSTANCE.applyError('#' + id + ' .segment-items', 'program');
+            }
+        });
+    }
+
+</script>

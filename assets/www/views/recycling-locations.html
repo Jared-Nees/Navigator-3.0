@@ -1,0 +1,85 @@
+<div data-role="view" data-title="Recycling" data-init="initRecycling">
+    <center>
+        <a data-role="button" href="views/campus-map.html" id="map-button">
+            <i class="fa fa-globe" aria-hidden="true"></i> View on Map
+        </a>
+        <a data-role="button" onclick="findRecyclingBin()" id="find-button">
+            <i class="fa fa-location-arrow" aria-hidden="true"></i> Find nearest recycling bin
+        </a>
+    </center>
+    <ul id="recycling-list"></ul>
+</div>
+<script id="recycling-template" type="text/x-kendo-template">
+    <h3 class="building-header">${Name}</h3>
+    <ul class="recycling-locations">
+        <li class="recycling-floor">
+            # if (typeof Floor_1 !== "undefined") { #
+            First Floor:
+            <ul>
+                # var locationsLength = Floor_1.length; #
+                # for (var i=0; i
+                <locationsLength
+                ; i++) { #
+                # var location = Floor_1[i]; #
+                <li class="recycling-location">
+                    <i class="fa fa-recycle"></i> ${location}
+                </li>
+                # } #
+            </ul>
+            # } #
+            # if (typeof floor_2 !== "undefined") { #
+            Second Floor:
+            <ul>
+                # var locationsLength = Floor_2.length; #
+                # for (var i=0; i
+                <locationsLength
+                ; i++) { #
+                # var location = Floor_2[i]; #
+                <li class="recycling-location">
+                    <i class="fa fa-recycle"></i> ${location}
+                </li>
+                # } #
+            </ul>
+            # } #
+            # if (typeof floor_3 !== "undefined") { #
+            Third Floor:
+            <ul>
+                # var locationsLength = Floor_3.length; #
+                # for (var i=0; i
+                <locationsLength
+                ; i++) { #
+                # var location = Floor_3[i]; #
+                <li class="recycling-location">
+                    <i class="fa fa-recycle"></i> ${location}
+                </li>
+                # } #
+            </ul>
+            # } #
+        </li>
+    </ul>
+</script>
+<script src="scripts/recycling-locations.js"></script>
+<style>
+    #map-button {
+        margin: 1em;
+    }
+
+    #recycling-locations li {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .recycling-locations li {
+        list-style-type: none;
+    }
+
+    .recycling-location i {
+        color: #27ae60;
+    }
+
+    #recycling-window>div {
+        height: 95% !important;
+        width: 95% !important;
+    }
+
+</style>

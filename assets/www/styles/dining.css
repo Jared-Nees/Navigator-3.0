@@ -1,0 +1,102 @@
+#hours-and-menus {
+    border-radius: 5px;
+    background-color: white;
+    padding: 0px;
+    margin: 5px;
+}
+
+#menu {
+    text-align: center;
+}
+
+#menu .menu-item {
+    width: 95%;
+    height: 4.5em;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #bbb;
+}
+
+h3, h5 {
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    border-radius: 5px;
+    background-color: #ccc;
+}
+
+h4 {
+    padding: 0px;
+    margin: 5px;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+#dining-locations button {
+    width: 45%;
+    height: 3em;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+}
+
+#dining-locations {
+    text-align: center;
+}
+
+#hours-and-menus-display {
+    margin: 5px;
+    padding: 5px;
+}
+
+#hours-and-menus-display li {
+    margin: 5px;
+}
+
+#dining-modal {
+    background-color: white;
+    z-index: 1;
+    position: fixed;
+    top: 10%;
+    max-height: 80%;
+    width: 90%;
+    margin: 0 0 0 3%;
+    box-shadow: 4px 4px 8px 8px #333;
+}
+
+#dining-modal-header {
+    font-size: 1.25em;
+    font: bold;
+    padding: 0.25em 0px 0.25em 0px;
+    background-color: #bbb;
+    text-align: center;
+}
+
+#dining-modal-content {
+    padding: 0.5em 1em 0.5em 1em;
+    max-height: 250px;
+    overflow-y: scroll;
+}
+
+#close-modal-button {
+    text-align: center;
+}
+
+#close-modal-button-content {
+    border-radius: 5px;
+    background-color: #ddd;
+    margin: 5px;
+    font: bold;
+    padding: 0.25em;
+}

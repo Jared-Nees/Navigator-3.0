@@ -1,0 +1,2 @@
+describe("Printer Locations", function() {
+});

@@ -1,0 +1,23 @@
+{
+  "name": "Navigator",
+  "description": "CNU Mobile Navigator",
+  "main": "index.html",
+  "license": "",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sprintf": "^1.0.3",
+    "moment": "momentjs#^2.13.0",
+    "moment-timezone": "^0.5.4",
+    "async": "^2.0.1",
+    "slidr": "^0.5.0",
+    "dialog-polyfill": "^0.4.5"
+  }
+}

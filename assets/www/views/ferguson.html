@@ -1,0 +1,12 @@
+<div data-role="view" data-title="Ferguson Center" data-init="initFerguson">
+    <h1 data-bind="html: title">Performances</h1>
+    <ul id="ferguson-items" data-role="listview" data-style="inset">
+    </ul>
+</div>
+<script id="ferguson-template" type="text/x-kendo-tmpl">
+    <a onclick="window.open('${Link}', '_system');"><img src="${PhotoUrl}" width="100%" /></a>
+    <h4>${Title}</h4>
+    <p>${DateFormatted}</p>
+
+</script>
+<script src="scripts/ferguson.js"></script>

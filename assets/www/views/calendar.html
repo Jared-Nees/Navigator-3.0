@@ -1,0 +1,92 @@
+<div data-role="view" id="calendar-tab" data-title="Calendar" data-init="initCalendar"
+     data-layout="calendar-layout" data-show="showCalendarFirstTab">
+    <h1 class="calendar-title" data-bind="html: title"></h1>
+    <ul class="calendar-events-list" data-role="listview" data-style="inset" data-type="group"/>
+</div>
+
+<div data-role="view" id="calendar-tab-template" data-title="Calendar" data-layout="calendar-layout"
+     data-show="showCalendarTab">
+    <h1 class="calendar-title" data-bind="html: title"></h1>
+    <ul class="calendar-events-list" data-role="listview" data-style="inset" data-type="group"/>
+</div>
+
+<div data-role="layout" data-id="calendar-layout">
+    <div data-role="header">
+        <div data-role="navbar">
+            <span data-role="view-title"></span>
+            <a id="calendar-back-button" class="nav-button" data-role="backbutton" data-align="left"
+               data-click="calendarBackClick">Back</a>
+        </div>
+    </div>
+
+    <!-- application views will be rendered here -->
+
+    <div data-role="footer">
+        <div id="calendars" data-role="tabstrip">
+        </div>
+    </div>
+</div>
+<script id="calendar-template" type="text/x-kendo-tmpl">
+    <h4>${DateFormatted}  # if (typeof(Time) !== "undefined") { # - ${Time} # } #</h4>
+    <p>${Title}</p>
+
+</script>
+<script id="calendar-group-template" type="text/x-kendo-tmpl">
+    <a href="\#calendar-tab-${Id}" data-icon="${Icon}">
+    ${Name}
+    </a>
+
+</script>
+<script src="scripts/calendar.js"></script>
+<style>
+    #calendars {
+        height: 80px;
+    }
+
+    #calendars>li {
+        padding: 1em !important;
+    }
+
+    #calendars>a>.km-icon {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0.5rem;
+    }
+
+    .calendar {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .calendar-color {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    .calendar-name {
+        display: inline-block;
+    }
+
+    .calendar-button {
+        padding: 0 !important;
+    }
+
+    .km-academic-calendar:after,
+    .km-academic-calendar:before {
+        content: "\e086";
+    }
+
+    .km-cab-calendar:after,
+    .km-cab-calendar:before {
+        content: "\e20c";
+    }
+
+    .km-campus-events:after,
+    .km-campus-events:before {
+        content: "\e089";
+    }
+
+</style>
